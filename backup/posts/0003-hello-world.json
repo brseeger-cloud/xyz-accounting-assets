@@ -1,0 +1,50 @@
+{
+  "author": 282860199,
+  "categories": [
+    1
+  ],
+  "comment_status": "open",
+  "content": {
+    "protected": false,
+    "rendered": "\n<p class=\"wp-block-paragraph\">Welcome to WordPress! This is your first post. Edit or delete it to take the first step in your blogging journey.</p>\n"
+  },
+  "date": "2026-08-21T00:11:53",
+  "date_gmt": "2026-08-21T00:11:53",
+  "excerpt": {
+    "protected": false,
+    "rendered": "<p>Welcome to WordPress! This is your first post. Edit or delete it to take the first step in your blogging journey.</p>\n"
+  },
+  "featured_media": 0,
+  "format": "standard",
+  "guid": {
+    "rendered": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/2026/08/21/hello-world/"
+  },
+  "id": 3,
+  "jetpack_featured_media_url": "",
+  "jetpack_likes_enabled": null,
+  "jetpack_sharing_enabled": false,
+  "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/2026/08/21/hello-world/",
+  "meta": {
+    "_jetpack_dont_email_post_to_subs": false,
+    "_jetpack_feature_clip_id": 0,
+    "_jetpack_memberships_contains_paid_content": false,
+    "_jetpack_memberships_contains_paywalled_content": false,
+    "_jetpack_newsletter_access": "",
+    "_jetpack_newsletter_tier_id": 0,
+    "_wpcom_ai_launchpad_first_post": false,
+    "footnotes": "",
+    "jetpack_post_was_ever_published": false
+  },
+  "modified": "2026-08-21T00:11:53",
+  "modified_gmt": "2026-08-21T00:11:53",
+  "ping_status": "open",
+  "slug": "hello-world",
+  "status": "publish",
+  "sticky": false,
+  "tags": [],
+  "template": "",
+  "title": {
+    "rendered": "Hello World!"
+  },
+  "type": "post"
+}

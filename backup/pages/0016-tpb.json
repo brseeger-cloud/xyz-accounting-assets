@@ -1,0 +1,43 @@
+{
+  "author": 282860199,
+  "comment_status": "closed",
+  "content": {
+    "protected": false,
+    "rendered": "<div class=\"xyz-content\">\n<nav aria-label=\"Breadcrumb\" class=\"shell pt-6\">\n<ol class=\"m-0 flex list-none flex-wrap items-center gap-2 p-0 text-[0.8125rem] text-ink-soft\">\n<li class=\"flex items-center gap-2\">  <a href=\"/\" class=\"no-underline hover:underline\"> Home </a> </li>\n<li class=\"flex items-center gap-2\"> <span aria-hidden=\"true\" class=\"text-rule\"> / </span> <span aria-current=\"page\">Tax agent obligations</span> </li>\n</ol>\n</nav>\n<article class=\"shell-narrow pt-6\">\n<p class=\"band-eyebrow\">Legal</p>\n<h1 class=\"text-3xl\">Tax agent obligations</h1>\n<p class=\"mt-3 font-mono text-[0.75rem] tabular-nums text-ink-soft\">Last updated 24 August 2026</p>\n<div class=\"prose-statement mt-8\">\n<p> XYZ Accounting is a trading name of BRS Advisory Pty Ltd, a registered tax agent. Anyone who charges a fee to prepare or lodge your tax return must be registered with the Tax Practitioners Board — it is an offence not to be. </p>\n<h2>Our registration</h2>\n<table>\n<caption class=\"sr-only\">Registration details</caption>\n<tbody>\n<tr>\n<th scope=\"row\" class=\"font-normal normal-case tracking-normal\">Registered entity</th>\n<td>BRS Advisory Pty Ltd</td>\n</tr>\n<tr>\n<th scope=\"row\" class=\"font-normal normal-case tracking-normal\">Registered tax agent number</th>\n<td><span class=\"font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium\">26233684</span></td>\n</tr>\n<tr>\n<th scope=\"row\" class=\"font-normal normal-case tracking-normal\">ABN</th>\n<td><span class=\"font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium\">83 666 883 398</span></td>\n</tr>\n</tbody>\n</table>\n<p> You can verify this on the <a href=\"https://www.tpb.gov.au/public-register\" rel=\"noopener noreferrer\" target=\"_blank\">TPB public register</a> — search the registration number, or the registered entity name rather than the trading name. It is free, it takes about thirty seconds, and it is worth doing for any agent you are considering — including us. </p>\n<h2>What we owe you under the Code of Professional Conduct</h2>\n<ul>\n<li> <strong>Honesty and integrity.</strong> We act honestly and with integrity, comply with the tax laws in our own affairs, and account to you for money we hold on your behalf. </li>\n<li> <strong>Independence.</strong> We act lawfully in your best interests and manage conflicts of interest. </li>\n<li> <strong>Confidentiality.</strong> We do not disclose your information to a third party without your permission, unless there is a legal duty to. </li>\n<li> <strong>Competence.</strong> We maintain the knowledge and skills to do the work, take reasonable care to ascertain your circumstances, and apply the tax laws correctly. </li>\n<li> <strong>Disclosure.</strong> We tell you about anything that would significantly influence your decision to engage us, including any matter that could affect our registration. </li>\n</ul>\n<h2>What you owe us</h2>\n<p> You are responsible for giving us complete and accurate information, and for keeping the records that support what is claimed. You remain legally responsible for what is in your return even though we prepare it — which is why we send you the completed return and lodge only after you approve it. </p>\n<h2>The safe harbour</h2>\n<p> If you give us all the relevant information in time and we make a mistake, the safe harbour provisions may protect you from the associated penalty. That protection depends on you having provided the information — which is the practical reason we ask thorough questions at intake. </p>\n<h2>Making a complaint</h2>\n<p> Tell us first, at <a href=\"mailto:enquiries@xyzaccounting.com.au\">enquiries@xyzaccounting.com.au</a> or 0407 179 179. We will acknowledge it within two business days and give you a response within fourteen days. </p>\n<p> If you are not satisfied, you can complain to the Tax Practitioners Board through the complaints form on tpb.gov.au. The TPB investigates conduct against the Code and can impose sanctions including terminating a registration. Complaining to the TPB does not cost anything and does not require you to go through us first. </p>\n<p> Complaints about the amount of an assessment rather than our conduct are matters for the ATO&#8217;s objection process, and we can help you with that. </p>\n</p></div>\n</article>\n</div>\n"
+  },
+  "date": "2026-08-21T19:58:07",
+  "date_gmt": "2026-08-21T10:28:07",
+  "excerpt": {
+    "protected": false,
+    "rendered": "<p>Home / Tax agent obligations Legal Tax agent obligations Last updated 24 August 2026 XYZ Accounting is a trading name of BRS Advisory Pty Ltd, a registered tax agent. Anyone who charges a fee to prepare or lodge your tax return must be registered with the Tax Practitioners Board — it is an offence not [&hellip;]</p>\n"
+  },
+  "featured_media": 0,
+  "guid": {
+    "rendered": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/legal/tpb/"
+  },
+  "id": 16,
+  "jetpack_likes_enabled": true,
+  "jetpack_sharing_enabled": true,
+  "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/legal/tpb/",
+  "menu_order": 0,
+  "meta": {
+    "_wpcom_ai_launchpad_about_page": false,
+    "_wpcom_ai_launchpad_contact_page": false,
+    "_wpcom_ai_launchpad_events_page": false,
+    "_wpcom_ai_launchpad_gallery_page": false,
+    "_wpcom_ai_launchpad_portfolio_piece": false,
+    "_wpcom_ai_launchpad_video_page": false,
+    "footnotes": ""
+  },
+  "modified": "2026-09-16T22:06:11",
+  "modified_gmt": "2026-09-16T12:36:11",
+  "parent": 13,
+  "ping_status": "closed",
+  "slug": "tpb",
+  "status": "publish",
+  "template": "",
+  "title": {
+    "rendered": "TPB"
+  },
+  "type": "page"
+}

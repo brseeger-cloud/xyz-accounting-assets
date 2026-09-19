@@ -1,0 +1,82 @@
+name: Back up WordPress
+
+on:
+  # Regular unattended backup. Note that GitHub only honours `schedule` on the
+  # repository's default branch.
+  schedule:
+    - cron: '23 16 * * *' # daily, ~02:23 Australian eastern time
+
+  # Webhook entry point: WordPress (or anything acting for it) POSTs here to have
+  # a backup run immediately on publish. See README, "Backing the site up".
+  repository_dispatch:
+    types: [wp-content-changed]
+
+  # Run it by hand from the Actions tab.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wp-backup
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Pull the site
+        env:
+          WP_SITE_URL: ${{ vars.WP_SITE_URL }}
+          # Optional. Without these the backup still runs, but covers published
+          # content only — drafts, menus and settings need an application password.
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: node scripts/wp-backup.mjs | tee backup.log
+
+      - name: Report what the run found
+        run: |
+          {
+            echo '## WordPress backup'
+            echo
+            echo '```'
+            cat backup.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fail if a page points at an asset this repo does not have
+        run: |
+          missing=$(node -e "
+            const m = require('./backup/MANIFEST.json');
+            process.stdout.write(m.asset_audit.referenced_but_not_committed.join(', '));
+          ")
+          if [ -n "$missing" ]; then
+            echo "::error::Live pages load assets that are not committed here, so those calculators are broken: $missing"
+            exit 1
+          fi
+
+      - name: Commit the backup if anything changed
+        run: |
+          rm -f backup.log
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A backup
+          if git diff --cached --quiet; then
+            echo 'No change since the last backup.'
+            exit 0
+          fi
+          git commit -m "Back up WordPress content ($(date -u '+%Y-%m-%d %H:%M UTC'))" \
+                     -m "Triggered by ${{ github.event_name }}."
+          # The scheduled run and a webhook run can collide; rebase rather than fail.
+          for attempt in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((attempt * 5))
+          done
+          echo '::error::Could not push the backup commit.'
+          exit 1

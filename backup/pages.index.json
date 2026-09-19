@@ -1,0 +1,458 @@
+[
+  {
+    "id": 1,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/about/",
+    "modified_gmt": "2026-09-16T12:17:19",
+    "slug": "about",
+    "status": "publish",
+    "title": "About"
+  },
+  {
+    "id": 9,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/contact/",
+    "modified_gmt": "2026-09-16T12:35:57",
+    "slug": "contact",
+    "status": "publish",
+    "title": "Contact"
+  },
+  {
+    "id": 13,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/legal/",
+    "modified_gmt": "2026-08-24T23:46:58",
+    "slug": "legal",
+    "status": "publish",
+    "title": "Legal"
+  },
+  {
+    "id": 15,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/legal/terms/",
+    "modified_gmt": "2026-08-24T23:45:22",
+    "slug": "terms",
+    "status": "publish",
+    "title": "Terms"
+  },
+  {
+    "id": 16,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/legal/tpb/",
+    "modified_gmt": "2026-09-16T12:36:11",
+    "slug": "tpb",
+    "status": "publish",
+    "title": "TPB"
+  },
+  {
+    "id": 17,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/contact/thanks/",
+    "modified_gmt": "2026-09-16T12:36:07",
+    "slug": "thanks",
+    "status": "publish",
+    "title": "Thanks"
+  },
+  {
+    "id": 18,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/legal/disclaimer/",
+    "modified_gmt": "2026-09-16T12:36:50",
+    "slug": "disclaimer",
+    "status": "publish",
+    "title": "Disclaimer"
+  },
+  {
+    "id": 19,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/legal/privacy/",
+    "modified_gmt": "2026-09-16T12:36:04",
+    "slug": "privacy",
+    "status": "publish",
+    "title": "Privacy"
+  },
+  {
+    "id": 21,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/pricing/",
+    "modified_gmt": "2026-08-24T23:46:24",
+    "slug": "pricing",
+    "status": "publish",
+    "title": "Pricing"
+  },
+  {
+    "id": 24,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/faq/",
+    "modified_gmt": "2026-08-24T23:45:44",
+    "slug": "faq",
+    "status": "publish",
+    "title": "FAQ"
+  },
+  {
+    "id": 25,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/calculators/",
+    "modified_gmt": "2026-09-16T12:36:46",
+    "slug": "calculators",
+    "status": "publish",
+    "title": "Calculators"
+  },
+  {
+    "id": 26,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/",
+    "modified_gmt": "2026-09-16T12:28:42",
+    "slug": "tax-tips",
+    "status": "publish",
+    "title": "Tax Tips"
+  },
+  {
+    "id": 27,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/tax-return-deadline/",
+    "modified_gmt": "2026-09-16T12:29:04",
+    "slug": "tax-return-deadline",
+    "status": "publish",
+    "title": "Tax return deadline"
+  },
+  {
+    "id": 28,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/calculators/gst-calculator/",
+    "modified_gmt": "2026-09-16T12:36:35",
+    "slug": "gst-calculator",
+    "status": "publish",
+    "title": "GST calculator"
+  },
+  {
+    "id": 29,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/calculators/help-hecs-repayment-calculator/",
+    "modified_gmt": "2026-09-16T12:36:32",
+    "slug": "help-hecs-repayment-calculator",
+    "status": "publish",
+    "title": "Help hecs repayment calculator"
+  },
+  {
+    "id": 30,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/calculators/medicare-levy-calculator/",
+    "modified_gmt": "2026-09-16T12:36:29",
+    "slug": "medicare-levy-calculator",
+    "status": "publish",
+    "title": "Medicare levy calculator"
+  },
+  {
+    "id": 31,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/calculators/payg-withholding-calculator/",
+    "modified_gmt": "2026-09-16T12:36:26",
+    "slug": "payg-withholding-calculator",
+    "status": "publish",
+    "title": "Payg withholding calculator"
+  },
+  {
+    "id": 32,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/calculators/salary-sacrifice-calculator/",
+    "modified_gmt": "2026-09-16T12:36:22",
+    "slug": "salary-sacrifice-calculator",
+    "status": "publish",
+    "title": "Salary sacrifice calculator"
+  },
+  {
+    "id": 33,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/calculators/sole-trader-tax-calculator/",
+    "modified_gmt": "2026-09-16T12:36:19",
+    "slug": "sole-trader-tax-calculator",
+    "status": "publish",
+    "title": "Sole trader tax calculator"
+  },
+  {
+    "id": 34,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/calculators/rental-property-tax-calculator/",
+    "modified_gmt": "2026-09-16T12:36:15",
+    "slug": "rental-property-tax-calculator",
+    "status": "publish",
+    "title": "Rental property tax calculator"
+  },
+  {
+    "id": 35,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/calculators/capital-gains-tax-calculator/",
+    "modified_gmt": "2026-09-16T12:30:55",
+    "slug": "capital-gains-tax-calculator",
+    "status": "publish",
+    "title": "Capital gains tax calculator"
+  },
+  {
+    "id": 36,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/calculators/crypto-tax-calculator/",
+    "modified_gmt": "2026-09-16T12:30:52",
+    "slug": "crypto-tax-calculator",
+    "status": "publish",
+    "title": "Crypto tax calculator"
+  },
+  {
+    "id": 37,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/",
+    "modified_gmt": "2026-09-16T12:06:11",
+    "slug": "home",
+    "status": "publish",
+    "title": "Home"
+  },
+  {
+    "id": 38,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-refund-calculator/",
+    "modified_gmt": "2026-09-16T12:36:59",
+    "slug": "tax-refund-calculator",
+    "status": "publish",
+    "title": "Tax refund calculator"
+  },
+  {
+    "id": 39,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-calculator/",
+    "modified_gmt": "2026-09-16T12:30:46",
+    "slug": "tax-calculator",
+    "status": "publish",
+    "title": "Tax calculator"
+  },
+  {
+    "id": 42,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/working-from-home/",
+    "modified_gmt": "2026-09-16T12:30:42",
+    "slug": "working-from-home",
+    "status": "publish",
+    "title": "Working from home"
+  },
+  {
+    "id": 43,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/do-i-need-to-lodge-a-tax-return/",
+    "modified_gmt": "2026-09-16T12:36:56",
+    "slug": "do-i-need-to-lodge-a-tax-return",
+    "status": "publish",
+    "title": "Do i need to lodge a tax return"
+  },
+  {
+    "id": 44,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/how-to-lodge-a-tax-return/",
+    "modified_gmt": "2026-09-16T12:30:29",
+    "slug": "how-to-lodge-a-tax-return",
+    "status": "publish",
+    "title": "How to lodge a tax return"
+  },
+  {
+    "id": 45,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/what-can-i-claim/",
+    "modified_gmt": "2026-09-16T12:30:22",
+    "slug": "what-can-i-claim",
+    "status": "publish",
+    "title": "What can i claim"
+  },
+  {
+    "id": 46,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/what-can-i-claim-without-receipts/",
+    "modified_gmt": "2026-09-16T12:30:15",
+    "slug": "what-can-i-claim-without-receipts",
+    "status": "publish",
+    "title": "What can i claim without receipts"
+  },
+  {
+    "id": 47,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/tax-deductions-for-nurses/",
+    "modified_gmt": "2026-09-16T12:30:09",
+    "slug": "tax-deductions-for-nurses",
+    "status": "publish",
+    "title": "Tax deductions for nurses"
+  },
+  {
+    "id": 48,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/tax-deductions-for-tradies/",
+    "modified_gmt": "2026-09-16T12:30:02",
+    "slug": "tax-deductions-for-tradies",
+    "status": "publish",
+    "title": "Tax deductions for tradies"
+  },
+  {
+    "id": 49,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/tax-deductions-for-teachers/",
+    "modified_gmt": "2026-09-16T12:29:56",
+    "slug": "tax-deductions-for-teachers",
+    "status": "publish",
+    "title": "Tax deductions for teachers"
+  },
+  {
+    "id": 50,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/tax-deductions-for-doctors/",
+    "modified_gmt": "2026-09-16T12:29:49",
+    "slug": "tax-deductions-for-doctors",
+    "status": "publish",
+    "title": "Tax deductions for doctors"
+  },
+  {
+    "id": 51,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/tax-deductions-for-students/",
+    "modified_gmt": "2026-09-16T12:29:43",
+    "slug": "tax-deductions-for-students",
+    "status": "publish",
+    "title": "Tax deductions for students"
+  },
+  {
+    "id": 52,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/tax-deductions-for-sole-traders/",
+    "modified_gmt": "2026-09-16T12:29:36",
+    "slug": "tax-deductions-for-sole-traders",
+    "status": "publish",
+    "title": "Tax deductions for sole traders"
+  },
+  {
+    "id": 53,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/tax-deductions-for-property-investors/",
+    "modified_gmt": "2026-09-16T12:29:29",
+    "slug": "tax-deductions-for-property-investors",
+    "status": "publish",
+    "title": "Tax deductions for property investors"
+  },
+  {
+    "id": 54,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/standard-deduction-1000/",
+    "modified_gmt": "2026-09-16T12:29:22",
+    "slug": "standard-deduction-1000",
+    "status": "publish",
+    "title": "Standard deduction 1000"
+  },
+  {
+    "id": 55,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/tax-rates/",
+    "modified_gmt": "2026-09-16T12:28:59",
+    "slug": "tax-rates",
+    "status": "publish",
+    "title": "Tax rates"
+  },
+  {
+    "id": 263,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/",
+    "modified_gmt": "2026-09-15T13:04:07",
+    "slug": "services",
+    "status": "publish",
+    "title": "Services"
+  },
+  {
+    "id": 264,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/company-registration/",
+    "modified_gmt": "2026-09-15T13:05:42",
+    "slug": "company-registration",
+    "status": "publish",
+    "title": "Company registration"
+  },
+  {
+    "id": 265,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/abn-application/",
+    "modified_gmt": "2026-09-15T13:05:44",
+    "slug": "abn-application",
+    "status": "publish",
+    "title": "ABN application"
+  },
+  {
+    "id": 267,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/gst-registration/",
+    "modified_gmt": "2026-09-15T13:05:45",
+    "slug": "gst-registration",
+    "status": "publish",
+    "title": "GST registration"
+  },
+  {
+    "id": 268,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/bookkeeping/",
+    "modified_gmt": "2026-09-15T13:05:46",
+    "slug": "bookkeeping",
+    "status": "publish",
+    "title": "Bookkeeping"
+  },
+  {
+    "id": 311,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/trust-setup/",
+    "modified_gmt": "2026-09-15T13:05:49",
+    "slug": "trust-setup",
+    "status": "publish",
+    "title": "Trust setup"
+  },
+  {
+    "id": 312,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/partnership-setup/",
+    "modified_gmt": "2026-09-15T13:05:50",
+    "slug": "partnership-setup",
+    "status": "publish",
+    "title": "Partnership setup"
+  },
+  {
+    "id": 313,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/smsf/",
+    "modified_gmt": "2026-09-15T13:05:51",
+    "slug": "smsf",
+    "status": "publish",
+    "title": "Self-managed super fund"
+  },
+  {
+    "id": 392,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/applying-tax-file-number/",
+    "modified_gmt": "2026-09-16T12:37:46",
+    "slug": "applying-tax-file-number",
+    "status": "publish",
+    "title": "How to apply for a tax file number"
+  },
+  {
+    "id": 394,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/bas-lodgement-frequency/",
+    "modified_gmt": "2026-09-16T12:38:22",
+    "slug": "bas-lodgement-frequency",
+    "status": "publish",
+    "title": "BAS lodgement frequency"
+  },
+  {
+    "id": 395,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/tax-tips/motor-vehicle-deduction/",
+    "modified_gmt": "2026-09-16T12:39:04",
+    "slug": "motor-vehicle-deduction",
+    "status": "publish",
+    "title": "Motor vehicle deduction"
+  },
+  {
+    "id": 396,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/online-tax-returns/",
+    "modified_gmt": "2026-09-16T12:39:44",
+    "slug": "online-tax-returns",
+    "status": "publish",
+    "title": "Online Return"
+  },
+  {
+    "id": 398,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/online-tax-returns/individual-tax-return/",
+    "modified_gmt": "2026-09-16T12:40:20",
+    "slug": "individual-tax-return",
+    "status": "publish",
+    "title": "Individual tax return"
+  },
+  {
+    "id": 399,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/online-tax-returns/company-tax-return/",
+    "modified_gmt": "2026-09-16T12:40:57",
+    "slug": "company-tax-return",
+    "status": "publish",
+    "title": "Company tax return"
+  },
+  {
+    "id": 400,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/online-tax-returns/partnership-tax-return/",
+    "modified_gmt": "2026-09-16T12:41:32",
+    "slug": "partnership-tax-return",
+    "status": "publish",
+    "title": "Partnership tax return"
+  },
+  {
+    "id": 401,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/online-tax-returns/trust-tax-return/",
+    "modified_gmt": "2026-09-16T12:42:08",
+    "slug": "trust-tax-return",
+    "status": "publish",
+    "title": "Trust tax return"
+  },
+  {
+    "id": 402,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/online-tax-returns/smsf-tax-return/",
+    "modified_gmt": "2026-09-16T12:42:44",
+    "slug": "smsf-tax-return",
+    "status": "publish",
+    "title": "SMSF tax return"
+  },
+  {
+    "id": 403,
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/online-tax-returns/superannuation-refund/",
+    "modified_gmt": "2026-09-16T12:43:22",
+    "slug": "superannuation-refund",
+    "status": "publish",
+    "title": "Superannuation refund"
+  }
+]

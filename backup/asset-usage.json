@@ -1,0 +1,55 @@
+{
+  "cdn_refs_in_use": [
+    "main"
+  ],
+  "committed_but_unreferenced": [
+    "islands/HomeCalculator.js"
+  ],
+  "referenced_but_not_committed": [],
+  "referenced_by_page": {
+    "islands/GainsCalculator.js": [
+      "/calculators/capital-gains-tax-calculator/",
+      "/calculators/crypto-tax-calculator/"
+    ],
+    "islands/GstCalculator.js": [
+      "/calculators/gst-calculator/"
+    ],
+    "islands/HelpCalculator.js": [
+      "/calculators/help-hecs-repayment-calculator/"
+    ],
+    "islands/MedicareCalculator.js": [
+      "/calculators/medicare-levy-calculator/"
+    ],
+    "islands/PaygCalculator.js": [
+      "/calculators/payg-withholding-calculator/"
+    ],
+    "islands/RefundCalculator.js": [
+      "/tax-refund-calculator/",
+      "/tax-tips/do-i-need-to-lodge-a-tax-return/",
+      "/tax-tips/how-to-lodge-a-tax-return/",
+      "/tax-tips/tax-deductions-for-doctors/",
+      "/tax-tips/tax-deductions-for-nurses/",
+      "/tax-tips/tax-deductions-for-property-investors/",
+      "/tax-tips/tax-deductions-for-sole-traders/",
+      "/tax-tips/tax-deductions-for-students/",
+      "/tax-tips/tax-deductions-for-teachers/",
+      "/tax-tips/tax-deductions-for-tradies/",
+      "/tax-tips/what-can-i-claim-without-receipts/",
+      "/tax-tips/what-can-i-claim/",
+      "/tax-tips/working-from-home/"
+    ],
+    "islands/RentalCalculator.js": [
+      "/calculators/rental-property-tax-calculator/"
+    ],
+    "islands/SalarySacrificeCalculator.js": [
+      "/calculators/salary-sacrifice-calculator/"
+    ],
+    "islands/SoleTraderCalculator.js": [
+      "/calculators/sole-trader-tax-calculator/"
+    ],
+    "islands/TaxCalculator.js": [
+      "/tax-calculator/",
+      "/tax-tips/standard-deduction-1000/"
+    ]
+  }
+}

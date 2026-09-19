@@ -1,0 +1,43 @@
+{
+  "author": 282860199,
+  "comment_status": "closed",
+  "content": {
+    "protected": false,
+    "rendered": "<div class=\"xyz-content\">\n<nav aria-label=\"Breadcrumb\" class=\"shell pt-6\">\n<ol class=\"m-0 flex list-none flex-wrap items-center gap-2 p-0 text-[0.8125rem] text-ink-soft\">\n<li class=\"flex items-center gap-2\">  <a href=\"/\" class=\"no-underline hover:underline\"> Home </a> </li>\n<li class=\"flex items-center gap-2\"> <span aria-hidden=\"true\" class=\"text-rule\"> / </span> <span aria-current=\"page\">Terms of use</span> </li>\n</ol>\n</nav>\n<article class=\"shell-narrow pt-6\">\n<p class=\"band-eyebrow\">Legal</p>\n<h1 class=\"text-3xl\">Terms of use</h1>\n<p class=\"mt-3 font-mono text-[0.75rem] tabular-nums text-ink-soft\">Last updated 24 August 2026</p>\n<div class=\"prose-statement mt-8\">\n<p> These terms govern your use of this website. By using it you accept them. They do not govern an engagement to prepare a tax return — that is covered by a separate engagement letter you receive before any work begins. </p>\n<h2>The calculators</h2>\n<p> The calculators are provided free, without registration, and without warranty as to accuracy or fitness for a particular purpose. They produce estimates. See the <a href=\"/legal/disclaimer/\">calculator disclaimer</a> for what they do and do not model. </p>\n<p> You may use them for personal and business purposes and you may share links to results. You may not scrape the site at a rate that degrades it for others, republish the calculators as your own, or present output as advice from a registered tax agent to a third party. </p>\n<h2>No advice relationship</h2>\n<p> Using this website does not make you a client of XYZ Accounting and does not create an accountant-client relationship. Nothing here is personal tax, financial or legal advice. An engagement begins only when we have accepted it in writing. </p>\n<h2>Content</h2>\n<p> Guides and rate tables are general information, current at the date shown on each page. Tax law changes, and much of it changes every 1 July. We update this site but do not warrant that every page is current at the moment you read it — check the &#8220;updated&#8221; date. </p>\n<h2>Intellectual property</h2>\n<p> The site&#8217;s design, text, calculators and code are owned by XYZ Accounting or used under licence. The rate tables themselves reproduce publicly available ATO figures, which are not ours; the downloadable rates PDF is free to use and share. </p>\n<h2>Third-party services</h2>\n<p> The contact form and the lodgement intake form are provided by Jotform and are subject to Jotform&#8217;s own terms and privacy policy. Links to the ATO, the Tax Practitioners Board and other external sites are provided for convenience; we are not responsible for their content. </p>\n<h2>Liability</h2>\n<p> To the extent permitted by law, XYZ Accounting is not liable for loss arising from your use of, or reliance on, this website or its calculators. Nothing in these terms excludes, restricts or modifies any guarantee, right or remedy under the Australian Consumer Law that cannot lawfully be excluded. </p>\n<h2>Governing law</h2>\n<p> These terms are governed by the laws of NSW, Australia. </p>\n<h2>Changes</h2>\n<p>We may update these terms. The date at the top of this page shows when they last changed.</p>\n</p></div>\n</article>\n</div>\n"
+  },
+  "date": "2026-08-21T19:57:49",
+  "date_gmt": "2026-08-21T10:27:49",
+  "excerpt": {
+    "protected": false,
+    "rendered": "<p>Home / Terms of use Legal Terms of use Last updated 24 August 2026 These terms govern your use of this website. By using it you accept them. They do not govern an engagement to prepare a tax return — that is covered by a separate engagement letter you receive before any work begins. The [&hellip;]</p>\n"
+  },
+  "featured_media": 0,
+  "guid": {
+    "rendered": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/legal/terms/"
+  },
+  "id": 15,
+  "jetpack_likes_enabled": true,
+  "jetpack_sharing_enabled": true,
+  "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/legal/terms/",
+  "menu_order": 0,
+  "meta": {
+    "_wpcom_ai_launchpad_about_page": false,
+    "_wpcom_ai_launchpad_contact_page": false,
+    "_wpcom_ai_launchpad_events_page": false,
+    "_wpcom_ai_launchpad_gallery_page": false,
+    "_wpcom_ai_launchpad_portfolio_piece": false,
+    "_wpcom_ai_launchpad_video_page": false,
+    "footnotes": ""
+  },
+  "modified": "2026-08-25T09:15:22",
+  "modified_gmt": "2026-08-24T23:45:22",
+  "parent": 13,
+  "ping_status": "closed",
+  "slug": "terms",
+  "status": "publish",
+  "template": "",
+  "title": {
+    "rendered": "Terms"
+  },
+  "type": "page"
+}

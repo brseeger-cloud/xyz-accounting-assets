@@ -1,0 +1,43 @@
+{
+  "author": 282860199,
+  "comment_status": "closed",
+  "content": {
+    "protected": false,
+    "rendered": "<div class=\"xyz-content\">\n<nav aria-label=\"Breadcrumb\" class=\"shell pt-6\">\n<ol class=\"m-0 flex list-none flex-wrap items-center gap-2 p-0 text-[0.8125rem] text-ink-soft\">\n<li class=\"flex items-center gap-2\">  <a href=\"/\" class=\"no-underline hover:underline\"> Home </a> </li>\n<li class=\"flex items-center gap-2\"> <span aria-hidden=\"true\" class=\"text-rule\"> / </span> <span aria-current=\"page\">Services</span> </li>\n</ol>\n</nav>\n<div class=\"shell pt-6\">\n<p class=\"eyebrow m-0\">Beyond the tax return</p>\n<h1 class=\"mt-3 max-w-3xl text-3xl sm:text-4xl\"> Getting a business started, and keeping it right </h1>\n<p class=\"mt-4 max-w-2xl text-[1.0625rem]\"> Most of what people need from an accountant happens before the return — choosing a structure, registering it, and keeping the books straight enough that June is uneventful. These are the engagements we take on outside tax time. </p>\n</p></div>\n<section class=\"shell mt-10\">\n<ul class=\"grid list-none gap-4 p-0 md:grid-cols-2\">\n<li class=\"card flex flex-col p-6\">\n<h2 class=\"text-xl\"> <a href=\"/services/company-registration/\" class=\"text-ink no-underline hover:underline\"> Company setup </a> </h2>\n<p class=\"mt-2 mb-4 flex-1 text-[0.9375rem]\">Register a Pty Ltd with ASIC — company name, ACN, constitution, share structure and directors — set up properly the first time.</p>\n<div> <a href=\"/services/company-registration/\" class=\"btn btn-secondary text-sm\"> Company registration </a> </div>\n</li>\n<li class=\"card flex flex-col p-6\">\n<h2 class=\"text-xl\"> <a href=\"/services/abn-application/\" class=\"text-ink no-underline hover:underline\"> ABN application </a> </h2>\n<p class=\"mt-2 mb-4 flex-1 text-[0.9375rem]\">Apply for an ABN, or work out whether you actually need one. Free to do yourself at the ABR — we charge for getting the answer right, not the typing.</p>\n<div> <a href=\"/services/abn-application/\" class=\"btn btn-secondary text-sm\"> ABN application </a> </div>\n</li>\n<li class=\"card flex flex-col p-6\">\n<h2 class=\"text-xl\"> <a href=\"/services/gst-registration/\" class=\"text-ink no-underline hover:underline\"> GST registration </a> </h2>\n<p class=\"mt-2 mb-4 flex-1 text-[0.9375rem]\">Register for GST, or check whether you have to. Compulsory once turnover reaches <span class=\"font-mono tabular-nums\">$75,000</span> — and there are cases where you must register from day one.</p>\n<div> <a href=\"/services/gst-registration/\" class=\"btn btn-secondary text-sm\"> GST registration </a> </div>\n</li>\n<li class=\"card flex flex-col p-6\">\n<h2 class=\"text-xl\"> <a href=\"/services/bookkeeping/\" class=\"text-ink no-underline hover:underline\"> Bookkeeping </a> </h2>\n<p class=\"mt-2 mb-4 flex-1 text-[0.9375rem]\">Ongoing bookkeeping and BAS lodgement, so the year-end return is a formality instead of a shoebox reconstruction.</p>\n<div> <a href=\"/services/bookkeeping/\" class=\"btn btn-secondary text-sm\"> Bookkeeping </a> </div>\n</li>\n<li class=\"card flex flex-col p-6\">\n<h2 class=\"text-xl\"> <a href=\"/services/trust-setup/\" class=\"text-ink no-underline hover:underline\"> Trust setup </a> </h2>\n<p class=\"mt-2 mb-4 flex-1 text-[0.9375rem]\">Establish a discretionary trust &mdash; deed, trustee and registrations &mdash; then the resolution before <span class=\"font-mono tabular-nums\">30 June</span> and the return after it, every year.</p>\n<div> <a href=\"/services/trust-setup/\" class=\"btn btn-secondary text-sm\"> Trust setup </a> </div>\n</li>\n<li class=\"card flex flex-col p-6\">\n<h2 class=\"text-xl\"> <a href=\"/services/partnership-setup/\" class=\"text-ink no-underline hover:underline\"> Partnership setup </a> </h2>\n<p class=\"mt-2 mb-4 flex-1 text-[0.9375rem]\">TFN, ABN and a written agreement, then the annual partnership return and each partner&#8217;s share flowed through to their own.</p>\n<div> <a href=\"/services/partnership-setup/\" class=\"btn btn-secondary text-sm\"> Partnership setup </a> </div>\n</li>\n<li class=\"card flex flex-col p-6\">\n<h2 class=\"text-xl\"> <a href=\"/services/smsf/\" class=\"text-ink no-underline hover:underline\"> Self-managed super fund </a> </h2>\n<p class=\"mt-2 mb-4 flex-1 text-[0.9375rem]\">SMSF establishment and the annual cycle &mdash; accounts, an independent audit and the return &mdash; starting with whether a fund is worth it at your balance.</p>\n<div> <a href=\"/services/smsf/\" class=\"btn btn-secondary text-sm\"> SMSF </a> </div>\n</li>\n</ul>\n</section>\n<section class=\"shell mt-16\">\n<div class=\"prose-statement\">\n<h2>What you are paying for</h2>\n<p> Two of these you can do yourself for nothing. An ABN application at the Australian Business Register is free and takes about fifteen minutes, and GST registration costs nothing either. We will say so on the page rather than let you find out afterwards. </p>\n<p> What is worth paying for is the decision underneath the form: whether you are carrying on a business at all, whether a company, a trust or a partnership helps you or just adds a return you now have to lodge, whether registering for GST early costs you money, whether your balance justifies running your own super fund. Getting that wrong is expensive to unwind, and the form itself is the easy part. </p>\n<p> Every engagement here is handled by BRS Advisory Pty Ltd, a registered tax agent and CPA Australia Practice. If you only need the tax return, that is <a href=\"/lodge/\">over here</a> and the <a href=\"/pricing/\">price is published</a>. </p>\n</p></div>\n</section>\n<section class=\"shell mt-20\">\n<div class=\"card flex flex-col gap-6 border-ink/15 bg-white p-6 sm:flex-row sm:items-center sm:justify-between sm:p-8\">\n<div class=\"max-w-xl\">\n<h2 class=\"text-xl\">Ready to lodge it?</h2>\n<p class=\"mt-2 mb-0 text-[0.9375rem]\">A registered agent prepares and checks your return, then lodges it. Most refunds land within two weeks of assessment.</p>\n<p class=\"mt-3 mb-0 text-[0.8125rem] text-ink-soft\"> Individual returns from <span class=\"font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium\">$99</span>. Fixed fee, quoted before we start. Tax agent 26233684. </p>\n</p></div>\n<div class=\"flex shrink-0 flex-col gap-2\"> <a href=\"/lodge/\" class=\"btn\">Start your return</a> <a href=\"/pricing/\" class=\"btn btn-secondary\">See pricing</a> </div>\n</p></div>\n</section>\n</div>\n"
+  },
+  "date": "2026-09-05T19:41:08",
+  "date_gmt": "2026-09-05T10:11:08",
+  "excerpt": {
+    "protected": false,
+    "rendered": "<p>Home / Services Beyond the tax return Getting a business started, and keeping it right Most of what people need from an accountant happens before the return — choosing a structure, registering it, and keeping the books straight enough that June is uneventful. These are the engagements we take on outside tax time. Company setup [&hellip;]</p>\n"
+  },
+  "featured_media": 0,
+  "guid": {
+    "rendered": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/"
+  },
+  "id": 263,
+  "jetpack_likes_enabled": true,
+  "jetpack_sharing_enabled": true,
+  "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/",
+  "menu_order": 0,
+  "meta": {
+    "_wpcom_ai_launchpad_about_page": false,
+    "_wpcom_ai_launchpad_contact_page": false,
+    "_wpcom_ai_launchpad_events_page": false,
+    "_wpcom_ai_launchpad_gallery_page": false,
+    "_wpcom_ai_launchpad_portfolio_piece": false,
+    "_wpcom_ai_launchpad_video_page": false,
+    "footnotes": ""
+  },
+  "modified": "2026-09-15T22:34:07",
+  "modified_gmt": "2026-09-15T13:04:07",
+  "parent": 0,
+  "ping_status": "closed",
+  "slug": "services",
+  "status": "publish",
+  "template": "",
+  "title": {
+    "rendered": "Services"
+  },
+  "type": "page"
+}

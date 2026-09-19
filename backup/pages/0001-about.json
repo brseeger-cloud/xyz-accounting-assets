@@ -1,0 +1,43 @@
+{
+  "author": 282860199,
+  "comment_status": "closed",
+  "content": {
+    "protected": false,
+    "rendered": "<div class=\"xyz-content\">\n<nav aria-label=\"Breadcrumb\" class=\"shell pt-6\">\n<ol class=\"m-0 flex list-none flex-wrap items-center gap-2 p-0 text-[0.8125rem] text-ink-soft\">\n<li class=\"flex items-center gap-2\">  <a href=\"/\" class=\"no-underline hover:underline\"> Home </a> </li>\n<li class=\"flex items-center gap-2\"> <span aria-hidden=\"true\" class=\"text-rule\"> / </span> <span aria-current=\"page\">About</span> </li>\n</ol>\n</nav>\n<div class=\"shell pt-6\">\n<p class=\"band-eyebrow\">About the practice</p>\n<h1 class=\"max-w-3xl text-3xl sm:text-4xl\">A tax agent that behaves like a software product</h1>\n<p class=\"mt-4 max-w-2xl text-[1.0625rem]\"> Most accounting practices bought a website. Most tax apps cannot actually lodge anything. We wanted the interaction quality of the second with the registration and judgement of the first. </p>\n</p></div>\n<section class=\"shell mt-12\">\n<div class=\"prose-statement\">\n<h2>Why the calculators are free</h2>\n<p> Because gating them would be self-defeating. A calculator behind an email form is a calculator nobody uses — the competing tools are ungated, and people leave. So we put the gate where it belongs: at lodgement, which is the part that actually needs a registered agent. </p>\n<p> There is a second reason. The calculators are the clearest demonstration we can give of how we work. Expand any line in the Tally and it shows you the arithmetic. Nothing is hidden, nothing is rounded away, and the rates are cited back to the ATO page they came from with the date they were checked. If that is how we handle a free tool, you can reasonably infer how we handle a return. </p>\n<h2>How we work</h2>\n<p> Every return is prepared and reviewed by a registered agent before it is lodged. You see the completed return and approve it — nothing goes to the ATO without your sign-off. Fees are fixed and quoted before the work starts. </p>\n<p> If your return genuinely does not need us, we will tell you. Sending someone to myTax costs us <span class=\"font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium\">$99</span> and buys the kind of trust that is worth considerably more. </p>\n</p></div>\n</section>\n<section class=\"shell mt-16\">\n<h2 class=\"text-2xl\">The accountant</h2>\n<ul class=\"mt-6 grid list-none gap-6 p-0 md:grid-cols-2 lg:grid-cols-3\">\n<li class=\"card p-6\">\n<h3 class=\"text-lg\">Benjamin Seeger</h3>\n<p class=\"mt-1 mb-0 text-[0.8125rem] text-ink-soft\">Principal</p>\n<p class=\"mt-1 mb-0 font-mono text-[0.75rem] text-ink-soft\">CPA · CPA Australia Practice principal</p>\n<p class=\"m-0 mt-3 text-[0.875rem]\">Founded the practice and leads it. Prepares, reviews and lodges every return that goes through the site, and would rather point you at myTax than sell you a return you do not need.</p>\n</li>\n</ul>\n</section>\n<section class=\"shell mt-16\">\n<div class=\"card p-6 sm:p-8\">\n<h2 class=\"text-xl\">Our registration</h2>\n<style>.xyz-reg>div{display:grid!important;grid-template-columns:minmax(0,15rem) 1fr;column-gap:1.5rem;align-items:baseline}.xyz-reg>div>p:empty{display:none}.xyz-reg dd{text-align:left}.xyz-reg a,.xyz-reg+p a{color:#0A7C55;text-decoration:underline;text-underline-offset:2px}.xyz-reg a:hover,.xyz-reg+p a:hover{text-decoration-thickness:2px}@media (max-width:520px){.xyz-reg>div{grid-template-columns:1fr;row-gap:.25rem}}</style>\n<dl class=\"xyz-reg mt-4 max-w-xl border-t border-rule\">\n<div class=\"flex items-baseline justify-between gap-4 border-b border-rule py-3\">\n<dt class=\"m-0 text-[0.875rem] text-ink-soft\">Registered entity</dt>\n<dd class=\"m-0 text-[0.875rem]\">BRS Advisory Pty Ltd</dd>\n</p></div>\n<div class=\"flex items-baseline justify-between gap-4 border-b border-rule py-3\">\n<dt class=\"m-0 text-[0.875rem] text-ink-soft\">Registered tax agent number</dt>\n<dd class=\"m-0\"><span class=\"font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium\">26233684</span></dd>\n</p></div>\n<div class=\"flex items-baseline justify-between gap-4 border-b border-rule py-3\">\n<dt class=\"m-0 text-[0.875rem] text-ink-soft\">ABN</dt>\n<dd class=\"m-0\"><span class=\"font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium\">83 666 883 398</span></dd>\n</p></div>\n<div class=\"flex items-baseline justify-between gap-4 border-b border-rule py-3\">\n<dt class=\"m-0 text-[0.875rem] text-ink-soft\">Professional accreditation</dt>\n<dd class=\"m-0 text-[0.875rem]\">CPA Australia Practice</dd>\n</p></div>\n<div class=\"flex items-baseline justify-between gap-4 border-b border-rule py-3\">\n<dt class=\"m-0 text-[0.875rem] text-ink-soft\">Regulator</dt>\n<dd class=\"m-0 text-[0.875rem]\"> <a href=\"https://www.tpb.gov.au/public-register\" rel=\"noopener noreferrer\" target=\"_blank\">Tax Practitioners Board</a> </dd>\n</p></div>\n</dl>\n<p class=\"mt-4 mb-0 max-w-2xl text-[0.8125rem] text-ink-soft\"> Anyone charging a fee to prepare or lodge your tax return must be registered. The register is free to search and takes about thirty seconds — <a href=\"https://myprofile.tpb.gov.au/public-register/practitioner/?ran=26233684\" target=\"_blank\" rel=\"noopener noreferrer\">check us</a>, and check anyone else you are considering. </p>\n</p></div>\n</section>\n<section class=\"cta-dark\">\n<div class=\"cta-grid\">\n<div>\n<p class=\"band-eyebrow\">Ready to lodge it?</p>\n<h2>A registered agent prepares it, checks it, and lodges it.</h2>\n<p>Most refunds land within two weeks of assessment. The fee is fixed and quoted before we start — nothing is charged until you approve the finished return.</p>\n<div class=\"cta-actions\"> <a href=\"/lodge/\" class=\"btn\">Start your return</a> <a href=\"/pricing/\" class=\"btn btn-secondary\">See pricing</a> </div>\n</p></div>\n<div class=\"cta-spec\">\n<div class=\"cta-spec-row\"><span>Individual returns from</span><b>$99</b></div>\n<div class=\"cta-spec-row\"><span>Registered tax agent</span><b>26233684</b></div>\n<div class=\"cta-spec-row\"><span>Fixed fee, quoted up front</span><i>included</i></div>\n<div class=\"cta-spec-row\"><span>Fee deductible from refund</span><i>included</i></div>\n</p></div>\n</p></div>\n</section>\n</div>\n"
+  },
+  "date": "2026-08-21T00:11:54",
+  "date_gmt": "2026-08-21T00:11:54",
+  "excerpt": {
+    "protected": false,
+    "rendered": "<p>Home / About About the practice A tax agent that behaves like a software product Most accounting practices bought a website. Most tax apps cannot actually lodge anything. We wanted the interaction quality of the second with the registration and judgement of the first. Why the calculators are free Because gating them would be self-defeating. [&hellip;]</p>\n"
+  },
+  "featured_media": 0,
+  "guid": {
+    "rendered": "http://superblyladyec52fb18e8-stxdq.wpcomstaging.com/?page_id=1"
+  },
+  "id": 1,
+  "jetpack_likes_enabled": null,
+  "jetpack_sharing_enabled": false,
+  "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/about/",
+  "menu_order": 0,
+  "meta": {
+    "_wpcom_ai_launchpad_about_page": false,
+    "_wpcom_ai_launchpad_contact_page": false,
+    "_wpcom_ai_launchpad_events_page": false,
+    "_wpcom_ai_launchpad_gallery_page": false,
+    "_wpcom_ai_launchpad_portfolio_piece": false,
+    "_wpcom_ai_launchpad_video_page": false,
+    "footnotes": ""
+  },
+  "modified": "2026-09-16T21:47:19",
+  "modified_gmt": "2026-09-16T12:17:19",
+  "parent": 0,
+  "ping_status": "open",
+  "slug": "about",
+  "status": "publish",
+  "template": "",
+  "title": {
+    "rendered": "About"
+  },
+  "type": "page"
+}
