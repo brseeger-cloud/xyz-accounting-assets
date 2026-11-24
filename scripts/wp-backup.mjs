@@ -15,12 +15,22 @@ import { mkdir, rm, writeFile } from 'node:fs/promises';
 import { readdir } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 
-const SITE = (process.env.WP_SITE_URL ?? 'https://superblyladyec52fb18e8-stxdq.wpcomstaging.com').replace(/\/+$/, '');
-const OUT = process.env.WP_BACKUP_DIR ?? 'backup';
-const REPO = process.env.GITHUB_REPOSITORY ?? 'brseeger-cloud/xyz-accounting-assets';
+/**
+ * CI passes an unset value as the empty string — a `vars.X` that does not exist
+ * expands to "" — so `??` is not enough: it would leave SITE blank and send every
+ * request to a relative URL. Treat blank as absent.
+ */
+function env(name, fallback) {
+  const value = process.env[name];
+  return value === undefined || value.trim() === '' ? fallback : value.trim();
+}
 
-const USER = process.env.WP_USER;
-const PASS = process.env.WP_APP_PASSWORD;
+const SITE = env('WP_SITE_URL', 'https://superblyladyec52fb18e8-stxdq.wpcomstaging.com').replace(/\/+$/, '');
+const OUT = env('WP_BACKUP_DIR', 'backup');
+const REPO = env('GITHUB_REPOSITORY', 'brseeger-cloud/xyz-accounting-assets');
+
+const USER = env('WP_USER', undefined);
+const PASS = env('WP_APP_PASSWORD', undefined);
 const AUTHED = Boolean(USER && PASS);
 const AUTH_HEADER = AUTHED
   ? 'Basic ' + Buffer.from(`${USER}:${PASS}`).toString('base64')
@@ -64,6 +74,7 @@ async function get(path, { raw = false } = {}) {
       }
     } catch (err) {
       if (err.status >= 400 && err.status < 500) throw err;
+      if (err instanceof TypeError) throw err; // malformed URL / bad argument
       lastErr = err;
     }
     await new Promise((r) => setTimeout(r, 2000 * 2 ** (attempt - 1)));
@@ -232,6 +243,13 @@ async function auditAssets(pages) {
 }
 
 async function main() {
+  if (!/^https?:\/\/[^/]+/.test(SITE)) {
+    throw new Error(
+      `WP_SITE_URL is not an absolute http(s) URL (got ${JSON.stringify(SITE)}). ` +
+      'Leave it unset to use the default, or set the repository variable to the site root.',
+    );
+  }
+
   console.log(`Backing up ${SITE} -> ${OUT}/ (${AUTHED ? 'authenticated' : 'anonymous — published content only'})`);
 
   // Rebuilt from scratch each run so deletions upstream become deletions here.

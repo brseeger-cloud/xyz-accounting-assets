@@ -33,14 +33,20 @@ jobs:
 
       - name: Pull the site
         env:
+          # Unset expands to ""; the script treats blank as absent and uses its default.
           WP_SITE_URL: ${{ vars.WP_SITE_URL }}
           # Optional. Without these the backup still runs, but covers published
           # content only — drafts, menus and settings need an application password.
           WP_USER: ${{ secrets.WP_USER }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
-        run: node scripts/wp-backup.mjs | tee backup.log
+        run: |
+          # Without pipefail the step takes tee's exit status, so a failed
+          # backup reads as a successful step.
+          set -o pipefail
+          node scripts/wp-backup.mjs | tee backup.log
 
       - name: Report what the run found
+        if: always()
         run: |
           {
             echo '## WordPress backup'
@@ -52,9 +58,13 @@ jobs:
 
       - name: Fail if a page points at an asset this repo does not have
         run: |
+          if [ ! -f backup/MANIFEST.json ]; then
+            echo "::error::The backup produced no manifest, so it did not complete. See the run log above."
+            exit 1
+          fi
           missing=$(node -e "
             const m = require('./backup/MANIFEST.json');
-            process.stdout.write(m.asset_audit.referenced_but_not_committed.join(', '));
+            process.stdout.write((m.asset_audit?.referenced_but_not_committed ?? []).join(', '));
           ")
           if [ -n "$missing" ]; then
             echo "::error::Live pages load assets that are not committed here, so those calculators are broken: $missing"
