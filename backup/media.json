@@ -9,7 +9,7 @@
     "date": "2026-09-05T20:30:30",
     "date_gmt": "2026-09-05T11:00:30",
     "description": {
-      "rendered": "<p class=\"attachment\"><a href=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?ssl=1\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"145\" src=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?fit=300%2C145&amp;ssl=1\" class=\"attachment-medium size-medium\" alt=\"XYZ Accounting logo\" srcset=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?w=1200&amp;ssl=1 1200w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?resize=300%2C145&amp;ssl=1 300w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?resize=1024%2C494&amp;ssl=1 1024w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?resize=768%2C371&amp;ssl=1 768w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" data-attachment-id=\"279\" data-permalink=\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/xyz-accounting-logo/\" data-orig-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?fit=1200%2C579&amp;ssl=1\" data-orig-size=\"1200,579\" data-comments-opened=\"1\" data-image-meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}\" data-image-title=\"XYZ Accounting logo\" data-image-description=\"\" data-image-caption=\"\" data-large-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?fit=1024%2C494&amp;ssl=1\" /></a></p>\n"
+      "rendered": "<p class=\"attachment\"><a href=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?ssl=1\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"145\" src=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?fit=300%2C145&amp;ssl=1\" class=\"attachment-medium size-medium\" alt=\"XYZ Accounting logo\" srcset=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?w=1200&amp;ssl=1 1200w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?resize=300%2C145&amp;ssl=1 300w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?resize=1024%2C494&amp;ssl=1 1024w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?resize=768%2C371&amp;ssl=1 768w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" data-attachment-id=\"279\" data-permalink=\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/xyz-accounting-logo/\" data-orig-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?fit=1200%2C579&amp;ssl=1\" data-orig-size=\"1200,579\" data-comments-opened=\"1\" data-image-title=\"XYZ Accounting logo\" data-image-description=\"\" data-image-caption=\"\" data-large-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo.png?fit=1024%2C494&amp;ssl=1\" /></a></p>\n"
     },
     "featured_media": 0,
     "filename": "xyz-accounting-logo.png",
@@ -98,7 +98,9 @@
       "width": 1200
     },
     "media_type": "image",
-    "meta": [],
+    "meta": {
+      "jetpack_seo_llms_txt_always_include": false
+    },
     "mime_type": "image/png",
     "modified": "2026-09-05T20:30:30",
     "modified_gmt": "2026-09-05T11:00:30",
@@ -123,7 +125,7 @@
     "date": "2026-09-05T20:44:08",
     "date_gmt": "2026-09-05T11:14:08",
     "description": {
-      "rendered": "<p class=\"attachment\"><a href=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?ssl=1\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"145\" src=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?fit=300%2C145&amp;ssl=1\" class=\"attachment-medium size-medium\" alt=\"XYZ Accounting\" srcset=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?w=1200&amp;ssl=1 1200w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?resize=300%2C145&amp;ssl=1 300w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?resize=1024%2C494&amp;ssl=1 1024w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?resize=768%2C371&amp;ssl=1 768w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" data-attachment-id=\"280\" data-permalink=\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/xyz-accounting-logo-2/\" data-orig-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?fit=1200%2C579&amp;ssl=1\" data-orig-size=\"1200,579\" data-comments-opened=\"1\" data-image-meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}\" data-image-title=\"XYZ Accounting logo\" data-image-description=\"\" data-image-caption=\"\" data-large-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?fit=1024%2C494&amp;ssl=1\" /></a></p>\n"
+      "rendered": "<p class=\"attachment\"><a href=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?ssl=1\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"145\" src=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?fit=300%2C145&amp;ssl=1\" class=\"attachment-medium size-medium\" alt=\"XYZ Accounting\" srcset=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?w=1200&amp;ssl=1 1200w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?resize=300%2C145&amp;ssl=1 300w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?resize=1024%2C494&amp;ssl=1 1024w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?resize=768%2C371&amp;ssl=1 768w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" data-attachment-id=\"280\" data-permalink=\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/xyz-accounting-logo-2/\" data-orig-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?fit=1200%2C579&amp;ssl=1\" data-orig-size=\"1200,579\" data-comments-opened=\"1\" data-image-title=\"XYZ Accounting logo\" data-image-description=\"\" data-image-caption=\"\" data-large-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-accounting-logo-1.png?fit=1024%2C494&amp;ssl=1\" /></a></p>\n"
     },
     "featured_media": 0,
     "filename": "xyz-accounting-logo-1.png",
@@ -212,7 +214,9 @@
       "width": 1200
     },
     "media_type": "image",
-    "meta": [],
+    "meta": {
+      "jetpack_seo_llms_txt_always_include": false
+    },
     "mime_type": "image/png",
     "modified": "2026-09-05T20:44:08",
     "modified_gmt": "2026-09-05T11:14:08",
@@ -237,7 +241,7 @@
     "date": "2026-09-05T22:51:41",
     "date_gmt": "2026-09-05T13:21:41",
     "description": {
-      "rendered": "<p class=\"attachment\"><a href=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-mark.png?ssl=1\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"138\" src=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-mark.png?fit=300%2C138&amp;ssl=1\" class=\"attachment-medium size-medium\" alt=\"XYZ Accounting\" data-attachment-id=\"283\" data-permalink=\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/xyz-primary-mark/\" data-orig-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-mark.png?fit=340%2C156&amp;ssl=1\" data-orig-size=\"340,156\" data-comments-opened=\"1\" data-image-meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}\" data-image-title=\"XYZ primary mark\" data-image-description=\"\" data-image-caption=\"\" data-large-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-mark.png?fit=340%2C156&amp;ssl=1\" /></a></p>\n"
+      "rendered": "<p class=\"attachment\"><a href=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-mark.png?ssl=1\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"138\" src=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-mark.png?fit=300%2C138&amp;ssl=1\" class=\"attachment-medium size-medium\" alt=\"XYZ Accounting\" data-attachment-id=\"283\" data-permalink=\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/xyz-primary-mark/\" data-orig-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-mark.png?fit=340%2C156&amp;ssl=1\" data-orig-size=\"340,156\" data-comments-opened=\"1\" data-image-title=\"XYZ primary mark\" data-image-description=\"\" data-image-caption=\"\" data-large-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/09/xyz-mark.png?fit=340%2C156&amp;ssl=1\" /></a></p>\n"
     },
     "featured_media": 0,
     "filename": "xyz-mark.png",
@@ -286,7 +290,9 @@
       "width": 340
     },
     "media_type": "image",
-    "meta": [],
+    "meta": {
+      "jetpack_seo_llms_txt_always_include": false
+    },
     "mime_type": "image/png",
     "modified": "2026-09-05T22:51:41",
     "modified_gmt": "2026-09-05T13:21:41",
@@ -298,6 +304,322 @@
     "template": "",
     "title": {
       "rendered": "XYZ primary mark"
+    },
+    "type": "attachment"
+  },
+  {
+    "alt_text": "XYZ Accounting – accountant-checked tax returns, done online",
+    "author": 282860199,
+    "caption": {
+      "rendered": ""
+    },
+    "comment_status": "open",
+    "date": "2026-10-24T16:35:38",
+    "date_gmt": "2026-10-24T06:05:38",
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png?ssl=1\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"158\" src=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png?fit=300%2C158&amp;ssl=1\" class=\"attachment-medium size-medium\" alt=\"XYZ Accounting – accountant-checked tax returns, done online\" srcset=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png?w=1200&amp;ssl=1 1200w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png?resize=300%2C158&amp;ssl=1 300w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png?resize=1024%2C538&amp;ssl=1 1024w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png?resize=768%2C403&amp;ssl=1 768w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" data-attachment-id=\"1052\" data-permalink=\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/xyz-accounting-social-share-image/\" data-orig-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png?fit=1200%2C630&amp;ssl=1\" data-orig-size=\"1200,630\" data-comments-opened=\"1\" data-image-title=\"XYZ Accounting social share image\" data-image-description=\"\" data-image-caption=\"\" data-large-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png?fit=1024%2C538&amp;ssl=1\" /></a></p>\n"
+    },
+    "featured_media": 0,
+    "filename": "xyz-accounting-social-share.png",
+    "filesize": 57563,
+    "guid": {
+      "rendered": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png"
+    },
+    "id": 1052,
+    "jetpack_likes_enabled": true,
+    "jetpack_sharing_enabled": true,
+    "jetpack_videopress": {
+      "allow_download": 0,
+      "caption": "",
+      "description": "",
+      "display_embed": 0,
+      "guid": null,
+      "is_private": false,
+      "needs_playback_token": false,
+      "privacy_setting": 2,
+      "private_enabled_for_site": false,
+      "rating": null,
+      "title": "XYZ Accounting social share image"
+    },
+    "jetpack_videopress_guid": "",
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/xyz-accounting-social-share-image/",
+    "media_details": {
+      "file": "2026/10/xyz-accounting-social-share.png",
+      "filesize": 57563,
+      "height": 630,
+      "image_meta": {
+        "alt": "",
+        "aperture": "0",
+        "camera": "",
+        "caption": "",
+        "copyright": "",
+        "created_timestamp": "0",
+        "credit": "",
+        "focal_length": "0",
+        "iso": "0",
+        "keywords": [],
+        "orientation": "0",
+        "shutter_speed": "0",
+        "title": ""
+      },
+      "sizes": {
+        "full": {
+          "file": "xyz-accounting-social-share.png?fit=1200%2C630&ssl=1",
+          "height": 630,
+          "mime_type": "image/png",
+          "source_url": "https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png?fit=1200%2C630&ssl=1",
+          "width": 1200
+        },
+        "large": {
+          "file": "xyz-accounting-social-share-1024x538.png",
+          "height": 538,
+          "mime_type": "image/png",
+          "source_url": "https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png?fit=1024%2C538&ssl=1",
+          "virtual": true,
+          "width": 1024
+        },
+        "medium": {
+          "file": "xyz-accounting-social-share-300x158.png",
+          "height": 158,
+          "mime_type": "image/png",
+          "source_url": "https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png?fit=300%2C158&ssl=1",
+          "virtual": true,
+          "width": 300
+        },
+        "medium_large": {
+          "file": "xyz-accounting-social-share-768x403.png",
+          "height": 403,
+          "mime_type": "image/png",
+          "source_url": "https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png?fit=768%2C403&ssl=1",
+          "virtual": true,
+          "width": 768
+        },
+        "thumbnail": {
+          "file": "xyz-accounting-social-share-150x150.png",
+          "height": 150,
+          "mime_type": "image/png",
+          "source_url": "https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png?resize=150%2C150&ssl=1",
+          "virtual": true,
+          "width": 150
+        }
+      },
+      "width": 1200
+    },
+    "media_type": "image",
+    "meta": {
+      "jetpack_seo_llms_txt_always_include": false
+    },
+    "mime_type": "image/png",
+    "modified": "2026-10-24T16:35:38",
+    "modified_gmt": "2026-10-24T06:05:38",
+    "ping_status": "closed",
+    "post": null,
+    "slug": "xyz-accounting-social-share-image",
+    "source_url": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png",
+    "status": "inherit",
+    "template": "",
+    "title": {
+      "rendered": "XYZ Accounting social share image"
+    },
+    "type": "attachment"
+  },
+  {
+    "alt_text": "XYZ Accounting icon",
+    "author": 282860199,
+    "caption": {
+      "rendered": ""
+    },
+    "comment_status": "open",
+    "date": "2026-11-22T00:09:22",
+    "date_gmt": "2026-11-21T13:39:22",
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512.png?ssl=1\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512.png?fit=300%2C300&amp;ssl=1\" class=\"attachment-medium size-medium\" alt=\"XYZ Accounting icon\" srcset=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512.png?w=512&amp;ssl=1 512w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512.png?resize=150%2C150&amp;ssl=1 150w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" data-attachment-id=\"1210\" data-permalink=\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/xyz-favicon-512/\" data-orig-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512.png?fit=512%2C512&amp;ssl=1\" data-orig-size=\"512,512\" data-comments-opened=\"1\" data-image-title=\"XYZ Accounting site icon 512\" data-image-description=\"\" data-image-caption=\"\" data-large-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512.png?fit=512%2C512&amp;ssl=1\" /></a></p>\n"
+    },
+    "featured_media": 0,
+    "filename": "xyz-favicon-512.png",
+    "filesize": 30190,
+    "guid": {
+      "rendered": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512.png"
+    },
+    "id": 1210,
+    "jetpack_likes_enabled": true,
+    "jetpack_sharing_enabled": true,
+    "jetpack_videopress": {
+      "allow_download": 0,
+      "caption": "",
+      "description": "",
+      "display_embed": 0,
+      "guid": null,
+      "is_private": false,
+      "needs_playback_token": false,
+      "privacy_setting": 2,
+      "private_enabled_for_site": false,
+      "rating": null,
+      "title": "XYZ Accounting site icon 512"
+    },
+    "jetpack_videopress_guid": "",
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/xyz-favicon-512/",
+    "media_details": {
+      "file": "2026/11/xyz-favicon-512.png",
+      "filesize": 30190,
+      "height": 512,
+      "image_meta": {
+        "alt": "",
+        "aperture": "0",
+        "camera": "",
+        "caption": "",
+        "copyright": "",
+        "created_timestamp": "0",
+        "credit": "",
+        "focal_length": "0",
+        "iso": "0",
+        "keywords": [],
+        "orientation": "0",
+        "shutter_speed": "0",
+        "title": ""
+      },
+      "sizes": {
+        "full": {
+          "file": "xyz-favicon-512.png?fit=512%2C512&ssl=1",
+          "height": 512,
+          "mime_type": "image/png",
+          "source_url": "https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512.png?fit=512%2C512&ssl=1",
+          "width": 512
+        },
+        "medium": {
+          "file": "xyz-favicon-512-300x300.png",
+          "height": 300,
+          "mime_type": "image/png",
+          "source_url": "https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512.png?fit=300%2C300&ssl=1",
+          "virtual": true,
+          "width": 300
+        },
+        "thumbnail": {
+          "file": "xyz-favicon-512-150x150.png",
+          "height": 150,
+          "mime_type": "image/png",
+          "source_url": "https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512.png?resize=150%2C150&ssl=1",
+          "virtual": true,
+          "width": 150
+        }
+      },
+      "width": 512
+    },
+    "media_type": "image",
+    "meta": {
+      "jetpack_seo_llms_txt_always_include": false
+    },
+    "mime_type": "image/png",
+    "modified": "2026-11-22T00:09:23",
+    "modified_gmt": "2026-11-21T13:39:23",
+    "ping_status": "closed",
+    "post": null,
+    "slug": "xyz-favicon-512",
+    "source_url": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512.png",
+    "status": "inherit",
+    "template": "",
+    "title": {
+      "rendered": "XYZ Accounting site icon 512"
+    },
+    "type": "attachment"
+  },
+  {
+    "alt_text": "XYZ Accounting icon: navy square with a green x and white yz",
+    "author": 282860199,
+    "caption": {
+      "rendered": ""
+    },
+    "comment_status": "open",
+    "date": "2026-11-22T17:27:10",
+    "date_gmt": "2026-11-22T06:57:10",
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512-v3.png?ssl=1\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512-v3.png?fit=300%2C300&amp;ssl=1\" class=\"attachment-medium size-medium\" alt=\"XYZ Accounting icon: navy square with a green x and white yz\" srcset=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512-v3.png?w=512&amp;ssl=1 512w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512-v3.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512-v3.png?resize=150%2C150&amp;ssl=1 150w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" data-attachment-id=\"1250\" data-permalink=\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/xyz-favicon-512-v3/\" data-orig-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512-v3.png?fit=512%2C512&amp;ssl=1\" data-orig-size=\"512,512\" data-comments-opened=\"1\" data-image-title=\"XYZ favicon 512&amp;#215;512 v3 (approved, final)\" data-image-description=\"\" data-image-caption=\"\" data-large-file=\"https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512-v3.png?fit=512%2C512&amp;ssl=1\" /></a></p>\n"
+    },
+    "featured_media": 0,
+    "filename": "xyz-favicon-512-v3.png",
+    "filesize": 44858,
+    "guid": {
+      "rendered": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512-v3.png"
+    },
+    "id": 1250,
+    "jetpack_likes_enabled": true,
+    "jetpack_sharing_enabled": true,
+    "jetpack_videopress": {
+      "allow_download": 0,
+      "caption": "",
+      "description": "",
+      "display_embed": 0,
+      "guid": null,
+      "is_private": false,
+      "needs_playback_token": false,
+      "privacy_setting": 2,
+      "private_enabled_for_site": false,
+      "rating": null,
+      "title": "XYZ favicon 512x512 v3 (approved, final)"
+    },
+    "jetpack_videopress_guid": "",
+    "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/xyz-favicon-512-v3/",
+    "media_details": {
+      "file": "2026/11/xyz-favicon-512-v3.png",
+      "filesize": 44858,
+      "height": 512,
+      "image_meta": {
+        "alt": "",
+        "aperture": "0",
+        "camera": "",
+        "caption": "",
+        "copyright": "",
+        "created_timestamp": "0",
+        "credit": "",
+        "focal_length": "0",
+        "iso": "0",
+        "keywords": [],
+        "orientation": "0",
+        "shutter_speed": "0",
+        "title": ""
+      },
+      "sizes": {
+        "full": {
+          "file": "xyz-favicon-512-v3.png?fit=512%2C512&ssl=1",
+          "height": 512,
+          "mime_type": "image/png",
+          "source_url": "https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512-v3.png?fit=512%2C512&ssl=1",
+          "width": 512
+        },
+        "medium": {
+          "file": "xyz-favicon-512-v3-300x300.png",
+          "height": 300,
+          "mime_type": "image/png",
+          "source_url": "https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512-v3.png?fit=300%2C300&ssl=1",
+          "virtual": true,
+          "width": 300
+        },
+        "thumbnail": {
+          "file": "xyz-favicon-512-v3-150x150.png",
+          "height": 150,
+          "mime_type": "image/png",
+          "source_url": "https://i0.wp.com/superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512-v3.png?resize=150%2C150&ssl=1",
+          "virtual": true,
+          "width": 150
+        }
+      },
+      "width": 512
+    },
+    "media_type": "image",
+    "meta": {
+      "jetpack_seo_llms_txt_always_include": false
+    },
+    "mime_type": "image/png",
+    "modified": "2026-11-22T17:27:11",
+    "modified_gmt": "2026-11-22T06:57:11",
+    "ping_status": "closed",
+    "post": null,
+    "slug": "xyz-favicon-512-v3",
+    "source_url": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/11/xyz-favicon-512-v3.png",
+    "status": "inherit",
+    "template": "",
+    "title": {
+      "rendered": "XYZ favicon 512&#215;512 v3 (approved, final)"
     },
     "type": "attachment"
   }

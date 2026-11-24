@@ -1,0 +1,46 @@
+{
+  "author": 282860199,
+  "comment_status": "closed",
+  "content": {
+    "protected": false,
+    "rendered": "<div class=\"xyz-content\">\n<nav aria-label=\"Breadcrumb\" class=\"shell pt-6\">\n<ol class=\"m-0 flex list-none flex-wrap items-center gap-2 p-0 text-[0.8125rem] text-ink-soft\">\n<li class=\"flex items-center gap-2\"> <a href=\"/\" class=\"no-underline hover:underline\"> Home </a> </li>\n<li class=\"flex items-center gap-2\"> <span aria-hidden=\"true\" class=\"text-rule\"> / </span> <a href=\"/services/\" class=\"no-underline hover:underline\"> Services </a> </li>\n<li class=\"flex items-center gap-2\"> <span aria-hidden=\"true\" class=\"text-rule\"> / </span> <span aria-current=\"page\">Start-up bundle</span> </li>\n</ol>\n</nav>\n<div class=\"shell pt-6\">\n<p class=\"eyebrow m-0\">Bundle</p>\n<h1 class=\"mt-3 max-w-3xl text-3xl sm:text-4xl\">Start-up bundle</h1>\n<p class=\"mt-4 max-w-2xl text-[1.0625rem]\">A new company, registered for everything it needs to start trading, in one order — the Pty Ltd, its ABN, GST registration and a business name, done in the right order by one accountant.</p>\n</p></div>\n<section class=\"shell mt-10\">\n<div class=\"grid gap-6 md:grid-cols-3\">\n<div class=\"card p-5\">\n<p class=\"eyebrow m-0\">Our fee</p>\n<p class=\"mt-1 mb-0\"> <span class=\"font-mono tabular-nums tracking-tight text-ink text-2xl font-medium\">$449</span> <span class=\"ml-2 text-[0.8125rem] text-ink-soft\">fixed, inc. GST</span> </p>\n<p class=\"mt-1 mb-0 text-[0.8125rem] text-ink-soft\">Bought separately these come to $527 — the bundle saves you $78.</p>\n</p></div>\n<div class=\"card p-5\">\n<p class=\"eyebrow m-0\">Government charges</p>\n<p class=\"mt-1 mb-0 text-[1.0625rem] font-semibold\">ASIC fees</p>\n<p class=\"mt-1 mb-0 text-[0.8125rem] text-ink-soft\">The company registration fee and the business name fee, passed on at cost and shown separately.</p>\n</p></div>\n<div class=\"card p-5\">\n<p class=\"eyebrow m-0\">Turnaround</p>\n<p class=\"mt-1 mb-0 text-[1.0625rem] font-semibold\">2–3 business days</p>\n<p class=\"mt-1 mb-0 text-[0.8125rem] text-ink-soft\">The company usually registers on the first day; the ABN, GST and business name follow once the ACN exists.</p>\n</p></div>\n</p></div>\n</section>\n<section class=\"shell mt-16\">\n<div class=\"grid gap-10 md:grid-cols-[1.2fr_1fr]\">\n<div>\n<h2 class=\"text-2xl\">What&#8217;s in the bundle</h2>\n<ul class=\"mt-5 list-none border-t border-rule p-0\">\n<li class=\"border-b border-rule py-3 text-[0.9375rem]\"><a href=\"/services/company-registration/\">Company setup</a> — name, ACN, constitution, share structure and directors</li>\n<li class=\"border-b border-rule py-3 text-[0.9375rem]\"><a href=\"/services/abn-application/\">ABN application</a> and TFN for the company</li>\n<li class=\"border-b border-rule py-3 text-[0.9375rem]\"><a href=\"/services/gst-registration/\">GST registration</a> with the right start date and reporting cycle</li>\n<li class=\"border-b border-rule py-3 text-[0.9375rem]\"><a href=\"/services/business-name-registration/\">Business name registration</a> linked to the company&#8217;s ABN, if you will trade under a different name</li>\n<li class=\"border-b border-rule py-3 text-[0.9375rem]\">One set of instructions, one engagement and one invoice</li>\n</ul></div>\n<div>\n<h2 class=\"text-2xl\">How it runs</h2>\n<ol class=\"mt-5 list-none border-t border-rule p-0\">\n<li class=\"flex gap-4 border-b border-rule py-3\"> <span class=\"font-mono text-[0.75rem] tabular-nums text-ink-soft\"> 01 </span> <span class=\"text-[0.9375rem]\">Verify identity online — each director, trustee or controlling owner does a three-minute check on their phone, included in the fee. Every client, every service, no exceptions. <a href=\"/identity-verification/\">How it works</a>.</span> </li>\n<li class=\"flex gap-4 border-b border-rule py-3\"> <span class=\"font-mono text-[0.75rem] tabular-nums text-ink-soft\"> 02 </span> <span class=\"text-[0.9375rem]\">Tell us the company name, directors, shareholders and what the business does.</span> </li>\n<li class=\"flex gap-4 border-b border-rule py-3\"> <span class=\"font-mono text-[0.75rem] tabular-nums text-ink-soft\"> 03 </span> <span class=\"text-[0.9375rem]\">We register the company with ASIC.</span> </li>\n<li class=\"flex gap-4 border-b border-rule py-3\"> <span class=\"font-mono text-[0.75rem] tabular-nums text-ink-soft\"> 04 </span> <span class=\"text-[0.9375rem]\">Once the ACN is issued, we apply for the ABN and TFN and register for GST.</span> </li>\n<li class=\"flex gap-4 border-b border-rule py-3\"> <span class=\"font-mono text-[0.75rem] tabular-nums text-ink-soft\"> 05 </span> <span class=\"text-[0.9375rem]\">We register the business name and hand over the company register, certificate and registrations.</span> </li>\n</ol></div>\n</p></div>\n</section>\n<section class=\"shell mt-16\" id=\"start\">\n<h2 class=\"text-2xl\">Start it</h2>\n<p class=\"mt-2 mb-6 max-w-2xl text-[0.9375rem]\"> Tell us what you need and we will come back with a fixed fee and what we need from you. No obligation, and no charge for telling you that you don&#8217;t need this. </p>\n<div class=\"flex flex-wrap items-center gap-3\"> <a href=\"/get-a-quote/\" class=\"btn\">Get a quote</a> <a href=\"/contact/\" class=\"btn btn-secondary\">Contact Us</a> </div>\n<p class=\"mt-3 text-[0.8125rem] text-ink-soft\"> Prefer to talk it through? Call 0407 179 179 and we will take the details over the phone. Please don&#8217;t include your tax file number either way — we ask for it securely once an accountant is working on your file. </p>\n</section>\n<section class=\"shell mt-12 mb-16\">\n<div class=\"card p-6\">\n<h2 class=\"text-lg\">Related services</h2>\n<div class=\"mt-3 flex flex-wrap gap-3\"><a href=\"/services/company-annual-compliance/\" class=\"btn btn-secondary text-sm\">Company annual compliance</a> <a href=\"/services/bas-gst-lodgement/\" class=\"btn btn-secondary text-sm\">BAS &#038; GST lodgement</a> <a href=\"/services/bookkeeping/\" class=\"btn btn-secondary text-sm\">Bookkeeping</a></div>\n</p></div>\n</section>\n</div>\n<div hidden class=\"xyz-schema\"><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"@id\":\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/start-up-bundle/#service\",\"name\":\"Start-up bundle\",\"url\":\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/start-up-bundle/\",\"description\":\"A new Pty Ltd registered for everything it needs to trade — company, ABN, GST and business name — done in the right order, for less than buying them separately.\",\"provider\":{\"@id\":\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/#organization\"},\"areaServed\":{\"@type\":\"Country\",\"name\":\"Australia\"}}</script><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/#organization\",\"name\":\"XYZ Accounting\",\"url\":\"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/\"}</script></div>\n"
+  },
+  "date": "2026-10-16T20:24:04",
+  "date_gmt": "2026-10-16T09:54:04",
+  "excerpt": {
+    "protected": false,
+    "rendered": "<p>Home / Services / Start-up bundle Bundle Start-up bundle A new company, registered for everything it needs to start trading, in one order — the Pty Ltd, its ABN, GST registration and a business name, done in the right order by one accountant. Our fee $449 fixed, inc. GST Bought separately these come to $527 [&hellip;]</p>\n"
+  },
+  "featured_media": 0,
+  "guid": {
+    "rendered": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/start-up-bundle/"
+  },
+  "id": 733,
+  "jetpack_likes_enabled": true,
+  "jetpack_sharing_enabled": true,
+  "link": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/start-up-bundle/",
+  "menu_order": 13,
+  "meta": {
+    "_jetpack_featured_image_duplicate_dismissed": 0,
+    "_jetpack_hide_featured_image": false,
+    "_wpcom_ai_launchpad_about_page": false,
+    "_wpcom_ai_launchpad_contact_page": false,
+    "_wpcom_ai_launchpad_events_page": false,
+    "_wpcom_ai_launchpad_gallery_page": false,
+    "_wpcom_ai_launchpad_portfolio_piece": false,
+    "_wpcom_ai_launchpad_video_page": false,
+    "footnotes": "",
+    "jetpack_seo_llms_txt_always_include": false
+  },
+  "modified": "2026-11-22T14:28:15",
+  "modified_gmt": "2026-11-22T03:58:15",
+  "parent": 263,
+  "ping_status": "closed",
+  "slug": "start-up-bundle",
+  "status": "publish",
+  "template": "",
+  "title": {
+    "rendered": "Start-up bundle"
+  },
+  "type": "page"
+}

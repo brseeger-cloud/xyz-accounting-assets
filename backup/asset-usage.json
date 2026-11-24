@@ -3,6 +3,8 @@
     "main"
   ],
   "committed_but_unreferenced": [
+    "deduction-benchmarks/benchmarks.css",
+    "deduction-benchmarks/benchmarks.js",
     "islands/HomeCalculator.js"
   ],
   "referenced_but_not_committed": [],

@@ -1,70 +1,338 @@
+<style>html{overflow-x:clip}.xyz-content{max-width:none!important;width:auto}.xyz-content .hp-band{width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);container-type:inline-size}.xyz-content .hp-shell{max-width:75rem;margin-inline:auto;padding-inline:2.5rem}.xyz-content .hp-mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}.xyz-content .hp-eyebrow{margin:0;font-family:var(--font-mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--color-ink-soft)}.xyz-content .hp-h1{margin:0;font-family:var(--font-sans);font-weight:600;font-size:3.375rem;line-height:1.08;letter-spacing:-.025em;color:var(--color-ink);text-wrap:balance}.xyz-content .hp-h2{margin:0;font-family:var(--font-sans);font-weight:600;font-size:2.25rem;line-height:1.15;letter-spacing:-.02em;color:var(--color-ink);text-wrap:balance}.xyz-content .hp-h3{margin:0;font-family:var(--font-sans);font-weight:600;font-size:1.1875rem;line-height:1.25;color:var(--color-ink)}.xyz-content .hp-btn{display:inline-flex;align-items:center;gap:.5rem;background:var(--color-ink);color:var(--color-paper);border:1px solid var(--color-ink);border-radius:4px;padding:.875rem 1.5rem;font-weight:600;font-size:.96875rem;text-decoration:none;transition:background .12s}.xyz-content .hp-btn:hover{background:#1d2f3c;color:var(--color-paper)}.xyz-content .hp-btn-ghost{background:transparent;color:var(--color-ink);border-color:var(--color-rule)}.xyz-content .hp-btn-ghost:hover{background:var(--color-paper-sunk);color:var(--color-ink)}.xyz-content .hp-btn-mint{background:#3ddc97;border-color:#2fcb88;color:#0b2119}.xyz-content .hp-btn-mint:hover{background:#2fcb88;border-color:#25b478;color:#0b2119}.xyz-content .hp-link{color:var(--color-return);font-size:.90625rem;text-decoration:none}.xyz-content .hp-link:hover{text-decoration:underline}.xyz-content .hp-hero{background:#fff;border-bottom:1px solid var(--color-rule)}.xyz-content .hp-hero-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:4rem;align-items:start;padding:3.5rem 0 3rem}.xyz-content .hp-lede{margin:1.375rem 0 0;font-size:1.15625rem;line-height:1.6;max-width:34rem;text-wrap:pretty}.xyz-content .hp-cta-row{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2rem}.xyz-content .hp-trust{display:flex;flex-wrap:wrap;gap:.5rem 1.625rem;margin-top:1.75rem;font-size:.875rem;color:var(--color-ink-soft)}.xyz-content .hp-trust-sep{display:none}.xyz-content .hp-trust{display:grid;grid-template-columns:repeat(2,max-content);gap:.6rem 2.25rem;justify-content:start;align-items:start}.xyz-content .hp-trust span{position:relative;padding-left:1.1rem;line-height:1.4}.xyz-content .hp-trust span::before{content:'';position:absolute;left:0;top:.5em;width:.4rem;height:.4rem;border-radius:50%;background:#0A7C55}@media (max-width:640px){.xyz-content .hp-trust{grid-template-columns:1fr}}.xyz-content .hp-trust-sep{color:var(--color-rule)}.xyz-content .hp-est{border:1px solid var(--color-rule);border-radius:4px;background:#fff;box-shadow:0 10px 15px -3px rgba(16,28,38,.07)}.xyz-content .hp-est-head{display:flex;align-items:center;justify-content:space-between;gap:.75rem;padding:.875rem 1.25rem;border-bottom:1px solid var(--color-rule);background:var(--color-paper-sunk)}.xyz-content .hp-est-tag{font-family:var(--font-mono);font-size:.71875rem;letter-spacing:.12em;text-transform:uppercase;color:var(--color-ink-soft)}.xyz-content .hp-est-live{font-family:var(--font-mono);font-size:.71875rem;color:var(--color-return)}.xyz-content .hp-est-body{padding:1.5rem 1.25rem 1.375rem;color:#000}.xyz-content .hp-est-label{display:block}.xyz-content .hp-est-label+.hp-est-label{margin-top:1.25rem}.xyz-content .hp-est-row{display:flex;justify-content:space-between;align-items:baseline;font-size:.875rem;gap:1rem}.xyz-content .hp-est-val{font-family:var(--font-mono);font-size:.9375rem;font-weight:500;color:#000;font-variant-numeric:tabular-nums}.xyz-content .hp-range{width:100%;margin-top:.625rem;accent-color:#000}.xyz-content .hp-est-out{margin-top:1.5rem;border-top:1px solid var(--color-rule)}.xyz-content .hp-est-line{display:flex;justify-content:space-between;gap:1rem;padding:.6875rem 0;border-bottom:1px solid var(--color-rule);font-size:.90625rem}.xyz-content .hp-est-line span:last-child{font-family:var(--font-mono);color:#000;font-variant-numeric:tabular-nums}.xyz-content .hp-est-give{margin-top:1.25rem;padding:1.125rem 1.25rem;border:1px solid #1B1F3C;border-radius:4px;background:#1B1F3C}.xyz-content .hp-est-give .hp-est-tag{color:rgba(255,255,255,.85)}.xyz-content .hp-est-give-big{font-family:var(--font-mono);font-size:2.375rem;font-weight:700;color:#fff;letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin-top:.375rem;line-height:1.1}.xyz-content .hp-est-note{margin:.5rem 0 0;font-size:.84375rem;line-height:1.5;color:rgba(255,255,255,.8)}.xyz-content .hp-startcta{border-bottom:1px solid var(--color-rule);background:var(--color-paper-sunk)}.xyz-content .hp-startcta-grid{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1.5rem 3rem;padding:2.25rem 0}.xyz-content .hp-startcta-h{margin:.5rem 0 0;font-family:var(--font-sans);font-weight:600;font-size:1.625rem;line-height:1.2;letter-spacing:-.02em;color:var(--color-ink)}.xyz-content .hp-startcta-p{margin:.5rem 0 0;font-size:.9375rem;line-height:1.6;max-width:38rem;text-wrap:pretty}.xyz-content .hp-startcta-actions{display:flex;flex-wrap:wrap;gap:.75rem}.xyz-content .hp-white{background:#fff;border-bottom:1px solid var(--color-rule)}.xyz-content .hp-pad{padding:3.25rem 0}.xyz-content .hp-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:2.25rem;background:var(--color-rule);border:1px solid var(--color-rule);border-radius:4px;overflow:hidden}.xyz-content .hp-step{background:#fff;padding:2rem 1.75rem}.xyz-content .hp-step-n{font-family:var(--font-mono);font-size:.75rem;color:var(--color-return)}.xyz-content .hp-step h3{margin:.875rem 0 0}.xyz-content .hp-step p{margin:.625rem 0 0;font-size:.9375rem;line-height:1.6}.xyz-content .hp-paper{background:var(--color-paper);border-bottom:1px solid var(--color-rule)}.xyz-content .hp-sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:2rem;flex-wrap:wrap}.xyz-content .hp-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2.25rem}.xyz-content .hp-card{border:1px solid var(--color-rule);border-radius:4px;background:#fff;padding:1.625rem}.xyz-content .hp-card p{margin:.625rem 0 0;font-size:.9375rem;line-height:1.6}.xyz-content .hp-card-price{font-family:var(--font-mono);font-size:.78125rem;color:var(--color-ink-soft);margin-top:1rem}.xyz-content .hp-card-alt{background:var(--color-paper-sunk);display:flex;flex-direction:column;justify-content:space-between}.xyz-content .hp-card-alt .hp-link{margin-top:1rem;display:inline-block}.xyz-content .hp-dark{background:var(--color-ink);color:rgba(248,249,247,.75)}.xyz-content .hp-dark-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:4rem;align-items:center;padding:4.5rem 0}.xyz-content .hp-dark-eyebrow{font-family:var(--font-mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(248,249,247,.6)}.xyz-content .hp-dark h2{margin:1rem 0 0;font-family:var(--font-sans);font-weight:600;font-size:2.375rem;line-height:1.15;letter-spacing:-.02em;color:var(--color-paper);text-wrap:balance}.xyz-content .hp-dark p{margin:1.125rem 0 0;font-size:1.0625rem;line-height:1.6;max-width:32rem}.xyz-content .hp-spec{display:grid;gap:1px;background:rgba(248,249,247,.14);border:1px solid rgba(248,249,247,.14);border-radius:4px;overflow:hidden}.xyz-content .hp-spec-row{background:var(--color-ink);padding:1.25rem 1.5rem;display:flex;justify-content:space-between;gap:1rem;font-size:.9375rem}.xyz-content .hp-spec-row b{font-family:var(--font-mono);font-weight:400;color:var(--color-paper)}.xyz-content .hp-spec-row i{font-family:var(--font-mono);font-style:normal;color:#3ddc97}.xyz-content .hp-price-sub{margin:.75rem 0 0;font-size:1.0625rem}.xyz-content .hp-tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2.25rem}.xyz-content .hp-tier{border:1px solid var(--color-rule);border-radius:4px;background:#fff;padding:1.875rem;position:relative}.xyz-content .hp-tier-pick{border-color:var(--color-ink)}.xyz-content .hp-tier-flag{position:absolute;top:-11px;left:1.875rem;background:var(--color-return);color:var(--color-paper);font-family:var(--font-mono);font-size:.65625rem;letter-spacing:.14em;text-transform:uppercase;padding:.25rem .5625rem;border-radius:3px}.xyz-content .hp-tier-name{font-family:var(--font-mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--color-ink-soft)}.xyz-content .hp-tier-price{font-family:var(--font-mono);font-size:2.625rem;font-weight:700;color:var(--color-ink);letter-spacing:-.02em;margin-top:.625rem;line-height:1.1}.xyz-content .hp-tier p{margin:.5rem 0 0;font-size:.9375rem;line-height:1.6}.xyz-content .hp-tier-list{margin-top:1.375rem;border-top:1px solid var(--color-rule);font-size:.90625rem}.xyz-content .hp-tier-list div{padding:.625rem 0;border-bottom:1px solid var(--color-rule)}.xyz-content .hp-tier-list div:last-child{border-bottom:0}@container (max-width:1024px){.xyz-content .hp-hero-grid,.xyz-content .hp-dark-grid{grid-template-columns:1fr;gap:2.5rem}.xyz-content .hp-h1{font-size:2.625rem}.xyz-content .hp-h2,.xyz-content .hp-dark h2{font-size:1.875rem}.xyz-content .hp-cards,.xyz-content .hp-tiers,.xyz-content .hp-steps{grid-template-columns:1fr 1fr}}@container (max-width:768px){.xyz-content .hp-shell{padding-inline:1.25rem}.xyz-content .hp-hero-grid{padding:2.5rem 0}.xyz-content .hp-pad,.xyz-content .hp-dark-grid{padding:2.5rem 0}.xyz-content .hp-h1{font-size:2.125rem}.xyz-content .hp-h2,.xyz-content .hp-dark h2{font-size:1.625rem}.xyz-content .hp-startcta-grid{padding:1.875rem 0}.xyz-content .hp-startcta-h{font-size:1.375rem}.xyz-content .hp-cards,.xyz-content .hp-tiers,.xyz-content .hp-steps{grid-template-columns:1fr}.xyz-content .hp-steps{gap:1px}}</style>
+<style>.xyz-content .hp-sec-sub{margin:1rem 0 0;font-size:1.0625rem;line-height:1.6;max-width:40rem;text-wrap:pretty}.xyz-content .hp-sec-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin-top:2.25rem;background:var(--color-rule);border:1px solid var(--color-rule);border-radius:4px;overflow:hidden}.xyz-content .hp-sec-item{background:#fff;padding:1.75rem 1.5rem}.xyz-content .hp-sec-tag{font-family:var(--font-mono);font-size:.71875rem;letter-spacing:.12em;text-transform:uppercase;color:var(--color-return)}.xyz-content .hp-sec-item h3{margin:.75rem 0 0}.xyz-content .hp-sec-item p{margin:.625rem 0 0;font-size:.9375rem;line-height:1.6}.xyz-content .hp-sec-foot{margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.5rem 1.75rem;font-size:.90625rem}@container (max-width:1024px){.xyz-content .hp-sec-grid{grid-template-columns:1fr 1fr}}@container (max-width:640px){.xyz-content .hp-sec-grid{grid-template-columns:1fr}}</style>
+<style>.xyz-content .hp-shell.hp-pad{padding-inline:2.5rem}@media (max-width:768px){.xyz-content .hp-shell.hp-pad{padding-inline:1.25rem}}@media (max-width:640px){.xyz-content .hp-shell.hp-pad{padding-inline:1rem}}.xyz-content .sv-hero{padding:2rem 0 2.25rem}.xyz-content .sv-hero .hp-lede{max-width:40rem}.xyz-content .sv-crumb{font-size:.8125rem;color:var(--color-ink-soft);margin:0 0 1.25rem}.xyz-content .sv-crumb a{color:inherit;text-decoration:none}.xyz-content .sv-tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2rem}.xyz-content .sv-tile{display:flex;flex-direction:column;gap:.5rem;padding:1.75rem;border:1px solid var(--color-rule);border-radius:6px;background:#fff;text-decoration:none;color:var(--color-ink);transition:border-color .15s,box-shadow .15s,transform .15s}.xyz-content .sv-tile:hover,.xyz-content .sv-tile:focus-visible{border-color:#1B1F3C;box-shadow:0 8px 20px -8px rgba(27,31,60,.35);transform:translateY(-2px)}.xyz-content .sv-tile-n{font-family:var(--font-mono);font-size:.75rem;color:var(--color-ink-soft)}.xyz-content .sv-tile-h{font-size:1.375rem;font-weight:600;line-height:1.2}.xyz-content .sv-tile-p{font-size:.9375rem;line-height:1.55;color:var(--color-ink-soft);margin:0}.xyz-content .sv-tile-go{margin-top:auto;padding-top:.75rem;font-size:.875rem;font-weight:600;color:#1B1F3C}.xyz-content .sv-tile-go::after{content:" ↓";color:#3DDC97}.xyz-content .sv-group{scroll-margin-top:6rem}.xyz-content .sv-group+.sv-group{margin-top:3.5rem;padding-top:3rem;border-top:1px solid var(--color-rule)}.xyz-content .sv-card{display:flex;flex-direction:column}.xyz-content .sv-card h3 a{color:var(--color-ink);text-decoration:none}.xyz-content .sv-card h3 a:hover{text-decoration:underline}.xyz-content .sv-card>p{flex:1}.xyz-content .sv-meta{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.25rem .75rem;margin-top:1rem;padding-top:.75rem;border-top:1px solid var(--color-rule);font-size:.8125rem}.xyz-content .sv-fee{font-family:var(--font-mono);font-weight:600;color:var(--color-ink)}.xyz-content .sv-turn{color:var(--color-ink-soft)}.xyz-content .sv-actions{display:flex;align-items:center;gap:1rem;margin-top:1rem}.xyz-content .sv-btn-sm{padding:.5rem .9rem!important;font-size:.875rem!important}.xyz-content .sv-bundles .hp-tier{display:flex;flex-direction:column}.xyz-content .sv-bundles .hp-tier-list{flex:1}.xyz-content .sv-save{font-family:var(--font-mono);font-size:.78125rem;color:var(--color-ink-soft);margin-top:.25rem}.xyz-content .sv-tier-cta{margin-top:1.25rem;display:flex;gap:1rem;align-items:center;flex-wrap:wrap}.xyz-content .sv-quiz{margin-top:2rem;border:1px solid var(--color-rule);border-radius:6px;background:#fff;display:grid;grid-template-columns:1.3fr 1fr}.xyz-content .sv-quiz-q{padding:1.75rem;border-right:1px solid var(--color-rule)}.xyz-content .sv-quiz fieldset{border:0;margin:0;padding:0}.xyz-content .sv-quiz fieldset+fieldset{margin-top:1.5rem}.xyz-content .sv-quiz legend{font-weight:600;font-size:1rem;margin-bottom:.625rem;color:var(--color-ink)}.xyz-content .sv-opts{display:flex;flex-wrap:wrap;gap:.5rem}.xyz-content .sv-opts label{cursor:pointer}.xyz-content .sv-opts input{position:absolute;opacity:0;pointer-events:none}.xyz-content .sv-opts span{display:inline-block;padding:.5rem .875rem;border:1px solid var(--color-rule);border-radius:999px;font-size:.875rem;background:#fff;transition:all .12s}.xyz-content .sv-opts input:checked+span{background:#1B1F3C;border-color:#1B1F3C;color:#fff}.xyz-content .sv-opts input:focus-visible+span{outline:2px solid #3DDC97;outline-offset:2px}.xyz-content .sv-quiz-r{padding:1.75rem;background:var(--color-paper-sunk);display:flex;flex-direction:column;gap:.75rem}.xyz-content .sv-r-tag{font-family:var(--font-mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--color-ink-soft)}.xyz-content .sv-r-h{font-size:1.5rem;font-weight:600;color:var(--color-ink);line-height:1.2}.xyz-content .sv-quiz-r p{margin:0;font-size:.9375rem;line-height:1.6}.xyz-content .sv-quiz-r .sv-r-note{font-size:.78125rem;color:var(--color-ink-soft);margin-top:auto}.xyz-content .sv-steps4{grid-template-columns:repeat(4,1fr)!important}.xyz-content .sv-fees{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2rem}.xyz-content .sv-fees>div{border-top:2px solid #1B1F3C;padding-top:1rem}.xyz-content .sv-fees h3{font-size:1rem;margin:0 0 .375rem}.xyz-content .sv-fees p{margin:0;font-size:.9375rem;line-height:1.6}.xyz-content .sv-faq{margin-top:2rem;border-top:1px solid var(--color-rule);max-width:52rem}.xyz-content .sv-faq details{border-bottom:1px solid var(--color-rule)}.xyz-content .sv-faq summary{cursor:pointer;list-style:none;padding:1.125rem 2rem 1.125rem 0;font-weight:600;font-size:1.0625rem;color:var(--color-ink);position:relative}.xyz-content .sv-faq summary::-webkit-details-marker{display:none}.xyz-content .sv-faq summary::after{content:"+";position:absolute;right:.25rem;top:1rem;font-size:1.25rem;color:#1B1F3C}.xyz-content .sv-faq details[open] summary::after{content:"–"}.xyz-content .sv-faq details p{margin:0 0 1.25rem;font-size:.9375rem;line-height:1.7;max-width:46rem}@media (max-width:900px){.xyz-content .hp-cards,.xyz-content .sv-tiles,.xyz-content .hp-tiers,.xyz-content .sv-fees,.xyz-content .sv-steps4{grid-template-columns:1fr 1fr!important}.xyz-content .sv-quiz{grid-template-columns:1fr}.xyz-content .sv-quiz-q{border-right:0;border-bottom:1px solid var(--color-rule)}}@media (max-width:640px){.xyz-content .hp-cards,.xyz-content .sv-tiles,.xyz-content .hp-tiers,.xyz-content .sv-fees,.xyz-content .sv-steps4{grid-template-columns:1fr!important}.xyz-content .hp-shell{padding-inline:1.25rem}}</style>
 <div class="xyz-content">
-<nav aria-label="Breadcrumb" class="shell pt-6">
-<ol class="m-0 flex list-none flex-wrap items-center gap-2 p-0 text-[0.8125rem] text-ink-soft">
-<li class="flex items-center gap-2">  <a href="/" class="no-underline hover:underline"> Home </a> </li>
-<li class="flex items-center gap-2"> <span aria-hidden="true" class="text-rule"> / </span> <span aria-current="page">Services</span> </li>
-</ol>
-</nav>
-<div class="shell pt-6">
-<p class="eyebrow m-0">Beyond the tax return</p>
-<h1 class="mt-3 max-w-3xl text-3xl sm:text-4xl"> Getting a business started, and keeping it right </h1>
-<p class="mt-4 max-w-2xl text-[1.0625rem]"> Most of what people need from an accountant happens before the return — choosing a structure, registering it, and keeping the books straight enough that June is uneventful. These are the engagements we take on outside tax time. </p>
-</p></div>
-<section class="shell mt-10">
-<ul class="grid list-none gap-4 p-0 md:grid-cols-2">
-<li class="card flex flex-col p-6">
-<h2 class="text-xl"> <a href="/services/company-registration/" class="text-ink no-underline hover:underline"> Company setup </a> </h2>
-<p class="mt-2 mb-4 flex-1 text-[0.9375rem]">Register a Pty Ltd with ASIC — company name, ACN, constitution, share structure and directors — set up properly the first time.</p>
-<div> <a href="/services/company-registration/" class="btn btn-secondary text-sm"> Company registration </a> </div>
-</li>
-<li class="card flex flex-col p-6">
-<h2 class="text-xl"> <a href="/services/abn-application/" class="text-ink no-underline hover:underline"> ABN application </a> </h2>
-<p class="mt-2 mb-4 flex-1 text-[0.9375rem]">Apply for an ABN, or work out whether you actually need one. Free to do yourself at the ABR — we charge for getting the answer right, not the typing.</p>
-<div> <a href="/services/abn-application/" class="btn btn-secondary text-sm"> ABN application </a> </div>
-</li>
-<li class="card flex flex-col p-6">
-<h2 class="text-xl"> <a href="/services/gst-registration/" class="text-ink no-underline hover:underline"> GST registration </a> </h2>
-<p class="mt-2 mb-4 flex-1 text-[0.9375rem]">Register for GST, or check whether you have to. Compulsory once turnover reaches <span class="font-mono tabular-nums">$75,000</span> — and there are cases where you must register from day one.</p>
-<div> <a href="/services/gst-registration/" class="btn btn-secondary text-sm"> GST registration </a> </div>
-</li>
-<li class="card flex flex-col p-6">
-<h2 class="text-xl"> <a href="/services/bookkeeping/" class="text-ink no-underline hover:underline"> Bookkeeping </a> </h2>
-<p class="mt-2 mb-4 flex-1 text-[0.9375rem]">Ongoing bookkeeping and BAS lodgement, so the year-end return is a formality instead of a shoebox reconstruction.</p>
-<div> <a href="/services/bookkeeping/" class="btn btn-secondary text-sm"> Bookkeeping </a> </div>
-</li>
-<li class="card flex flex-col p-6">
-<h2 class="text-xl"> <a href="/services/trust-setup/" class="text-ink no-underline hover:underline"> Trust setup </a> </h2>
-<p class="mt-2 mb-4 flex-1 text-[0.9375rem]">Establish a discretionary trust &mdash; deed, trustee and registrations &mdash; then the resolution before <span class="font-mono tabular-nums">30 June</span> and the return after it, every year.</p>
-<div> <a href="/services/trust-setup/" class="btn btn-secondary text-sm"> Trust setup </a> </div>
-</li>
-<li class="card flex flex-col p-6">
-<h2 class="text-xl"> <a href="/services/partnership-setup/" class="text-ink no-underline hover:underline"> Partnership setup </a> </h2>
-<p class="mt-2 mb-4 flex-1 text-[0.9375rem]">TFN, ABN and a written agreement, then the annual partnership return and each partner&#8217;s share flowed through to their own.</p>
-<div> <a href="/services/partnership-setup/" class="btn btn-secondary text-sm"> Partnership setup </a> </div>
-</li>
-<li class="card flex flex-col p-6">
-<h2 class="text-xl"> <a href="/services/smsf/" class="text-ink no-underline hover:underline"> Self-managed super fund </a> </h2>
-<p class="mt-2 mb-4 flex-1 text-[0.9375rem]">SMSF establishment and the annual cycle &mdash; accounts, an independent audit and the return &mdash; starting with whether a fund is worth it at your balance.</p>
-<div> <a href="/services/smsf/" class="btn btn-secondary text-sm"> SMSF </a> </div>
-</li>
-</ul>
+<div class="hp-band hp-hero sv-hero">
+<div class="hp-shell">
+<nav aria-label="Breadcrumb" class="sv-crumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <span aria-current="page">Services</span></nav>
+<h1 class="hp-h1">Online accounting services</h1>
+<p class="hp-lede">Fixed fees, done entirely online, and lodged by a registered tax agent.</p>
+<div class="hp-cta-row"><span class="hp-start-wrap"><a class="hp-btn hp-btn-navy" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Get started</a><span class="hp-start-note">Free to sign up · fixed fees</span></span><a class="hp-btn hp-btn-ghost" href="/get-a-quote/">Get a quote</a></div>
+<div class="hp-trust"><span><a class="hp-link" href="/identity-verification/" style="color:inherit;font-size:inherit">Every client ID-verified</a> — no exceptions</span><span class="hp-trust-sep">·</span><span>Registered tax agent — TPB 26233684</span><span class="hp-trust-sep">·</span><span>FCPA, CPA Australia</span><span class="hp-trust-sep sv-review-slot" hidden>·</span><span class="sv-review-slot" hidden><!-- REVIEW SCORE: add the real rating here, then remove hidden from both review-slot spans --></span></div>
+</div>
+</div>
+<div class="hp-band hp-paper">
+<div class="hp-shell hp-pad">
+<p class="hp-eyebrow">Where to start</p>
+<h2 class="hp-h2">What do you need?</h2>
+<div class="sv-tiles"><a class="sv-tile" href="#start-a-business"><span class="sv-tile-n">01</span><span class="sv-tile-h">Start a business</span><span class="sv-tile-p">Companies, ABNs, GST, business names, trusts, partnerships and SMSFs.</span><span class="sv-tile-go">See setup services</span></a><a class="sv-tile" href="#run-your-business"><span class="sv-tile-n">02</span><span class="sv-tile-h">Run your business</span><span class="sv-tile-p">Bookkeeping, BAS and GST, and your company&#8217;s annual ASIC compliance.</span><span class="sv-tile-go">See ongoing services</span></a><a class="sv-tile" href="#lodge-a-tax-return"><span class="sv-tile-n">03</span><span class="sv-tile-h">Lodge a tax return</span><span class="sv-tile-p">Individual, company, partnership, trust and SMSF returns, and super refunds.</span><span class="sv-tile-go">See tax returns</span></a></div>
+</div>
+</div>
+<div class="hp-band hp-white">
+<div class="hp-shell hp-pad">
+<section class="sv-group" id="start-a-business">
+<div class="hp-sec-head">
+<div>
+<p class="hp-eyebrow">Start a business</p>
+<h2 class="hp-h2">Set the business up properly the first time</h2>
+</div>
+<p class="hp-sec-sub" style="max-width:26rem;margin:0">Registrations and structures, done in the right order by a registered agent.</p>
+</div>
+<div class="hp-cards">
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/services/company-registration/">Company setup</a></h3>
+<p>A Pty Ltd registered with ASIC — name, ACN, constitution, shares and directors.</p>
+<div class="sv-meta"><span class="sv-fee">$299 + ASIC fee</span><span class="sv-turn">1 business day</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/services/company-registration/">Details</a></div>
+</div>
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/services/abn-application/">ABN application</a></h3>
+<p>An ABN for the right entity, or a straight answer that you don&#8217;t need one.</p>
+<div class="sv-meta"><span class="sv-fee">$99</span><span class="sv-turn">1–3 business days</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/services/abn-application/">Details</a></div>
+</div>
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/services/gst-registration/">GST registration</a></h3>
+<p>Registered from the correct date, on the reporting cycle that suits you.</p>
+<div class="sv-meta"><span class="sv-fee">$69</span><span class="sv-turn">1–2 business days</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/services/gst-registration/">Details</a></div>
+</div>
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/services/business-name-registration/">Business name registration</a></h3>
+<p>Trade under the name you want, checked for availability and trade mark clashes.</p>
+<div class="sv-meta"><span class="sv-fee">$79 + ASIC fee</span><span class="sv-turn">1 business day</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/services/business-name-registration/">Details</a></div>
+</div>
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/services/trust-setup/">Trust setup</a></h3>
+<p>A discretionary family trust as standard, or a unit trust where the owners need fixed shares.</p>
+<div class="sv-meta"><span class="sv-fee">from $649 + any duty</span><span class="sv-turn">2–3 business days</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/services/trust-setup/">Details</a></div>
+</div>
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/services/partnership-setup/">Partnership setup</a></h3>
+<p>TFN, ABN and a written partnership agreement, so everyone knows their share.</p>
+<div class="sv-meta"><span class="sv-fee">$449</span><span class="sv-turn">2–3 business days</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/services/partnership-setup/">Details</a></div>
+</div>
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/services/smsf/">SMSF setup</a></h3>
+<p>A self-managed super fund established, registered and ready to take rollovers.</p>
+<div class="sv-meta"><span class="sv-fee">from $749</span><span class="sv-turn">1–2 weeks</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/services/smsf/">Details</a></div>
+</div>
+</div>
 </section>
-<section class="shell mt-16">
-<div class="prose-statement">
-<h2>What you are paying for</h2>
-<p> Two of these you can do yourself for nothing. An ABN application at the Australian Business Register is free and takes about fifteen minutes, and GST registration costs nothing either. We will say so on the page rather than let you find out afterwards. </p>
-<p> What is worth paying for is the decision underneath the form: whether you are carrying on a business at all, whether a company, a trust or a partnership helps you or just adds a return you now have to lodge, whether registering for GST early costs you money, whether your balance justifies running your own super fund. Getting that wrong is expensive to unwind, and the form itself is the easy part. </p>
-<p> Every engagement here is handled by BRS Advisory Pty Ltd, a registered tax agent and CPA Australia Practice. If you only need the tax return, that is <a href="/lodge/">over here</a> and the <a href="/pricing/">price is published</a>. </p>
-</p></div>
+<section class="sv-group" id="run-your-business">
+<div class="hp-sec-head">
+<div>
+<p class="hp-eyebrow">Run your business</p>
+<h2 class="hp-h2">Keep it compliant, year after year</h2>
+</div>
+<p class="hp-sec-sub" style="max-width:26rem;margin:0">The recurring work that keeps the ATO and ASIC happy and June uneventful.</p>
+</div>
+<div class="hp-cards">
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/services/bookkeeping/">Bookkeeping</a></h3>
+<p>Books reconciled every month, so your numbers are right when you need them.</p>
+<div class="sv-meta"><span class="sv-fee">from $199 / month</span><span class="sv-turn">Monthly</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/services/bookkeeping/">Details</a></div>
+</div>
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/services/bas-gst-lodgement/">BAS &#038; GST lodgement</a></h3>
+<p>Your BAS prepared from your books, checked and lodged before it is due.</p>
+<div class="sv-meta"><span class="sv-fee">$99 / quarter</span><span class="sv-turn">Before the due date</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/services/bas-gst-lodgement/">Details</a></div>
+</div>
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/services/company-annual-compliance/">Company annual compliance</a></h3>
+<p>ASIC annual review, registers, minutes and the solvency resolution, handled.</p>
+<div class="sv-meta"><span class="sv-fee">$99 / year + ASIC fee</span><span class="sv-turn">Within the review window</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/services/company-annual-compliance/">Details</a></div>
+</div>
+</div>
 </section>
-<section class="shell mt-20">
-<div class="card flex flex-col gap-6 border-ink/15 bg-white p-6 sm:flex-row sm:items-center sm:justify-between sm:p-8">
-<div class="max-w-xl">
-<h2 class="text-xl">Ready to lodge it?</h2>
-<p class="mt-2 mb-0 text-[0.9375rem]">A registered agent prepares and checks your return, then lodges it. Most refunds land within two weeks of assessment.</p>
-<p class="mt-3 mb-0 text-[0.8125rem] text-ink-soft"> Individual returns from <span class="font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium">$99</span>. Fixed fee, quoted before we start. Tax agent 26233684. </p>
-</p></div>
-<div class="flex shrink-0 flex-col gap-2"> <a href="/lodge/" class="btn">Start your return</a> <a href="/pricing/" class="btn btn-secondary">See pricing</a> </div>
-</p></div>
+<section class="sv-group" id="lodge-a-tax-return">
+<div class="hp-sec-head">
+<div>
+<p class="hp-eyebrow">Lodge a tax return</p>
+<h2 class="hp-h2">Lodge a tax return online</h2>
+</div>
+<p class="hp-sec-sub" style="max-width:26rem;margin:0">Prepared and lodged by a registered tax agent, with a fixed fee before we start.</p>
+</div>
+<div class="hp-cards">
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/online-tax-returns/individual-tax-return/">Individual tax return</a></h3>
+<p>Salary, deductions, investments and sole-trader income, reviewed by an accountant.</p>
+<div class="sv-meta"><span class="sv-fee">from $99</span><span class="sv-turn">Timing confirmed when you start</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/online-tax-returns/individual-tax-return/">Details</a></div>
+</div>
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/online-tax-returns/company-tax-return/">Company tax return</a></h3>
+<p>Financial statements and the company return, prepared together.</p>
+<div class="sv-meta"><span class="sv-fee">from $899</span><span class="sv-turn">Timing set with your quote</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/online-tax-returns/company-tax-return/">Details</a></div>
+</div>
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/online-tax-returns/partnership-tax-return/">Partnership tax return</a></h3>
+<p>The partnership return and each partner&#8217;s share, lodged in one pass.</p>
+<div class="sv-meta"><span class="sv-fee">from $549</span><span class="sv-turn">Timing set with your quote</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/online-tax-returns/partnership-tax-return/">Details</a></div>
+</div>
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/online-tax-returns/trust-tax-return/">Trust tax return</a></h3>
+<p>Trust accounts, distribution resolutions and the trust return.</p>
+<div class="sv-meta"><span class="sv-fee">from $749</span><span class="sv-turn">Timing set with your quote</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/online-tax-returns/trust-tax-return/">Details</a></div>
+</div>
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/online-tax-returns/smsf-tax-return/">SMSF annual return</a></h3>
+<p>Accounts, the independent audit and the annual return, in one engagement.</p>
+<div class="sv-meta"><span class="sv-fee">from $1,099 + $499 audit</span><span class="sv-turn">Timing set with your quote</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/online-tax-returns/smsf-tax-return/">Details</a></div>
+</div>
+<div class="hp-card sv-card">
+<h3 class="hp-h3"><a href="/online-tax-returns/superannuation-refund/">Super refund</a></h3>
+<p>Claim your super back after leaving Australia (DASP), or track down lost super if you&#8217;re staying.</p>
+<div class="sv-meta"><span class="sv-fee">Fixed fee, quoted first</span><span class="sv-turn">Timing set with your quote</span></div>
+<div class="sv-actions"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/online-tax-returns/superannuation-refund/">Details</a></div>
+</div>
+</div>
 </section>
 </div>
+</div>
+<div class="hp-band hp-paper">
+<div class="hp-shell hp-pad">
+<p class="hp-eyebrow">Bundles</p>
+<h2 class="hp-h2">Set up together, for less</h2>
+<div class="hp-tiers sv-bundles">
+<div class="hp-tier hp-tier-pick">
+<div class="hp-tier-flag">Most popular</div>
+<div class="hp-tier-name">Start-up bundle</div>
+<div class="hp-tier-price">$449</div>
+<div class="sv-save">Saves $78 · plus ASIC fees</div>
+<p>A new company ready to trade, registered in the right order.</p>
+<div class="hp-tier-list">
+<div>Company setup</div>
+<div>ABN and TFN</div>
+<div>GST registration</div>
+<div>Business name</div>
+</div>
+<div class="sv-tier-cta"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/services/start-up-bundle/">Details</a></div>
+</div>
+<div class="hp-tier">
+<div class="hp-tier-name">Trust + corporate trustee</div>
+<div class="hp-tier-price">$869</div>
+<div class="sv-save">Saves $79 · plus ASIC fee and any duty</div>
+<p>A family trust with a company as trustee, set up together.</p>
+<div class="hp-tier-list">
+<div>Trustee company</div>
+<div>Discretionary trust deed</div>
+<div>Trust ABN and TFN</div>
+<div>GST if it will trade</div>
+</div>
+<div class="sv-tier-cta"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/services/trust-corporate-trustee/">Details</a></div>
+</div>
+<div class="hp-tier">
+<div class="hp-tier-name">SMSF + first year</div>
+<div class="hp-tier-price"><span style="font-size:0.45em;font-weight:500;letter-spacing:0;margin-right:0.3em">from</span>$2,099</div>
+<div class="sv-save">Saves $248 · plus the ATO levy</div>
+<p>Your super fund established and carried through year one.</p>
+<div class="hp-tier-list">
+<div>Deed, ABN, TFN and ESA</div>
+<div>Rollover help</div>
+<div>First-year accounts</div>
+<div>Audit and annual return</div>
+</div>
+<div class="sv-tier-cta"><a class="hp-btn hp-btn-navy sv-btn-sm" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start</a><a class="hp-link" href="/services/smsf-setup-first-year/">Details</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="hp-band hp-white">
+<div class="hp-shell hp-pad">
+<p class="hp-eyebrow">Not sure which structure?</p>
+<h2 class="hp-h2">Sole trader, company, trust or partnership</h2>
+<p class="hp-sec-sub" style="max-width:40rem">Answer four questions and we&#8217;ll suggest a starting point. We confirm the structure with you before anything is registered.</p>
+<form class="sv-quiz" id="sv-quiz">
+<div class="sv-quiz-q">
+<fieldset>
+<legend>Who owns the business?</legend>
+<div class="sv-opts"><label><input type="radio" name="who" value="alone"><span>Just me</span></label><label><input type="radio" name="who" value="others"><span>Me and others</span></label></div>
+</fieldset>
+<fieldset>
+<legend>Could the business be sued or run up debts?</legend>
+<div class="sv-opts"><label><input type="radio" name="risk" value="low"><span>Low risk</span></label><label><input type="radio" name="risk" value="high"><span>Real risk</span></label></div>
+</fieldset>
+<fieldset>
+<legend>Do you want to share income with family members?</legend>
+<div class="sv-opts"><label><input type="radio" name="family" value="no"><span>No</span></label><label><input type="radio" name="family" value="yes"><span>Yes</span></label></div>
+</fieldset>
+<fieldset>
+<legend>Will you bring in investors or sell it one day?</legend>
+<div class="sv-opts"><label><input type="radio" name="grow" value="no"><span>No</span></label><label><input type="radio" name="grow" value="yes"><span>Probably</span></label></div>
+</fieldset>
+</div>
+<div class="sv-quiz-r" aria-live="polite"><span class="sv-r-tag">Our suggestion</span><span class="sv-r-h" id="sv-r-h">Answer the questions</span></p>
+<p id="sv-r-p">Your suggested structure will appear here.</p>
+<div id="sv-r-a"></div>
+<p class="sv-r-note">General information only, not advice for your circumstances.</p>
+</div>
+</form>
+</div>
+</div>
+<div class="hp-band hp-paper">
+<div class="hp-shell hp-pad">
+<p class="hp-eyebrow">How it works</p>
+<h2 class="hp-h2">Four steps, all online</h2>
+<div class="hp-steps sv-steps4">
+<div class="hp-step">
+<div class="hp-step-n">01</div>
+<h3 class="hp-h3">Sign up and verify your identity</h3>
+<p>Create a free account, then a three-minute electronic ID check on your phone. <a class="hp-link" href="/identity-verification/">Every client, every service</a>.</p>
+</div>
+<div class="hp-step">
+<div class="hp-step-n">02</div>
+<h3 class="hp-h3">Upload your details</h3>
+<p>Answer the intake questions and upload your documents into Files.</p>
+</div>
+<div class="hp-step">
+<div class="hp-step-n">03</div>
+<h3 class="hp-h3">We prepare and check</h3>
+<p>A registered agent prepares the work and flags anything missing.</p>
+</div>
+<div class="hp-step">
+<div class="hp-step-n">04</div>
+<h3 class="hp-h3">We lodge</h3>
+<p>You approve in the portal, and we lodge under our agent number.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="hp-band hp-white">
+<div class="hp-shell hp-pad">
+<div class="hp-sec-head">
+<div>
+<p class="hp-eyebrow">Fees</p>
+<h2 class="hp-h2">Fixed fees, GST included, government fees shown separately</h2>
+</div>
+<p><a class="hp-link" href="/services/pricing/">See all pricing</a></div>
+<div class="sv-fees">
+<div>
+<h3>Fixed, in writing</h3>
+<p>Every fee is agreed before we start. Nothing is charged until you approve the work. Identity verification is included — never a surcharge.</p>
+</div>
+<div>
+<h3>GST included</h3>
+<p>The price you see is the price you pay us, with no GST added at the end.</p>
+</div>
+<div>
+<h3>Government fees at cost</h3>
+<p>ASIC, ATO and stamp duty charges are shown separately and passed on without markup.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="hp-band hp-paper sv-reviews" hidden><!-- REVIEWS: paste real client reviews here, then remove the hidden attribute --></p>
+<div class="hp-shell hp-pad">
+<p class="hp-eyebrow">Reviews</p>
+<h2 class="hp-h2">What clients say</h2>
+</div>
+</div>
+<div class="hp-band hp-white">
+<div class="hp-shell hp-pad">
+<p class="hp-eyebrow">FAQs</p>
+<h2 class="hp-h2">Common questions</h2>
+<div class="sv-faq">
+<details>
+<summary>Is it really all online?</summary>
+<p>Yes. XYZ Accounting is online only. You sign up, upload documents, message us and sign everything in our client portal, so there are no appointments to book.</p>
+</details>
+<details>
+<summary>Do I need to verify my identity?</summary>
+<p>Yes — every client, for every service, before any work starts. It is a three-minute electronic check on your phone (licence or passport, a selfie, matched against government records) and it is included in the fee. For a company, trust or SMSF, each director, trustee or controlling owner does their own check. <a href="/identity-verification/">How it works</a>.</p>
+</details>
+<details>
+<summary>Who prepares and lodges my work?</summary>
+<p>BRS Advisory Pty Ltd, registered tax agent 26233684. Every return and registration is prepared or reviewed by a qualified accountant before it is lodged.</p>
+</details>
+<details>
+<summary>How long does it take?</summary>
+<p>Each service shows its usual turnaround. Most registrations are done within a few business days. Returns depend on when we have your documents, and we confirm the timing with your quote.</p>
+</details>
+<details>
+<summary>What about government fees?</summary>
+<p>ASIC fees, the ATO SMSF levy and any stamp duty are separate from our fee. We show them before you start and pass them on at cost, without markup.</p>
+</details>
+<details>
+<summary>What happens after setup?</summary>
+<p>We can look after what comes next: BAS and GST lodgement, bookkeeping, the company&#8217;s annual ASIC review and the yearly tax return. Your registrations are yours, so you can move them to another accountant at any time.</p>
+</details>
+</div>
+</div>
+</div>
+<div class="hp-band hp-startcta">
+<div class="hp-shell">
+<div class="hp-startcta-grid">
+<div>
+<p class="hp-eyebrow">Ready when you are</p>
+<h2 class="hp-startcta-h">Start online today, or get a fixed-fee quote first.</h2>
+<p class="hp-startcta-p">Tell us what you need and we&#8217;ll come back with one price, in writing, usually within one business day.</p>
+</div>
+<div class="hp-startcta-actions"><a class="hp-btn hp-btn-navy" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener">Start my return</a><a class="hp-btn hp-btn-ghost" href="/get-a-quote/">Get a quote</a></div>
+</div>
+</div>
+</div>
+</div>
+<p><script>(function(){var f=document.getElementById('sv-quiz');if(!f)return;f.addEventListener('submit',function(e){e.preventDefault()});var R={sole:['Sole trader','The simplest and cheapest way to start. You trade under your own ABN and report the profit on your personal return.','/services/abn-application/','ABN application'],partnership:['Partnership','Two or more people sharing the profit, with a written agreement setting out who owns what.','/services/partnership-setup/','Partnership setup'],company:['Company','A Pty Ltd limits your personal liability, makes it easy to bring in investors and is taxed at the company rate.','/services/start-up-bundle/','Start-up bundle'],trust:['Family trust','A discretionary trust lets you share income among family each year. A company as trustee adds asset protection.','/services/trust-corporate-trustee/','Trust + corporate trustee']};function v(n){var e=f.querySelector('input[name="'+n+'"]:checked');return e?e.value:null}function go(){var a=[v('who'),v('risk'),v('family'),v('grow')];var left=a.filter(function(x){return !x}).length;var h=document.getElementById('sv-r-h'),p=document.getElementById('sv-r-p'),b=document.getElementById('sv-r-a');if(left){h.textContent='Answer the questions';p.textContent=left+' question'+(left>1?'s':'')+' to go.';b.innerHTML='';return}var k=a[3]==='yes'?'company':a[2]==='yes'?'trust':a[1]==='high'?'company':a[0]==='others'?'partnership':'sole';var x=R[k];h.textContent=x[0];p.textContent=x[1];b.innerHTML='<a class="hp-btn hp-btn-navy sv-btn-sm" href="'+x[2]+'">'+x[3]+'</a>'}f.addEventListener('change',go)})();</script></p>
+<div hidden class="xyz-schema"><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","@id":"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/#faq","url":"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/services/","mainEntity":[{"@type":"Question","name":"Is it really all online?","acceptedAnswer":{"@type":"Answer","text":"Yes. XYZ Accounting is online only. You sign up, upload documents, message us and sign everything in our client portal, so there are no appointments to book."}},{"@type":"Question","name":"Do I need to verify my identity?","acceptedAnswer":{"@type":"Answer","text":"Yes — every client, for every service, before any work starts. It is a three-minute electronic check on your phone (licence or passport, a selfie, matched against government records) and it is included in the fee. For a company, trust or SMSF, each director, trustee or controlling owner does their own check. How it works ."}},{"@type":"Question","name":"Who prepares and lodges my work?","acceptedAnswer":{"@type":"Answer","text":"BRS Advisory Pty Ltd, registered tax agent 26233684. Every return and registration is prepared or reviewed by a qualified accountant before it is lodged."}},{"@type":"Question","name":"How long does it take?","acceptedAnswer":{"@type":"Answer","text":"Each service shows its usual turnaround. Most registrations are done within a few business days. Returns depend on when we have your documents, and we confirm the timing with your quote."}},{"@type":"Question","name":"What about government fees?","acceptedAnswer":{"@type":"Answer","text":"ASIC fees, the ATO SMSF levy and any stamp duty are separate from our fee. We show them before you start and pass them on at cost, without markup."}},{"@type":"Question","name":"What happens after setup?","acceptedAnswer":{"@type":"Answer","text":"We can look after what comes next: BAS and GST lodgement, bookkeeping, the company’s annual ASIC review and the yearly tax return. Your registrations are yours, so you can move them to another accountant at any time."}}]}</script></div>

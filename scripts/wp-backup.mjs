@@ -114,20 +114,79 @@ function fileName(item) {
 }
 
 /**
- * The theme's custom CSS lives only in the WordPress database — it is installed
- * through the customiser rather than linked from this repo, so nothing else holds
- * a copy. The stylesheet URL carries a content hash, discoverable from any page.
+ * The stylesheet is the one part of the site that exists nowhere but the site.
+ *
+ * It has already moved once: it used to be installed as the theme's Customizer
+ * CSS and linked with a `?custom-css=<hash>` URL, and is now injected inline by
+ * the block theme, with the Customizer field empty and Global Styles behind auth.
+ * So capture it three ways and record which ones yielded, rather than trusting any
+ * single mechanism to still be the live one next month:
+ *
+ *   custom.css        the Customizer field, while anything still uses it
+ *   rendered.css      the <style> blocks the browser is actually served — always
+ *                     available, no credentials, and byte-stable between requests
+ *   global-styles.json  the block theme's real source, which needs credentials
  */
-async function backupCustomCss() {
+async function backupStyles() {
+  const got = {};
+
   const { body: home } = await get('/', { raw: true });
-  const match = home.match(/\?custom-css=([a-f0-9]+)/i);
-  if (!match) {
-    warnings.push('No custom-css stylesheet link found on the homepage — theme CSS not backed up.');
-    return null;
+
+  const link = home.match(/\?custom-css=([a-f0-9]+)/i);
+  if (link) {
+    const { body: css } = await get(`/?custom-css=${link[1]}`, { raw: true });
+    if (css.trim()) {
+      await writeText(join(OUT, 'theme', 'custom.css'), css);
+      got.custom_css_bytes = Buffer.byteLength(css);
+    }
   }
-  const { body: css } = await get(`/?custom-css=${match[1]}`, { raw: true });
-  await writeText(join(OUT, 'theme', 'custom.css'), css);
-  return { bytes: Buffer.byteLength(css) };
+
+  // Whatever injects it, this is the CSS the site actually applies.
+  const inline = [...home.matchAll(/<style[^>]*>([\s\S]*?)<\/style>/gi)].map((m) => m[1]).join('\n');
+  if (inline.trim()) {
+    await writeText(join(OUT, 'theme', 'rendered.css'), inline);
+    got.rendered_css_bytes = Buffer.byteLength(inline);
+  }
+
+  if (AUTHED) {
+    try {
+      const { body: theme } = await get('/wp-json/wp/v2/global-styles/themes/assembler');
+      await writeJson(join(OUT, 'theme', 'global-styles.json'), theme);
+      got.global_styles = true;
+    } catch (err) {
+      warnings.push(`Could not read Global Styles: ${err.message}`);
+    }
+  } else {
+    warnings.push(
+      'Global Styles needs credentials (set WP_USER + WP_APP_PASSWORD). ' +
+      'The block theme keeps the stylesheet there, so only the rendered copy is captured.',
+    );
+  }
+
+  if (!Object.keys(got).length) warnings.push('Captured no stylesheet at all — check how the site now serves CSS.');
+  return got;
+}
+
+/** Directories that hold this repo's own tooling and output rather than served assets. */
+const NOT_ASSETS = new Set(['.git', '.github', 'backup', 'scripts', 'node_modules']);
+
+/** Assets installed into the site rather than loaded from the CDN, so never 'unreferenced'. */
+const NOT_CDN_SERVED = new Set(['site.css']);
+
+/**
+ * Every asset committed here that a page could load over the CDN — `islands/*.js`,
+ * `deduction-benchmarks/*`, and whatever is added next. Discovered by walking the
+ * tree rather than from a hardcoded list, so a new asset directory is covered the
+ * day it lands instead of being silently exempt from the audit.
+ */
+async function committedAssets(dir = '.', found = []) {
+  for (const entry of await readdir(dir, { withFileTypes: true })) {
+    if (NOT_ASSETS.has(entry.name)) continue;
+    const rel = dir === '.' ? entry.name : `${dir}/${entry.name}`;
+    if (entry.isDirectory()) await committedAssets(rel, found);
+    else if (/\.(js|mjs|css|woff2?)$/.test(entry.name)) found.push(rel);
+  }
+  return found.sort();
 }
 
 /**
@@ -150,18 +209,16 @@ async function auditAssets(pages) {
   }
   for (const list of Object.values(referenced)) list.sort();
 
-  let committed = [];
-  try {
-    committed = (await readdir('islands')).filter((f) => f.endsWith('.js')).map((f) => `islands/${f}`);
-  } catch {
-    warnings.push('No islands/ directory found — skipped the committed-bundle reconciliation.');
+  const committed = await committedAssets();
+  if (committed.length === 0) {
+    warnings.push('Found no committed assets to reconcile against.');
   }
 
   const missing = Object.keys(referenced).filter((p) => !committed.includes(p)).sort();
-  const unreferenced = committed.filter((p) => !(p in referenced)).sort();
+  const unreferenced = committed.filter((p) => !(p in referenced) && !NOT_CDN_SERVED.has(p)).sort();
 
   if (missing.length) warnings.push(`Pages reference assets absent from this repo: ${missing.join(', ')}`);
-  if (unreferenced.length) warnings.push(`Committed bundles no page references: ${unreferenced.join(', ')}`);
+  if (unreferenced.length) warnings.push(`Committed assets no page references: ${unreferenced.join(', ')}`);
   if (refs.size > 1) warnings.push(`Pages pin more than one git ref: ${[...refs].sort().join(', ')}`);
 
   await writeJson(join(OUT, 'asset-usage.json'), {
@@ -219,8 +276,8 @@ async function main() {
     if (base === 'pages') pages = items;
   }
 
-  const css = await backupCustomCss();
-  if (css) console.log(`  theme custom CSS: ${css.bytes} bytes`);
+  const styles = await backupStyles();
+  console.log(`  stylesheets: ${JSON.stringify(styles)}`);
 
   const audit = await auditAssets(pages);
 
@@ -238,7 +295,7 @@ async function main() {
     site: SITE,
     scope: AUTHED ? 'all statuses, menus and settings' : 'published content only',
     counts,
-    theme_custom_css_bytes: css?.bytes ?? null,
+    stylesheets: styles,
     asset_audit: {
       referenced_but_not_committed: audit.missing,
       committed_but_unreferenced: audit.unreferenced,

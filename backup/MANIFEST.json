@@ -1,6 +1,8 @@
 {
   "asset_audit": {
     "committed_but_unreferenced": [
+      "deduction-benchmarks/benchmarks.css",
+      "deduction-benchmarks/benchmarks.js",
       "islands/HomeCalculator.js"
     ],
     "referenced_but_not_committed": []
@@ -8,13 +10,15 @@
   "counts": {
     "blocks": 0,
     "categories": 1,
-    "media": 3,
+    "media": 6,
     "navigation": 2,
-    "pages": 57,
-    "posts": 1,
+    "pages": 69,
+    "posts": 0,
     "tags": 0
   },
   "scope": "published content only",
   "site": "https://superblyladyec52fb18e8-stxdq.wpcomstaging.com",
-  "theme_custom_css_bytes": 51830
+  "stylesheets": {
+    "rendered_css_bytes": 188391
+  }
 }

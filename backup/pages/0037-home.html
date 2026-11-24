@@ -1,154 +1,211 @@
-<div class="xyz-content">
-<style>html{overflow-x:clip}.xyz-content{max-width:none!important;width:auto}.xyz-content .hp-band{width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);container-type:inline-size}.xyz-content .hp-shell{max-width:75rem;margin-inline:auto;padding-inline:2.5rem}.xyz-content .hp-mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}.xyz-content .hp-eyebrow{margin:0;font-family:var(--font-mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--color-ink-soft)}.xyz-content .hp-h1{margin:0;font-family:var(--font-sans);font-weight:600;font-size:3.375rem;line-height:1.08;letter-spacing:-.025em;color:var(--color-ink);text-wrap:balance}.xyz-content .hp-h2{margin:0;font-family:var(--font-sans);font-weight:600;font-size:2.25rem;line-height:1.15;letter-spacing:-.02em;color:var(--color-ink);text-wrap:balance}.xyz-content .hp-h3{margin:0;font-family:var(--font-sans);font-weight:600;font-size:1.1875rem;line-height:1.25;color:var(--color-ink)}.xyz-content .hp-btn{display:inline-flex;align-items:center;gap:.5rem;background:var(--color-ink);color:var(--color-paper);border:1px solid var(--color-ink);border-radius:4px;padding:.875rem 1.5rem;font-weight:600;font-size:.96875rem;text-decoration:none;transition:background .12s}.xyz-content .hp-btn:hover{background:#1d2f3c;color:var(--color-paper)}.xyz-content .hp-btn-ghost{background:transparent;color:var(--color-ink);border-color:var(--color-rule)}.xyz-content .hp-btn-ghost:hover{background:var(--color-paper-sunk);color:var(--color-ink)}.xyz-content .hp-link{color:var(--color-return);font-size:.90625rem;text-decoration:none}.xyz-content .hp-link:hover{text-decoration:underline}.xyz-content .hp-hero{background:#fff;border-bottom:1px solid var(--color-rule)}.xyz-content .hp-hero-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:4rem;align-items:start;padding:4.5rem 0 4rem}.xyz-content .hp-lede{margin:1.375rem 0 0;font-size:1.15625rem;line-height:1.6;max-width:34rem;text-wrap:pretty}.xyz-content .hp-cta-row{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2rem}.xyz-content .hp-trust{display:flex;flex-wrap:wrap;gap:.5rem 1.625rem;margin-top:1.75rem;font-size:.875rem;color:var(--color-ink-soft)}.xyz-content .hp-trust-sep{display:none}
-.xyz-content .hp-trust{display:grid;grid-template-columns:repeat(2,max-content);gap:.6rem 2.25rem;justify-content:start;align-items:start}
-.xyz-content .hp-trust span{position:relative;padding-left:1.1rem;line-height:1.4}
-.xyz-content .hp-trust span::before{content:'';position:absolute;left:0;top:.5em;width:.4rem;height:.4rem;border-radius:50%;background:#0A7C55}
-@media (max-width:640px){.xyz-content .hp-trust{grid-template-columns:1fr}}
-.xyz-content .hp-trust-sep{color:var(--color-rule)}.xyz-content .hp-est{border:1px solid var(--color-rule);border-radius:4px;background:#fff;box-shadow:0 10px 15px -3px rgba(16,28,38,.07)}.xyz-content .hp-est-head{display:flex;align-items:center;justify-content:space-between;gap:.75rem;padding:.875rem 1.25rem;border-bottom:1px solid var(--color-rule);background:var(--color-paper-sunk)}.xyz-content .hp-est-tag{font-family:var(--font-mono);font-size:.71875rem;letter-spacing:.12em;text-transform:uppercase;color:var(--color-ink-soft)}.xyz-content .hp-est-live{font-family:var(--font-mono);font-size:.71875rem;color:var(--color-return)}.xyz-content .hp-est-body{padding:1.5rem 1.25rem 1.375rem}.xyz-content .hp-est-label{display:block}.xyz-content .hp-est-label+.hp-est-label{margin-top:1.25rem}.xyz-content .hp-est-row{display:flex;justify-content:space-between;align-items:baseline;font-size:.875rem;gap:1rem}.xyz-content .hp-est-val{font-family:var(--font-mono);font-size:.9375rem;font-weight:500;color:var(--color-ink);font-variant-numeric:tabular-nums}.xyz-content .hp-range{width:100%;margin-top:.625rem;accent-color:var(--color-return)}.xyz-content .hp-est-out{margin-top:1.5rem;border-top:1px solid var(--color-rule)}.xyz-content .hp-est-line{display:flex;justify-content:space-between;gap:1rem;padding:.6875rem 0;border-bottom:1px solid var(--color-rule);font-size:.90625rem}.xyz-content .hp-est-line span:last-child{font-family:var(--font-mono);color:var(--color-ink);font-variant-numeric:tabular-nums}.xyz-content .hp-est-give{margin-top:1.25rem;padding:1.125rem 1.25rem;border:1px solid #2fcb88;border-radius:4px;background:#3ddc97}.xyz-content .hp-est-give .hp-est-tag{color:#0b3a2a}.xyz-content .hp-est-give-big{font-family:var(--font-mono);font-size:2.375rem;font-weight:700;color:#0b2119;letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin-top:.375rem;line-height:1.1}.xyz-content .hp-est-note{margin:.5rem 0 0;font-size:.84375rem;line-height:1.5;color:#13503b}.xyz-content .hp-startcta{border-bottom:1px solid var(--color-rule);background:var(--color-paper-sunk)}.xyz-content .hp-startcta-grid{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1.5rem 3rem;padding:2.25rem 0}.xyz-content .hp-startcta-h{margin:.5rem 0 0;font-family:var(--font-sans);font-weight:600;font-size:1.625rem;line-height:1.2;letter-spacing:-.02em;color:var(--color-ink)}.xyz-content .hp-startcta-p{margin:.5rem 0 0;font-size:.9375rem;line-height:1.6;max-width:38rem;text-wrap:pretty}.xyz-content .hp-startcta-actions{display:flex;flex-wrap:wrap;gap:.75rem}.xyz-content .hp-white{background:#fff;border-bottom:1px solid var(--color-rule)}.xyz-content .hp-pad{padding:4.5rem 0}.xyz-content .hp-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:2.75rem;background:var(--color-rule);border:1px solid var(--color-rule);border-radius:4px;overflow:hidden}.xyz-content .hp-step{background:#fff;padding:2rem 1.75rem}.xyz-content .hp-step-n{font-family:var(--font-mono);font-size:.75rem;color:var(--color-return)}.xyz-content .hp-step h3{margin:.875rem 0 0}.xyz-content .hp-step p{margin:.625rem 0 0;font-size:.9375rem;line-height:1.6}.xyz-content .hp-paper{background:var(--color-paper);border-bottom:1px solid var(--color-rule)}.xyz-content .hp-sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:2rem;flex-wrap:wrap}.xyz-content .hp-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2.25rem}.xyz-content .hp-card{border:1px solid var(--color-rule);border-radius:4px;background:#fff;padding:1.625rem}.xyz-content .hp-card p{margin:.625rem 0 0;font-size:.9375rem;line-height:1.6}.xyz-content .hp-card-price{font-family:var(--font-mono);font-size:.78125rem;color:var(--color-ink-soft);margin-top:1rem}.xyz-content .hp-card-alt{background:var(--color-paper-sunk);display:flex;flex-direction:column;justify-content:space-between}.xyz-content .hp-card-alt .hp-link{margin-top:1rem;display:inline-block}.xyz-content .hp-dark{background:var(--color-ink);color:rgba(248,249,247,.75)}.xyz-content .hp-dark-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:4rem;align-items:center;padding:4.5rem 0}.xyz-content .hp-dark-eyebrow{font-family:var(--font-mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(248,249,247,.6)}.xyz-content .hp-dark h2{margin:1rem 0 0;font-family:var(--font-sans);font-weight:600;font-size:2.375rem;line-height:1.15;letter-spacing:-.02em;color:var(--color-paper);text-wrap:balance}.xyz-content .hp-dark p{margin:1.125rem 0 0;font-size:1.0625rem;line-height:1.6;max-width:32rem}.xyz-content .hp-spec{display:grid;gap:1px;background:rgba(248,249,247,.14);border:1px solid rgba(248,249,247,.14);border-radius:4px;overflow:hidden}.xyz-content .hp-spec-row{background:var(--color-ink);padding:1.25rem 1.5rem;display:flex;justify-content:space-between;gap:1rem;font-size:.9375rem}.xyz-content .hp-spec-row b{font-family:var(--font-mono);font-weight:400;color:var(--color-paper)}.xyz-content .hp-spec-row i{font-family:var(--font-mono);font-style:normal;color:#3ddc97}.xyz-content .hp-price-sub{margin:.75rem 0 0;font-size:1.0625rem}.xyz-content .hp-tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2.25rem}.xyz-content .hp-tier{border:1px solid var(--color-rule);border-radius:4px;background:#fff;padding:1.875rem;position:relative}.xyz-content .hp-tier-pick{border-color:var(--color-ink)}.xyz-content .hp-tier-flag{position:absolute;top:-11px;left:1.875rem;background:var(--color-return);color:var(--color-paper);font-family:var(--font-mono);font-size:.65625rem;letter-spacing:.14em;text-transform:uppercase;padding:.25rem .5625rem;border-radius:3px}.xyz-content .hp-tier-name{font-family:var(--font-mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--color-ink-soft)}.xyz-content .hp-tier-price{font-family:var(--font-mono);font-size:2.625rem;font-weight:700;color:var(--color-ink);letter-spacing:-.02em;margin-top:.625rem;line-height:1.1}.xyz-content .hp-tier p{margin:.5rem 0 0;font-size:.9375rem;line-height:1.6}.xyz-content .hp-tier-list{margin-top:1.375rem;border-top:1px solid var(--color-rule);font-size:.90625rem}.xyz-content .hp-tier-list div{padding:.625rem 0;border-bottom:1px solid var(--color-rule)}.xyz-content .hp-tier-list div:last-child{border-bottom:0}@container (max-width:1024px){.xyz-content .hp-hero-grid,.xyz-content .hp-dark-grid{grid-template-columns:1fr;gap:2.5rem}.xyz-content .hp-h1{font-size:2.625rem}.xyz-content .hp-h2,.xyz-content .hp-dark h2{font-size:1.875rem}.xyz-content .hp-cards,.xyz-content .hp-tiers,.xyz-content .hp-steps{grid-template-columns:1fr 1fr}}@container (max-width:768px){.xyz-content .hp-shell{padding-inline:1.25rem}.xyz-content .hp-hero-grid{padding:2.5rem 0}.xyz-content .hp-pad,.xyz-content .hp-dark-grid{padding:3rem 0}.xyz-content .hp-h1{font-size:2.125rem}.xyz-content .hp-h2,.xyz-content .hp-dark h2{font-size:1.625rem}.xyz-content .hp-startcta-grid{padding:1.875rem 0}.xyz-content .hp-startcta-h{font-size:1.375rem}.xyz-content .hp-cards,.xyz-content .hp-tiers,.xyz-content .hp-steps{grid-template-columns:1fr}.xyz-content .hp-steps{gap:1px}}</style>
-<div class="hp-band hp-hero">
-<div class="hp-shell">
-<div class="hp-hero-grid">
+<div class="xyz-content" id="xyz-ax">
+<style>html:not(#ap) body:not(#ap) #xyz-ax{--navy:#1B1F3C;--navy-2:#20264A;--mint:#3DDC97;--mint-press:#2FCB88;--green:#0A7C55;--ink:#14182E;--ink-2:#4A4F66;--ink-3:#7A7E90;--canvas:#FFFFFF;--parchment:#F4F6F8;--hair:#E1E4EA;--on-dark:#FFFFFF;--on-dark-2:#C6CADB;--display:-apple-system,BlinkMacSystemFont,"SF Pro Display","Inter",system-ui,"Segoe UI",sans-serif;--text:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter",system-ui,"Segoe UI",sans-serif;--tile-pad:64px;--shadow-product:rgba(20,24,46,.22) 3px 5px 30px 0;color-scheme:light;}html:not(#ap) body:not(#ap) #xyz-ax *{box-sizing:border-box}html:not(#ap) body:not(#ap) #xyz-ax{background:var(--canvas);color:var(--ink);font-family:var(--text);font-size:17px;line-height:1.47;letter-spacing:-.022em;-webkit-font-smoothing:antialiased}html:not(#ap) body:not(#ap) #xyz-ax a{color:inherit}html:not(#ap) body:not(#ap) #xyz-ax .ax-shell{max-width:1120px;margin-inline:auto;padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px))}html:not(#ap) body:not(#ap) #xyz-ax .ax-narrow{max-width:820px}html:not(#ap) body:not(#ap) #xyz-ax .ax-tile{padding-block:var(--tile-pad)}html:not(#ap) body:not(#ap) #xyz-ax .ax-t-white{background:var(--canvas)}html:not(#ap) body:not(#ap) #xyz-ax .ax-t-parch{background:var(--parchment)}html:not(#ap) body:not(#ap) #xyz-ax .ax-t-navy{background:var(--navy);color:var(--on-dark)}html:not(#ap) body:not(#ap) #xyz-ax .ax-t-navy2{background:var(--navy-2);color:var(--on-dark)}html:not(#ap) body:not(#ap) #xyz-ax .ax-center{text-align:center}html:not(#ap) body:not(#ap) #xyz-ax .ax-eyebrow{margin:0 0 10px;font-size:14px;font-weight:600;letter-spacing:-.01em;color:var(--green)}html:not(#ap) body:not(#ap) #xyz-ax .ax-t-navy .ax-eyebrow,html:not(#ap) body:not(#ap) #xyz-ax .ax-t-navy2 .ax-eyebrow{color:var(--mint)}html:not(#ap) body:not(#ap) #xyz-ax .ax-h-hero{margin:0;font-family:var(--display);font-weight:600;font-size:clamp(34px,5.4vw,60px);line-height:1.06;letter-spacing:-.035em;text-wrap:balance}html:not(#ap) body:not(#ap) #xyz-ax .ax-h-tile{margin:0;font-family:var(--display);font-weight:600;font-size:clamp(28px,3.6vw,44px);line-height:1.1;letter-spacing:-.03em;text-wrap:balance}html:not(#ap) body:not(#ap) #xyz-ax .ax-lead{margin:14px 0 0;font-family:var(--display);font-size:clamp(19px,1.9vw,24px);font-weight:400;line-height:1.3;letter-spacing:-.015em;color:var(--ink-2);text-wrap:pretty}html:not(#ap) body:not(#ap) #xyz-ax .ax-t-navy .ax-lead,html:not(#ap) body:not(#ap) #xyz-ax .ax-t-navy2 .ax-lead{color:var(--on-dark-2)}html:not(#ap) body:not(#ap) #xyz-ax .ax-center .ax-lead{margin-inline:auto;max-width:44rem}html:not(#ap) body:not(#ap) #xyz-ax .ax-h-card{margin:0;font-family:var(--display);font-size:21px;font-weight:600;line-height:1.19;letter-spacing:-.02em}html:not(#ap) body:not(#ap) #xyz-ax p{margin:0}html:not(#ap) body:not(#ap) #xyz-ax .ax-tlink{color:var(--green);text-decoration:none;font-weight:400}html:not(#ap) body:not(#ap) #xyz-ax .ax-tlink::after{content:" ›";}html:not(#ap) body:not(#ap) #xyz-ax .ax-tlink:hover{text-decoration:underline}html:not(#ap) body:not(#ap) #xyz-ax .ax-t-navy .ax-tlink,html:not(#ap) body:not(#ap) #xyz-ax .ax-t-navy2 .ax-tlink{color:var(--mint)}html:not(#ap) body:not(#ap) #xyz-ax .ax-pill{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:12px 24px;font:inherit;font-size:17px;text-decoration:none;border:0;cursor:pointer;transition:transform .12s ease,background .12s ease}html:not(#ap) body:not(#ap) #xyz-ax .ax-pill:active{transform:scale(.95)}html:not(#ap) body:not(#ap) #xyz-ax .ax-pill:focus-visible,html:not(#ap) body:not(#ap) #xyz-ax .ax-tlink:focus-visible{outline:2px solid var(--green);outline-offset:3px}html:not(#ap) body:not(#ap) #xyz-ax .ax-pill-navy{background:var(--navy);color:#fff}html:not(#ap) body:not(#ap) #xyz-ax .ax-pill-navy:hover{background:#262c55}html:not(#ap) body:not(#ap) #xyz-ax .ax-pill-mint{background:var(--mint);color:var(--ink);font-weight:600}html:not(#ap) body:not(#ap) #xyz-ax .ax-pill-mint:hover{background:var(--mint-press)}html:not(#ap) body:not(#ap) #xyz-ax .ax-pill-ghost{background:transparent;color:var(--navy);box-shadow:inset 0 0 0 1px var(--navy)}html:not(#ap) body:not(#ap) #xyz-ax .ax-pill-ghost:hover{background:rgba(27,31,60,.05)}html:not(#ap) body:not(#ap) #xyz-ax .ax-dot{width:8px;height:8px;border-radius:50%;background:var(--mint);flex:none}html:not(#ap) body:not(#ap) #xyz-ax .ax-arrow{font-size:18px;line-height:1}html:not(#ap) body:not(#ap) #xyz-ax .ax-hero{padding-block:72px 0;background:var(--canvas)}html:not(#ap) body:not(#ap) #xyz-ax .ax-hero .ax-cta{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:14px 26px;margin-top:30px}html:not(#ap) body:not(#ap) #xyz-ax .ax-start{display:flex;flex-direction:column;align-items:center;gap:7px}html:not(#ap) body:not(#ap) #xyz-ax .ax-start small{font-size:13px;color:var(--ink-3);letter-spacing:-.01em}html:not(#ap) body:not(#ap) #xyz-ax .ax-hero .ax-links{display:flex;gap:26px;padding-top:12px}html:not(#ap) body:not(#ap) #xyz-ax .ax-trust{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 22px;margin:34px auto 0;padding:0;list-style:none;font-size:14px;color:var(--ink-2);max-width:56rem}html:not(#ap) body:not(#ap) #xyz-ax .ax-trust li{display:flex;align-items:center;gap:8px}html:not(#ap) body:not(#ap) #xyz-ax .ax-trust li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--green)}html:not(#ap) body:not(#ap) #xyz-ax .ax-trust a{color:inherit;text-decoration:underline;text-decoration-color:var(--hair);text-underline-offset:3px}html:not(#ap) body:not(#ap) #xyz-ax .ax-stage{margin-top:52px;background:linear-gradient(var(--canvas) 0 34%,var(--parchment) 34% 100%);padding-bottom:var(--tile-pad)}html:not(#ap) body:not(#ap) #xyz-ax .ax-est{display:grid;grid-template-columns:1.1fr 1fr;background:var(--canvas);border-radius:22px;box-shadow:var(--shadow-product);overflow:hidden;max-width:940px;margin-inline:auto}html:not(#ap) body:not(#ap) #xyz-ax .ax-est-in{padding:34px 36px}html:not(#ap) body:not(#ap) #xyz-ax .ax-est-tag{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--ink-3);letter-spacing:-.005em}html:not(#ap) body:not(#ap) #xyz-ax .ax-live{display:inline-flex;align-items:center;gap:6px;color:var(--green)}html:not(#ap) body:not(#ap) #xyz-ax .ax-live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green);animation:ax-pulse 2s infinite}@keyframes ax-pulse{50%{opacity:.35}}html:not(#ap) body:not(#ap) #xyz-ax .ax-field{display:block;margin-top:26px}html:not(#ap) body:not(#ap) #xyz-ax .ax-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:15px;color:var(--ink-2)}html:not(#ap) body:not(#ap) #xyz-ax .ax-val{font-family:var(--display);font-size:22px;font-weight:600;letter-spacing:-.02em;color:var(--ink);font-variant-numeric:tabular-nums}html:not(#ap) body:not(#ap) #xyz-ax input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:28px;background:transparent;margin-top:6px;cursor:pointer}html:not(#ap) body:not(#ap) #xyz-ax input[type=range]::-webkit-slider-runnable-track{height:4px;border-radius:4px;background:linear-gradient(to right,var(--green) var(--p,40%),var(--hair) var(--p,40%))}html:not(#ap) body:not(#ap) #xyz-ax input[type=range]::-moz-range-track{height:4px;border-radius:4px;background:var(--hair)}html:not(#ap) body:not(#ap) #xyz-ax input[type=range]::-moz-range-progress{height:4px;border-radius:4px;background:var(--green)}html:not(#ap) body:not(#ap) #xyz-ax input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:26px;height:26px;border-radius:50%;background:#fff;margin-top:-11px;box-shadow:0 0 0 .5px rgba(20,24,46,.12),0 3px 8px rgba(20,24,46,.18)}html:not(#ap) body:not(#ap) #xyz-ax input[type=range]::-moz-range-thumb{width:26px;height:26px;border:0;border-radius:50%;background:#fff;box-shadow:0 0 0 .5px rgba(20,24,46,.12),0 3px 8px rgba(20,24,46,.18)}html:not(#ap) body:not(#ap) #xyz-ax input[type=range]:focus-visible{outline:2px solid var(--green);outline-offset:4px;border-radius:8px}html:not(#ap) body:not(#ap) #xyz-ax .ax-lines{margin-top:24px;border-top:1px solid var(--hair)}html:not(#ap) body:not(#ap) #xyz-ax .ax-line{display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid var(--hair);font-size:15px;color:var(--ink-2)}html:not(#ap) body:not(#ap) #xyz-ax .ax-line b{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}html:not(#ap) body:not(#ap) #xyz-ax .ax-give{background:var(--navy);color:#fff;padding:34px 36px;display:flex;flex-direction:column;justify-content:center}html:not(#ap) body:not(#ap) #xyz-ax .ax-give .ax-k{font-size:14px;color:var(--on-dark-2)}html:not(#ap) body:not(#ap) #xyz-ax .ax-give .ax-big{font-family:var(--display);font-weight:600;font-size:clamp(52px,6vw,76px);line-height:1;letter-spacing:-.045em;margin-top:10px;font-variant-numeric:tabular-nums}html:not(#ap) body:not(#ap) #xyz-ax .ax-give .ax-note{margin-top:16px;font-size:14px;line-height:1.5;color:var(--on-dark-2);max-width:22rem}html:not(#ap) body:not(#ap) #xyz-ax .ax-give .ax-tlink{margin-top:22px;font-size:15px;color:var(--mint)}html:not(#ap) body:not(#ap) #xyz-ax .ax-cred{display:grid;grid-template-columns:1.2fr 1fr;gap:56px;align-items:center}html:not(#ap) body:not(#ap) #xyz-ax .ax-cred-list{list-style:none;margin:0;padding:0;display:grid;gap:0}html:not(#ap) body:not(#ap) #xyz-ax .ax-cred-list li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.12);font-size:15px;color:var(--on-dark-2)}html:not(#ap) body:not(#ap) #xyz-ax .ax-cred-list li:first-child{border-top:1px solid rgba(255,255,255,.12)}html:not(#ap) body:not(#ap) #xyz-ax .ax-cred-list b{font-family:var(--display);font-weight:600;font-size:19px;color:#fff;letter-spacing:-.015em}html:not(#ap) body:not(#ap) #xyz-ax .ax-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:40px 36px;margin-top:48px;counter-reset:s;list-style:none;padding:0}html:not(#ap) body:not(#ap) #xyz-ax .ax-steps li{counter-increment:s;display:grid;gap:8px;align-content:start}html:not(#ap) body:not(#ap) #xyz-ax .ax-steps li::before{content:counter(s);font-family:var(--display);font-size:15px;font-weight:600;color:var(--green);width:34px;height:34px;border-radius:50%;box-shadow:inset 0 0 0 1.5px var(--green);display:grid;place-items:center;margin-bottom:6px}html:not(#ap) body:not(#ap) #xyz-ax .ax-steps p{font-size:16px;color:var(--ink-2);line-height:1.5;text-wrap:pretty}html:not(#ap) body:not(#ap) #xyz-ax .ax-steps a{color:var(--green)}html:not(#ap) body:not(#ap) #xyz-ax .ax-grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:44px}html:not(#ap) body:not(#ap) #xyz-ax .ax-card{background:var(--canvas);border-radius:18px;padding:28px 26px 26px;display:flex;flex-direction:column;gap:10px;min-width:0}html:not(#ap) body:not(#ap) #xyz-ax .ax-card p{font-size:16px;line-height:1.5;color:var(--ink-2);flex:1}html:not(#ap) body:not(#ap) #xyz-ax .ax-card .ax-price{font-size:15px;color:var(--ink);display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding-top:14px;border-top:1px solid var(--hair);margin-top:6px}html:not(#ap) body:not(#ap) #xyz-ax .ax-card .ax-price b{font-weight:600}html:not(#ap) body:not(#ap) #xyz-ax .ax-card-alt{background:var(--navy);color:#fff}html:not(#ap) body:not(#ap) #xyz-ax .ax-card-alt p{color:var(--on-dark-2)}html:not(#ap) body:not(#ap) #xyz-ax .ax-card-alt .ax-price{border-color:rgba(255,255,255,.14);color:#fff}html:not(#ap) body:not(#ap) #xyz-ax .ax-card-alt .ax-tlink{color:var(--mint)}html:not(#ap) body:not(#ap) #xyz-ax .ax-sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}html:not(#ap) body:not(#ap) #xyz-ax .ax-sec{display:grid;grid-template-columns:repeat(5,1fr);gap:28px;margin-top:48px}html:not(#ap) body:not(#ap) #xyz-ax .ax-sec div{display:grid;gap:8px;align-content:start;padding-top:18px;border-top:1px solid rgba(255,255,255,.14)}html:not(#ap) body:not(#ap) #xyz-ax .ax-sec .ax-tag{font-size:13px;font-weight:600;color:var(--mint);letter-spacing:-.005em}html:not(#ap) body:not(#ap) #xyz-ax .ax-sec h3{margin:0;font-family:var(--display);font-size:18px;font-weight:600;line-height:1.25;letter-spacing:-.015em}html:not(#ap) body:not(#ap) #xyz-ax .ax-sec p{font-size:15px;line-height:1.5;color:var(--on-dark-2)}html:not(#ap) body:not(#ap) #xyz-ax .ax-sec-links{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:40px;font-size:15px}html:not(#ap) body:not(#ap) #xyz-ax .ax-tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:44px;align-items:stretch}html:not(#ap) body:not(#ap) #xyz-ax .ax-tier{border-radius:18px;padding:32px 28px;background:var(--parchment);display:flex;flex-direction:column;position:relative}html:not(#ap) body:not(#ap) #xyz-ax .ax-tier.ax-pick{background:var(--canvas);box-shadow:inset 0 0 0 2px var(--navy)}html:not(#ap) body:not(#ap) #xyz-ax .ax-flag{position:absolute;top:-12px;left:28px;background:var(--navy);color:#fff;font-size:12px;font-weight:600;padding:4px 12px;border-radius:999px}html:not(#ap) body:not(#ap) #xyz-ax .ax-tier .ax-name{font-size:15px;font-weight:600;color:var(--ink-2)}html:not(#ap) body:not(#ap) #xyz-ax .ax-tier .ax-amt{font-family:var(--display);font-size:56px;font-weight:600;letter-spacing:-.045em;line-height:1;margin-top:10px;color:#0B0D18;font-variant-numeric:tabular-nums}html:not(#ap) body:not(#ap) #xyz-ax .ax-tier .ax-amt small{font-size:17px;font-weight:400;letter-spacing:-.01em;color:var(--ink-3);margin-left:4px}html:not(#ap) body:not(#ap) #xyz-ax .ax-tier p{margin-top:12px;font-size:16px;color:var(--ink-2);line-height:1.5}html:not(#ap) body:not(#ap) #xyz-ax .ax-tier ul{list-style:none;margin:20px 0 0;padding:0;font-size:15px;flex:1}html:not(#ap) body:not(#ap) #xyz-ax .ax-tier li{padding:10px 0;border-top:1px solid var(--hair);display:flex;gap:10px}html:not(#ap) body:not(#ap) #xyz-ax .ax-tier li::before{content:"✓";color:var(--green);font-weight:600}html:not(#ap) body:not(#ap) #xyz-ax .ax-quote .ax-cta{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:14px 26px;margin-top:28px}@media (max-width:1000px){html:not(#ap) body:not(#ap) #xyz-ax .ax-sec{grid-template-columns:repeat(3,1fr)}}@media (max-width:860px){html:not(#ap) body:not(#ap) #xyz-ax{--tile-pad:48px}html:not(#ap) body:not(#ap) #xyz-ax .ax-est,html:not(#ap) body:not(#ap) #xyz-ax .ax-cred{grid-template-columns:1fr}html:not(#ap) body:not(#ap) #xyz-ax .ax-cred{gap:32px}html:not(#ap) body:not(#ap) #xyz-ax .ax-grid3,html:not(#ap) body:not(#ap) #xyz-ax .ax-tiers{grid-template-columns:1fr 1fr}html:not(#ap) body:not(#ap) #xyz-ax .ax-steps{grid-template-columns:1fr 1fr}}@media (max-width:600px){html:not(#ap) body:not(#ap) #xyz-ax{--tile-pad:40px}html:not(#ap) body:not(#ap) #xyz-ax{font-size:16px}html:not(#ap) body:not(#ap) #xyz-ax .ax-hero{padding-top:44px}html:not(#ap) body:not(#ap) #xyz-ax .ax-grid3,html:not(#ap) body:not(#ap) #xyz-ax .ax-tiers,html:not(#ap) body:not(#ap) #xyz-ax .ax-steps,html:not(#ap) body:not(#ap) #xyz-ax .ax-sec{grid-template-columns:1fr}html:not(#ap) body:not(#ap) #xyz-ax .ax-steps{gap:28px}html:not(#ap) body:not(#ap) #xyz-ax .ax-est-in,html:not(#ap) body:not(#ap) #xyz-ax .ax-give{padding:26px 22px}html:not(#ap) body:not(#ap) #xyz-ax .ax-stage{margin-top:36px}html:not(#ap) body:not(#ap) #xyz-ax .ax-tier.ax-pick{margin-top:8px}html:not(#ap) body:not(#ap) #xyz-ax .ax-trust{flex-direction:column;align-items:flex-start;width:max-content;max-width:100%;text-align:left}}@media (prefers-reduced-motion:reduce){html:not(#ap) body:not(#ap) #xyz-ax *{animation:none!important;transition:none!important}}html:not(#ap) body:not(#ap) #xyz-ax{max-width:none!important;width:auto;margin:0!important;padding:0!important}html:not(#ap) body:not(#ap) #xyz-ax>section{width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}html:not(#ap) body:not(#ap) #xyz-ax h1,html:not(#ap) body:not(#ap) #xyz-ax h2,html:not(#ap) body:not(#ap) #xyz-ax h3{font-family:var(--display)}html:not(#ap) body:not(#ap) #xyz-ax ol,html:not(#ap) body:not(#ap) #xyz-ax ul{margin-block:0}html:not(#ap) body:not(#ap) #xyz-ax :is(h1,h2,h3){color:var(--ink)!important}html:not(#ap) body:not(#ap) #xyz-ax :is(.ax-t-navy,.ax-t-navy2,.ax-card-alt) :is(h1,h2,h3){color:#fff!important}</style>
+<p><!-- HERO --></p>
+<section class="ax-hero ax-center">
+<div class="ax-shell">
+<p class="ax-eyebrow">Online tax returns, Australia-wide</p>
+<h1 class="ax-h-hero">Accountant-checked returns.<br />None of the paperwork.</h1>
+<p class="ax-lead">We pull your details from the ATO, find every deduction, and a registered agent signs off before lodgement.</p>
+<div class="ax-cta">
+<div class="ax-start"><a class="ax-pill ax-pill-navy" href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener noreferrer"><span class="ax-dot"></span>Start my return<span class="ax-arrow" aria-hidden="true">→</span></a><small>Free until lodgement</small></div>
+<div class="ax-links"><a class="ax-tlink" href="/get-a-quote/">Get a quote</a><a class="ax-tlink" href="/contact/">Contact Us</a></div>
+</div>
+<ul class="ax-trust">
+<li><span><a href="/identity-verification/">Every client ID-verified</a>, no exceptions</span></li>
+<li>Registered tax agent 26233684</li>
+<li>Fixed fee, quoted before we start</li>
+<li>Pay from your refund (+$44)</li>
+<li>256-bit encryption, SOC 2 certified portal</li>
+</ul>
+</div>
+<div class="ax-stage">
+<div class="ax-shell">
+<div class="ax-est" role="group" aria-label="Deduction estimator">
+<div class="ax-est-in" style="text-align:left">
+<div class="ax-est-tag"><span>Deduction estimator · 2025–26</span><span class="ax-live">Live</span></div>
+<p><label class="ax-field" for="inc"><span class="ax-row"><span>Annual income</span><span class="ax-val" id="inc-l">$85,000</span></span><input id="inc" type="range" min="20000" max="250000" step="1000" value="85000"></label><label class="ax-field" for="ded"><span class="ax-row"><span>Work-related deductions</span><span class="ax-val" id="ded-l">$3,000</span></span><input id="ded" type="range" min="0" max="15000" step="250" value="3000"></label></p>
+<div class="ax-lines">
+<div class="ax-line"><span>Taxable income</span><b id="taxable">$82,000</b></div>
+<div class="ax-line"><span>Income tax + Medicare levy</span><b id="tax">$17,028</b></div>
+<div class="ax-line"><span>Marginal rate</span><b id="marg">32%</b></div>
+</div>
+</div>
+<div class="ax-give" style="text-align:left"><span class="ax-k">Your deductions give back</span><span class="ax-big" id="saved" aria-live="polite">$960</span></p>
+<p class="ax-note">An estimate on 2025–26 resident rates. Your accountant will find claims this slider can&#8217;t.</p>
+<div style="display:flex;flex-direction:column;align-items:flex-start"><a class="ax-tlink" href="/tax-refund-calculator/">Full refund calculator</a><a class="ax-tlink" href="/deductions/" style="margin-top:10px">See what people in your job claim</a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<p><!-- CREDENTIALS --></p>
+<section class="ax-tile ax-t-navy">
+<div class="ax-shell ax-cred">
 <div>
-<h1 class="hp-h1">Every return read by an accountant. None of the paperwork.</h1>
-<p class="hp-lede">We pull your income, interest and health cover straight from the ATO, work out what you can claim, and a registered agent signs off before anything is lodged. Start on your phone, finish whenever.</p>
-<div class="hp-cta-row"><a class="hp-btn" href="/lodge/">Start my return — free until lodgement</a><a class="hp-btn hp-btn-ghost" href="/contact/">Talk to an accountant</a></div>
-<div class="hp-trust"><span>Registered tax agent — TPB 26233684</span><span class="hp-trust-sep">·</span><span>Fixed fee, quoted before we start</span><span class="hp-trust-sep">·</span><span>Fee deductible from your refund</span><span class="hp-trust-sep">·</span><span>256-bit encryption, data held in Australia</span></div>
+<p class="ax-eyebrow">Who reads your return</p>
+<h2 class="ax-h-tile">Benjamin Seeger prepares, reviews and lodges every return.</h2>
+<p class="ax-lead">No offshore processing, no junior handover. The principal&#8217;s name is on the lodgement.</p>
+<p style="margin-top:22px"><a class="ax-tlink" href="/about/">About the practice</a></p>
 </div>
-<div class="hp-est">
-<div class="hp-est-head"><span class="hp-est-tag">Deduction estimator · FY 2025–26</span><span class="hp-est-live">live</span></div>
-<div class="hp-est-body"><label class="hp-est-label"><span class="hp-est-row"><span>Annual income</span><span class="hp-est-val" id="hp-income-l">$85,000</span></span><input class="hp-range" id="hp-income" type="range" min="20000" max="250000" step="1000" value="85000" aria-label="Annual income"></label><label class="hp-est-label"><span class="hp-est-row"><span>Work-related deductions</span><span class="hp-est-val" id="hp-ded-l">$3,000</span></span><input class="hp-range" id="hp-ded" type="range" min="0" max="15000" step="250" value="3000" aria-label="Work-related deductions"></label></p>
-<div class="hp-est-out">
-<div class="hp-est-line"><span>Taxable income</span><span id="hp-taxable">$82,000</span></div>
-<div class="hp-est-line"><span>Income tax + Medicare levy</span><span id="hp-tax">$17,028</span></div>
-<div class="hp-est-line"><span>Marginal rate</span><span id="hp-marginal">32%</span></div>
+<ul class="ax-cred-list">
+<li><span>CPA Australia</span><b>FCPA</b></li>
+<li><span>Tax Practitioners Board</span><b>Agent 26233684</b></li>
+</ul>
 </div>
-<div class="hp-est-give">
-<div class="hp-est-tag">Your deductions give back</div>
-<div class="hp-est-give-big" id="hp-saved">$960</div>
-<p class="hp-est-note">An estimate on 2025–26 resident rates. Your accountant will find claims this slider can&#8217;t.</p>
+</section>
+<p><!-- HOW IT WORKS --></p>
+<section class="ax-tile ax-t-white">
+<div class="ax-shell">
+<div class="ax-center">
+<p class="ax-eyebrow">How it works</p>
+<h2 class="ax-h-tile">One portal, with a human at the end of it.</h2>
 </div>
+<ol class="ax-steps">
+<li>
+<h3 class="ax-h-card">Create your portal account</h3>
+<p>Tap Start my return, or Client Portal at the top of any page. Use your email, Google or a one-tap magic link. Nothing is charged until your return is lodged.</p>
+</li>
+<li>
+<h3 class="ax-h-card">Verify your identity, sign one pack</h3>
+<p>A three-minute electronic ID check on your phone, then one document: our engagement, your tax agent authority and TFN consent. <a href="/identity-verification/">Why every client is verified</a>.</p>
+</li>
+<li>
+<h3 class="ax-h-card">Complete your intake form</h3>
+<p>Plain questions about income, work expenses, home office, vehicle, property and trades. Stop and come back; your answers are saved.</p>
+</li>
+<li>
+<h3 class="ax-h-card">Upload your documents</h3>
+<p>Payment summaries, receipts and rental statements go into Files inside the portal, never an email thread. Ask us anything in Messages.</p>
+</li>
+<li>
+<h3 class="ax-h-card">We prepare, you approve</h3>
+<p>A registered agent prepares the return and flags anything missing. You sign the lodgement declaration in the portal and we lodge.</p>
+</li>
+<li>
+<h3 class="ax-h-card">Settle the fee</h3>
+<p>Pay your invoice in Billing, or sign the fee-from-refund authority and we take the fee from your refund instead (an extra $44).</p>
+</li>
+</ol>
 </div>
+</section>
+<p><!-- RETURN TYPES --></p>
+<section class="ax-tile ax-t-parch">
+<div class="ax-shell">
+<div class="ax-sec-head">
+<div>
+<p class="ax-eyebrow">Online returns</p>
+<h2 class="ax-h-tile">Built for how you actually earn.</h2>
 </div>
-</div>
-</div>
-</div>
-<div class="hp-band hp-white">
-<div class="hp-shell hp-pad">
-<p class="hp-eyebrow">How it works</p>
-<h2 class="hp-h2" style="margin-top:.875rem">Three steps, and a human at the end of them.</h2>
-<div class="hp-steps">
-<div class="hp-step">
-<div class="hp-step-n">01</div>
-<h3 class="hp-h3">Connect and pre-fill</h3>
-<p>Verify your identity once. Salary, bank interest, dividends, private health and HELP balance arrive from the ATO already filled in.</p>
-</div>
-<div class="hp-step">
-<div class="hp-step-n">02</div>
-<h3 class="hp-h3">Answer what&#8217;s left</h3>
-<p>Plain questions about your work, home office, vehicle, property or trades. Skip anything and come back — nothing is lost.</p>
-</div>
-<div class="hp-step">
-<div class="hp-step-n">03</div>
-<h3 class="hp-h3">Reviewed, then lodged</h3>
-<p>A registered agent checks the return, calls out anything missed, and lodges it under our agent number. You pay only at that point.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="hp-band hp-paper">
-<div class="hp-shell hp-pad">
-<div class="hp-sec-head">
-<h2 class="hp-h2">Built for how you actually earn</h2>
-<p><a class="hp-link" href="/pricing/">See every return type</a></div>
-<div class="hp-cards">
-<div class="hp-card">
-<h3 class="hp-h3">Salary &amp; wage earners</h3>
-<p>One employer or five. Uniform, tools, training, working-from-home hours — all handled in the flow.</p>
-<div class="hp-card-price">from $99</div>
-</div>
-<div class="hp-card">
-<h3 class="hp-h3">Sole traders &amp; freelancers</h3>
+<p><a class="ax-tlink" href="/online-tax-returns/">See every return type</a></div>
+<div class="ax-grid3">
+<article class="ax-card">
+<h3 class="ax-h-card">Salary &amp; wage earners</h3>
+<p>One employer or five. Uniform, tools, training and working-from-home hours, all handled in the flow.</p>
+<div class="ax-price"><span>From <b>$99</b></span></div>
+</article>
+<article class="ax-card">
+<h3 class="ax-h-card">Sole traders &amp; freelancers</h3>
 <p>Business schedule, GST position, instant asset write-off and quarterly PAYG in one pass.</p>
-<div class="hp-card-price">from $249</div>
-</div>
-<div class="hp-card">
-<h3 class="hp-h3">Property &amp; share investors</h3>
+<div class="ax-price"><span>From <b>$299</b></span></div>
+</article>
+<article class="ax-card">
+<h3 class="ax-h-card">Property &amp; share investors</h3>
 <p>Rental schedules, depreciation, CGT on shares and crypto with parcel-level matching.</p>
-<div class="hp-card-price">from $189</div>
-</div>
-<div class="hp-card">
-<h3 class="hp-h3">Companies &amp; trusts</h3>
+<div class="ax-price"><span>From <b>$179</b></span></div>
+</article>
+<article class="ax-card">
+<h3 class="ax-h-card">Companies &amp; trusts</h3>
 <p>Financial statements, Division 7A, trust distributions and the company return, prepared together.</p>
-<div class="hp-card-price">quoted</div>
-</div>
-<div class="hp-card">
-<h3 class="hp-h3">Expats &amp; non-residents</h3>
+<div class="ax-price"><span>Fixed fee, quoted first</span><a class="ax-tlink" href="/get-a-quote/">Get a quote</a></div>
+</article>
+<article class="ax-card">
+<h3 class="ax-h-card">Expats &amp; non-residents</h3>
 <p>Residency tests, foreign income, treaty relief and departing-Australia positions, from any timezone.</p>
-<div class="hp-card-price">from $299</div>
-</div>
-<div class="hp-card hp-card-alt">
-<div>
-<h3 class="hp-h3">Behind on lodgements?</h3>
+<div class="ax-price"><span>Fixed fee, quoted first</span><a class="ax-tlink" href="/get-a-quote/">Get a quote</a></div>
+</article>
+<article class="ax-card ax-card-alt">
+<h3 class="ax-h-card">Behind on lodgements?</h3>
 <p>We catch up prior years, deal with the ATO on your behalf and negotiate a payment plan where one is needed.</p>
-</div>
-<p><a class="hp-link" href="/contact/">Catch-up returns</a></div>
-</div>
-</div>
-</div>
-<div class="hp-band hp-dark">
-<div class="hp-shell">
-<div class="hp-dark-grid">
-<div>
-<div class="hp-dark-eyebrow">The guarantee</div>
-<h2>If we don&#8217;t improve on your own numbers, you don&#8217;t pay us.</h2>
-<p>Every return is reviewed against what you would have lodged yourself. Where we can&#8217;t better it, the fee is waived and the return is still lodged. Audit support is included for the life of the assessment.</p>
-</div>
-<div class="hp-spec">
-<div class="hp-spec-row"><span>Registered tax agent</span><b>26233684</b></div>
-<div class="hp-spec-row"><span>Fee waived if no improvement</span><i>included</i></div>
-<div class="hp-spec-row"><span>Audit support</span><i>included</i></div>
-<div class="hp-spec-row"><span>Data residency</span><b>Sydney, AU</b></div>
+<div class="ax-price"><span>Prior years</span><a class="ax-tlink" href="/contact/">Catch-up returns</a></div>
+</article>
 </div>
 </div>
+</section>
+<p><!-- SECURITY --></p>
+<section class="ax-tile ax-t-navy">
+<div class="ax-shell">
+<p class="ax-eyebrow">Portal security</p>
+<h2 class="ax-h-tile" style="max-width:46rem">Your documents live in a client portal, not an email thread.</h2>
+<p class="ax-lead" style="max-width:44rem">ID, payment summaries, receipts and messages all sit inside our client portal on Assembly. Its authentication, permissions and encryption are independently audited platform infrastructure.</p>
+<div class="ax-sec">
+<div><span class="ax-tag">Verified</span></p>
+<h3>Every client ID-verified</h3>
+<p>Nobody is lodged or registered until they pass an electronic identity check: government document, selfie and AML screening.</p>
+</div>
+<div><span class="ax-tag">Audited</span></p>
+<h3>SOC 2 Type II certified</h3>
+<p>The portal platform is SOC 2 Type II certified and continuously monitored.</p>
+</div>
+<div><span class="ax-tag">Sign-in</span></p>
+<h3>Managed authentication</h3>
+<p>Magic link, Google or password, with multi-factor authentication available on top.</p>
+</div>
+<div><span class="ax-tag">Encrypted</span></p>
+<h3>TLS in transit, AES-256 at rest</h3>
+<p>Encrypted on the way in and while stored. You only ever see your own data.</p>
+</div>
+<div><span class="ax-tag">Private</span></p>
+<h3>Never used to train AI</h3>
+<p>Your documents and messages are never used to train any AI model.</p>
 </div>
 </div>
-<div class="hp-band hp-white" style="border-top:1px solid var(--color-rule)">
-<div class="hp-shell hp-pad">
-<h2 class="hp-h2">One price, told to you up front</h2>
-<p class="hp-price-sub">Nothing is charged until you approve the finished return.</p>
-<div class="hp-tiers">
-<div class="hp-tier">
-<div class="hp-tier-name">Standard</div>
-<div class="hp-tier-price">$99</div>
+<div class="ax-sec-links"><a class="ax-tlink" href="https://assembly.com/security" target="_blank" rel="noopener noreferrer">How Assembly secures the portal</a><a class="ax-tlink" href="https://security.assembly.com" target="_blank" rel="noopener noreferrer">Assembly Trust Center</a><a class="ax-tlink" href="/identity-verification/">How we verify every client</a><a class="ax-tlink" href="/legal/privacy/">Privacy policy</a></div>
+</div>
+</section>
+<p><!-- PRICING --></p>
+<section class="ax-tile ax-t-white">
+<div class="ax-shell">
+<div class="ax-center">
+<p class="ax-eyebrow">Pricing</p>
+<h2 class="ax-h-tile">One price, told to you up front.</h2>
+<p class="ax-lead">Nothing is charged until you approve the finished return.</p>
+</div>
+<div class="ax-tiers">
+<div class="ax-tier ax-pick"><span class="ax-flag">Most people</span><span class="ax-name">Standard</span><span class="ax-amt">$99</span></p>
 <p>Salary, wages, interest, dividends and standard deductions.</p>
-<div class="hp-tier-list">
-<div>ATO pre-fill</div>
-<div>Accountant review</div>
-<div>Deduct fee from refund</div>
+<ul>
+<li>ATO pre-fill</li>
+<li>Accountant review</li>
+<li>Deduct fee from refund ($44)</li>
+</ul>
 </div>
-</div>
-<div class="hp-tier hp-tier-pick">
-<div class="hp-tier-flag">Most chosen</div>
-<div class="hp-tier-name">Investor</div>
-<div class="hp-tier-price">$189</div>
+<div class="ax-tier"><span class="ax-name">Investor</span><span class="ax-amt">$179</span></p>
 <p>Rental properties, share and crypto disposals, depreciation schedules.</p>
-<div class="hp-tier-list">
-<div>Everything in Standard</div>
-<div>CGT parcel matching</div>
-<div>30-minute planning call</div>
+<ul>
+<li>Everything in Standard</li>
+<li>CGT parcel matching</li>
+<li>Rental schedule per property</li>
+</ul>
 </div>
-</div>
-<div class="hp-tier">
-<div class="hp-tier-name">Business</div>
-<div class="hp-tier-price">$249</div>
-<p>Sole traders, contractors and partnerships. Companies quoted separately.</p>
-<div class="hp-tier-list">
-<div>Business schedule &amp; GST</div>
-<div>Asset write-off review</div>
-<div>BAS on request</div>
-</div>
-</div>
+<div class="ax-tier"><span class="ax-name">Business</span><span class="ax-amt">$299</span></p>
+<p>Sole traders and contractors. Partnerships from $549; companies and trusts quoted separately.</p>
+<ul>
+<li>Business schedule &amp; GST</li>
+<li>Asset write-off review</li>
+<li>BAS on request</li>
+</ul>
 </div>
 </div>
 </div>
-<p><script>(function(){var inc=document.getElementById('hp-income'),ded=document.getElementById('hp-ded');if(!inc||!ded){return;}function taxOf(t){if(t>190000){return 51638+(t-190000)*0.45;}if(t>135000){return 31288+(t-135000)*0.37;}if(t>45000){return 4288+(t-45000)*0.30;}if(t>18200){return (t-18200)*0.16;}return 0;}function levyOf(t){if(t>=35013){return t*0.02;}if(t>28011){return (t-28011)*0.10;}return 0;}function marginalOf(t){var r=0;if(t>=18200){r=16;}if(t>=45000){r=30;}if(t>=135000){r=37;}if(t>=190000){r=45;}if(t>=35013){r=r+2;}else if(t>=28011){r=r+10;}return r;}function money(n){return '$'+Math.round(n).toLocaleString('en-AU');}function set(id,v){var e=document.getElementById(id);if(e){e.textContent=v;}}function draw(){var i=Number(inc.value),d=Number(ded.value);var taxable=Math.max(0,i-d);var full=taxOf(i)+levyOf(i);var now=taxOf(taxable)+levyOf(taxable);set('hp-income-l',money(i));set('hp-ded-l',money(d));set('hp-taxable',money(taxable));set('hp-tax',money(now));set('hp-marginal',marginalOf(taxable)+'%');set('hp-saved',money(full-now));}inc.addEventListener('input',draw);ded.addEventListener('input',draw);draw();})();</script></div>
+</section>
+<p><!-- QUOTE CTA --></p>
+<section class="ax-tile ax-t-parch ax-quote ax-center">
+<div class="ax-shell ax-narrow">
+<p class="ax-eyebrow">Fixed fee</p>
+<h2 class="ax-h-tile">Company, trust, SMSF or bookkeeping? Get a fixed-fee quote.</h2>
+<p class="ax-lead">Tell us what you need and we&#8217;ll come back with one price, in writing, usually within one business day.</p>
+<div class="ax-cta"><a class="ax-pill ax-pill-mint" href="/get-a-quote/">Get a quote</a><a class="ax-tlink" href="/services/pricing/">See pricing</a></div>
+</div>
+</section>
+<p><script>(function(){var inc=document.getElementById('inc'),ded=document.getElementById('ded');function taxOf(t){if(t>190000)return 51638+(t-190000)*.45;if(t>135000)return 31288+(t-135000)*.37;if(t>45000)return 4288+(t-45000)*.30;if(t>18200)return (t-18200)*.16;return 0;}function levyOf(t){if(t>=35013)return t*.02;if(t>28011)return (t-28011)*.10;return 0;}function margOf(t){var r=0;if(t>=18200)r=16;if(t>=45000)r=30;if(t>=135000)r=37;if(t>=190000)r=45;if(t>=35013)r+=2;else if(t>=28011)r+=10;return r;}function m(n){return '$'+Math.round(n).toLocaleString('en-AU');}function s(id,v){document.getElementById(id).textContent=v;}function fill(el){el.style.setProperty('--p',((el.value-el.min)/(el.max-el.min)*100)+'%');}function draw(){var i=+inc.value,d=+ded.value,t=Math.max(0,i-d);var full=taxOf(i)+levyOf(i),now=taxOf(t)+levyOf(t);s('inc-l',m(i));s('ded-l',m(d));s('taxable',m(t));s('tax',m(now));s('marg',margOf(t)+'%');s('saved',m(full-now));fill(inc);fill(ded);}inc.addEventListener('input',draw);ded.addEventListener('input',draw);draw();})();</script></div>
+<div hidden class="xyz-schema"><script type="application/ld+json">{"@context":"https://schema.org","@type":["AccountingService","ProfessionalService"],"@id":"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/#organization","name":"XYZ Accounting","url":"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/","logo":"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png","image":"https://superblyladyec52fb18e8-stxdq.wpcomstaging.com/wp-content/uploads/2026/10/xyz-accounting-social-share.png","description":"Free tools that give you a real number. Real accountants who lodge it.","telephone":"+61407179179","email":"enquiries@xyzaccounting.com.au","address":{"@type":"PostalAddress","postOfficeBoxNumber":"GPO Box 2440","addressLocality":"Adelaide","addressRegion":"SA","postalCode":"5001","addressCountry":"AU"},"areaServed":{"@type":"Country","name":"Australia"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"21:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"10:00","closes":"21:00"}],"parentOrganization":{"@type":"Organization","name":"BRS Advisory Pty Ltd","taxID":"83 666 883 398","identifier":[{"@type":"PropertyValue","propertyID":"ABN","value":"83 666 883 398"},{"@type":"PropertyValue","propertyID":"TPB registered tax agent number","value":"26233684"}]}}</script></div>
