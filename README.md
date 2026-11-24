@@ -64,7 +64,8 @@ Both are reported on every backup run, so neither can drift further unnoticed.
 and commits the result to `backup/`. It runs:
 
 - **daily**, at 16:23 UTC (~02:23 Australian eastern time);
-- **on webhook**, whenever a `wp-content-changed` dispatch arrives (below);
+- **on webhook**, whenever a `wp-content-changed` dispatch arrives — which the
+  Zapier workflow below sends within minutes of a page changing;
 - **on demand**, from the Actions tab.
 
 A run that finds nothing changed makes no commit — the output carries no
@@ -109,10 +110,36 @@ Optionally set the `WP_SITE_URL` repository *variable* to point the backup at a
 different host; it defaults to the current staging URL. Change it when the site
 moves to its production domain.
 
-### Wiring up the webhook
+### The webhook
 
-The workflow already listens. Anything that can make an authenticated POST can
-trigger a backup the moment content changes:
+A Zapier workflow fires the backup as soon as a page changes, instead of waiting
+for the daily run.
+
+| | |
+| --- | --- |
+| Workflow | `xyz website content change to GitHub backup` |
+| ID | `01a20ca6-ae7d-770b-88f4-333b6fff0ec6` |
+| Editor | https://zapier.com/workflow/01a20ca6-ae7d-770b-88f4-333b6fff0ec6 |
+
+It polls this feed every few minutes:
+
+```
+/wp-json/wp/v2/pages?per_page=20&orderby=modified&order=desc&_fields=modified,slug,link,title
+```
+
+and POSTs a `wp-content-changed` dispatch to this repository for each new item.
+
+Two details make that work. The feed is public, so the workflow needs no
+WordPress connection, no application password and no plugin on the site — which
+is what made every other sender a dead end. And it deduplicates on each page's
+`modified` timestamp rather than its ID, so **editing** an existing page fires
+it too; keying on ID would only ever catch new pages.
+
+It covers pages. Posts, media and settings are not polled — the daily run is
+what captures those.
+
+Anything else that can make an authenticated POST can trigger a backup the same
+way:
 
 ```
 curl -X POST \
@@ -123,23 +150,8 @@ curl -X POST \
   -d '{"event_type":"wp-content-changed"}'
 ```
 
-`<TOKEN>` is a fine-grained personal access token scoped to this repository with
-**Contents: read and write** (a classic token needs the `repo` scope). A `204`
-means the run started.
-
-WordPress will not send that request on its own — no plugin currently installed
-on the site emits outbound webhooks, and WordPress.com does not offer them
-natively. Pick one sender:
-
-- **Zapier / Make** — a *WordPress → new or updated post* trigger into a
-  *Webhooks → POST* step holding the token. Nothing to install on the site.
-- **A webhook plugin** — e.g. WP Webhooks, if the plan allows plugin installs,
-  firing on `publish_post` / `publish_page`.
-- **An mu-plugin** — a few lines on `save_post` calling `wp_remote_post()`, with
-  the token in `wp-config.php`. Needs filesystem access to the site.
-
-Until one of those exists the daily schedule is the backup, and it is enough:
-the webhook only shortens the window between publishing and being backed up.
+`<TOKEN>` needs **Contents: read and write** on this repository. A `204` means
+the run started.
 
 > GitHub only runs `schedule` and `repository_dispatch` workflows from the
 > repository's **default branch**. The workflow does nothing until it is on `main`.
