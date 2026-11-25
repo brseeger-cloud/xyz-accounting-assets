@@ -956,6 +956,19 @@ html body .wp-block-navigation__responsive-container.is-menu-open :is(a,button):
 html:not(#ap):not(#ben54) body:not(#ap):not(#ben54) .xyz-content :is(input,select,textarea):focus-visible{outline:2px solid #1B1F3C !important;box-shadow:0 0 0 4px #FFFFFF !important}
 html:not(#ap):not(#ben54) body:not(#ap):not(#ben54) :is(.cta-dark,.xyz-footer,footer,[class*="bg-[var(--color-ink)]"]) :is(input,select,textarea):focus-visible{outline-color:#3DDC97 !important;box-shadow:0 0 0 4px #1B1F3C !important}
 /* === end BEN-54 === */
+/* === BEN-54 contrast + link fix (24/11/2026) ===============================
+   WCAG 1.4.3: ink-3 grey #7A7E90 on small text was 4.03:1 on white and
+   3.72:1 on #F4F6F8 (needs 4.5:1). #666A7D is 5.35:1 / 4.94:1 / 4.61:1 on
+   #ECEEF4. Scoped one level more specific than the Apple layer so it wins.
+   WCAG 1.4.1: inline text links (#0A7C55) were 1.55:1 against body text with
+   no underline; underline links inside running text only (no classes).
+   To roll back, delete this block. */
+html:not(#ap):not(#b54),
+html:not(#ap):not(#b54) body:not(#ap):not(#b54),
+html:not(#ap):not(#b54) body:not(#ap):not(#b54) .xyz-content{--ax-ink3:#666A7D}
+html:not(#ap):not(#b54) body:not(#ap):not(#b54) #xyz-ax{--ink-3:#666A7D}
+html:not(#ap):not(#b54) body:not(#ap):not(#b54) main :is(p,li,dd,td,small) a:not([class]){text-decoration-line:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+/* === end BEN-54 contrast === */
 
 :root :where(.wp-block-columns-is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.wp-block-columns-is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.wp-block-columns-is-layout-flow) > *{margin-block-start: var(--wp--preset--spacing--30);margin-block-end: 0;}:root :where(.wp-block-columns-is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.wp-block-columns-is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.wp-block-columns-is-layout-constrained) > *{margin-block-start: var(--wp--preset--spacing--30);margin-block-end: 0;}:root :where(.wp-block-columns-is-layout-flex){gap: var(--wp--preset--spacing--30) var(--wp--preset--spacing--40);}:root :where(.wp-block-columns-is-layout-grid){gap: var(--wp--preset--spacing--30) var(--wp--preset--spacing--40);}
 :root :where(.wp-block-navigation){font-size: var(--wp--preset--font-size--small);line-height: 1.3;}
