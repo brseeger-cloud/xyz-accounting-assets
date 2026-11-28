@@ -1,206 +1,42 @@
-<div class="xyz-content">
-<nav aria-label="Breadcrumb" class="shell pt-6">
-<ol class="m-0 flex list-none flex-wrap items-center gap-2 p-0 text-[0.8125rem] text-ink-soft">
-<li class="flex items-center gap-2"> <a href="/" class="no-underline hover:underline"> Home </a> </li>
-<li class="flex items-center gap-2"> <span aria-hidden="true" class="text-rule"> / </span> <a href="/calculators/" class="no-underline hover:underline"> Calculators </a> </li>
-<li class="flex items-center gap-2"> <span aria-hidden="true" class="text-rule"> / </span> <span aria-current="page">Division 293</span> </li>
-</ol>
-</nav>
-<div class="shell pt-6">
-<p class="band-eyebrow">Free calculator</p>
-<h1 class="max-w-3xl text-3xl sm:text-4xl">Division 293 tax calculator</h1>
-<p class="mt-3 max-w-2xl text-[1.0625rem]">The extra 15% on concessional super contributions once your income and contributions together pass $250,000 — how much of it applies to you, and whether super is still worth it at 30%.</p>
-<p class="m-0 font-mono text-[0.75rem] tabular-nums text-ink-soft mt-4"> Updated for 2024–25, 2025–26, 2026–27 · checked against <a href="https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/growing-and-keeping-track-of-your-super/caps-limits-and-tax-on-super-contributions/division-293-tax" rel="noopener noreferrer" target="_blank">ato.gov.au</a> on 2026-09-21 · the $250,000 threshold is not indexed </p>
-</p></div>
-<div class="shell mt-8">
-<div id="d293-app">
-<div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_23rem] lg:gap-12">
-<div class="min-w-0">
-<div class="rounded-[4px] border border-[var(--color-rule)] bg-white px-4 sm:px-6">
-<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0">
-<div class="flex items-baseline justify-between gap-3"><label for="d293-fy" class="text-sm font-medium text-[var(--color-ink)]">Financial year</label></div>
-<div class="mt-2"><select id="d293-fy" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)]"><option value="2024-25">2024–25</option><option value="2025-26" selected>2025–26</option><option value="2026-27">2026–27</option></select></div>
-</div>
-<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0">
-<div class="flex items-baseline justify-between gap-3"><label for="d293-income" class="text-sm font-medium text-[var(--color-ink)]">Your taxable income</label></div>
-<div class="mt-2">
-<div class="relative"><span aria-hidden="true" class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 font-mono text-sm text-[var(--color-ink-soft)]">$</span><input id="d293-income" type="text" inputmode="decimal" autocomplete="off" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)] pl-7 text-right" placeholder="0" value="240,000"></div>
-</div>
-<p class="mt-1.5 mb-0 text-[0.75rem] text-[var(--color-ink-soft)]">Assessable income less deductions — the figure on your notice of assessment. Do not include your super contributions here.</p>
-</div>
-<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0">
-<div class="flex items-baseline justify-between gap-3"><label for="d293-sg" class="text-sm font-medium text-[var(--color-ink)]">Employer super contributions</label><button type="button" id="d293-sg-fill" class="text-[0.75rem] text-[var(--color-signal)] hover:underline">Use <span id="d293-sg-rate">12%</span> SG</button></div>
-<div class="mt-2">
-<div class="relative"><span aria-hidden="true" class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 font-mono text-sm text-[var(--color-ink-soft)]">$</span><input id="d293-sg" type="text" inputmode="decimal" autocomplete="off" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)] pl-7 text-right" placeholder="0" value="28,800"></div>
-</div>
-<p class="mt-1.5 mb-0 text-[0.75rem] text-[var(--color-ink-soft)]">Super guarantee and any other employer contributions. Your payslip or fund statement has the year&#8217;s total.</p>
-</div>
-<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0">
-<div class="flex items-baseline justify-between gap-3"><label for="d293-sacrifice" class="text-sm font-medium text-[var(--color-ink)]">Salary sacrifice and personal deductible contributions</label></div>
-<div class="mt-2">
-<div class="relative"><span aria-hidden="true" class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 font-mono text-sm text-[var(--color-ink-soft)]">$</span><input id="d293-sacrifice" type="text" inputmode="decimal" autocomplete="off" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)] pl-7 text-right" placeholder="0" value="0"></div>
-</div>
-<p class="mt-1.5 mb-0 text-[0.75rem] text-[var(--color-ink-soft)]">Before-tax contributions you chose to make. Together with employer contributions these are your concessional contributions.</p>
-</div>
-<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0">
-<div class="flex items-baseline justify-between gap-3"><label for="d293-rfb" class="text-sm font-medium text-[var(--color-ink)]">Reportable fringe benefits</label></div>
-<div class="mt-2">
-<div class="relative"><span aria-hidden="true" class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 font-mono text-sm text-[var(--color-ink-soft)]">$</span><input id="d293-rfb" type="text" inputmode="decimal" autocomplete="off" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)] pl-7 text-right" placeholder="0" value="0"></div>
-</div>
-<p class="mt-1.5 mb-0 text-[0.75rem] text-[var(--color-ink-soft)]">The grossed-up amount from your income statement, if any. Counts as income for Division 293 even though it is not taxed.</p>
-</div>
-<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0">
-<div class="flex items-baseline justify-between gap-3"><label for="d293-loss" class="text-sm font-medium text-[var(--color-ink)]">Net investment and rental losses</label></div>
-<div class="mt-2">
-<div class="relative"><span aria-hidden="true" class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 font-mono text-sm text-[var(--color-ink-soft)]">$</span><input id="d293-loss" type="text" inputmode="decimal" autocomplete="off" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)] pl-7 text-right" placeholder="0" value="0"></div>
-</div>
-<p class="mt-1.5 mb-0 text-[0.75rem] text-[var(--color-ink-soft)]">A negatively geared property reduces your taxable income but the loss is added back here. Enter the loss as a positive number.</p>
-</div>
-<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0">
-<div class="flex items-baseline justify-between gap-3"><label for="d293-carry" class="text-sm font-medium text-[var(--color-ink)]">Unused cap carried forward</label></div>
-<div class="mt-2">
-<div class="relative"><span aria-hidden="true" class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 font-mono text-sm text-[var(--color-ink-soft)]">$</span><input id="d293-carry" type="text" inputmode="decimal" autocomplete="off" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)] pl-7 text-right" placeholder="0" value="0"></div>
-</div>
-<p class="mt-1.5 mb-0 text-[0.75rem] text-[var(--color-ink-soft)]">Only if your total super balance was under $500,000 last 30 June. Contributions above your cap are excess contributions and do not attract Division 293 tax — they are taxed at your marginal rate instead.</p>
-</div>
-</div>
-</div>
-<div class="min-w-0 lg:sticky lg:top-6 lg:self-start">
-<div class="overflow-hidden rounded-[4px] border border-[var(--color-rule)] bg-white">
-<div class="flex items-center justify-between gap-3 border-b border-[var(--color-rule)] bg-[var(--color-ink)] px-4 py-3"><span class="font-mono text-[0.6875rem] uppercase tracking-[0.14em] text-[var(--color-paper)]">Division 293</span><span class="font-mono text-[0.6875rem] tabular-nums text-[var(--color-paper)]/70" id="d293-fy-label">2025–26</span></div>
-<div class="tally-print">
-<div class="border-b border-[var(--color-rule)]">
-<div class="flex items-baseline justify-between gap-4 px-4 py-2.5"><span class="text-[0.8125rem] text-[var(--color-ink-soft)]">Income for Division 293</span><span class="shrink-0 text-[0.9375rem] text-[var(--color-ink-soft)]"><span class="font-mono tabular-nums" id="r-income">$0</span></span></div>
-</div>
-<div class="border-b border-[var(--color-rule)]">
-<div class="flex items-baseline justify-between gap-4 px-4 py-2.5"><span class="text-[0.8125rem] text-[var(--color-ink-soft)]">Concessional contributions counted</span><span class="shrink-0 text-[0.9375rem] text-[var(--color-ink-soft)]"><span class="font-mono tabular-nums" id="r-cc">$0</span></span></div>
-<p class="m-0 px-4 pb-2.5 text-[0.6875rem] text-[#b7791f] hidden" id="r-excess">
-</div>
-<div class="border-b border-[var(--color-rule)]">
-<div class="flex items-baseline justify-between gap-4 px-4 py-2.5"><span class="text-[0.8125rem] text-[var(--color-ink-soft)]">Combined total</span><span class="shrink-0 text-[0.9375rem] text-[var(--color-ink-soft)]"><span class="font-mono tabular-nums" id="r-combined">$0</span></span></div>
-</div>
-<div class="border-b border-[var(--color-rule)]">
-<div class="flex items-baseline justify-between gap-4 px-4 py-2.5"><span class="text-[0.8125rem] text-[var(--color-ink-soft)]">Amount over $250,000</span><span class="shrink-0 text-[0.9375rem] text-[var(--color-ink-soft)]"><span class="font-mono tabular-nums" id="r-over">$0</span></span></div>
-</div>
-<div class="border-b border-[var(--color-rule)]">
-<div class="flex items-baseline justify-between gap-4 px-4 py-2.5"><span class="text-[0.8125rem] text-[var(--color-ink-soft)]">Contributions taxed at the extra 15%</span><span class="shrink-0 text-[0.9375rem] text-[var(--color-ink-soft)]"><span class="font-mono tabular-nums" id="r-taxable">$0</span></span></div>
-</div>
-</div>
-<div class="px-4 py-5">
-<div class="flex items-end justify-between gap-4">
-<div>
-<p class="m-0 text-[0.8125rem] font-medium text-[var(--color-ink)]">Division 293 tax</p>
-<p class="m-0 mt-0.5 max-w-[22rem] text-[0.6875rem] text-[var(--color-ink-soft)]" id="r-sub">Assessed separately after your return is lodged.</p>
-</div>
-<div class="flex h-11 shrink-0 items-center"><span class="font-mono tabular-nums text-[1.75rem] font-bold text-[var(--color-owing)]" id="r-total">$0</span></div>
-</div>
-<p class="sr-only" aria-live="polite" id="r-live">Division 293 tax: $0</p>
-<div class="mt-4">
-<div class="space-y-3">
-<p class="m-0 text-[0.75rem] leading-relaxed text-[var(--color-ink)]" id="r-verdict">
-<p class="m-0 text-[0.6875rem] leading-relaxed text-[var(--color-ink-soft)]">An estimate, not tax advice. Defined benefit and constitutionally protected funds, and super lump sums with a zero-rate taxed element, are not modelled.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="fixed inset-x-0 bottom-0 z-40 border-t border-[var(--color-rule)] bg-white/95 backdrop-blur lg:hidden">
-<div class="mx-auto flex max-w-[68rem] items-center justify-between gap-3 px-5 py-3">
-<div class="min-w-0">
-<p class="m-0 truncate text-[0.6875rem] uppercase tracking-[0.1em] text-[var(--color-ink-soft)]">Division 293 tax</p>
-<p class="m-0 font-mono text-lg font-bold tabular-nums text-[var(--color-owing)]" id="r-sticky">$0</p>
-</div>
-<p><a href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener noreferrer" class="shrink-0 rounded-[4px] bg-[var(--color-ink)] px-4 py-2 text-sm font-semibold text-[var(--color-paper)] no-underline">Lodge</a></div>
-</div>
-<div class="h-20 lg:hidden" aria-hidden="true"></div>
-</div></div>
-<div class="shell mt-8">
-<p class="m-0 max-w-2xl text-[0.8125rem] leading-relaxed text-ink-soft"> This is an estimate, not tax advice. It works from the figures you enter and the thresholds for the year you selected; the ATO calculates Division 293 tax from your lodged return and the contributions your fund reports, and issues a separate assessment. We never ask for your tax file number on this site. </p>
-</p></div>
-<div class="shell mt-16">
-<div class="prose-statement">
-<h2>What the $250,000 actually tests</h2>
-<p> It is not your salary. The test adds your taxable income, reportable fringe benefits and any net investment or rental losses, then adds your concessional super contributions on top. Someone on <span class="font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium">$235,000</span> with <span class="font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium">$28,200</span> of employer super sits at <span class="font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium">$263,200</span> and pays Division 293 on the <span class="font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium">$13,200</span> over the line — <span class="font-mono tabular-nums tracking-tight text-owing text-[0.8125rem] font-medium">$1,980</span>. </p>
-<p> The threshold has been <span class="font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium">$250,000</span> since 1 July 2017 and is not indexed, while the super guarantee has climbed to 12%. Each year a few more people cross it on employer contributions alone, without a pay rise. </p>
-<h2>Why super still wins at 30%</h2>
-<p> Division 293 takes the tax on your contributions from 15% to 30%. Your top marginal rate at that income is 47% including the Medicare levy. Every dollar you put into super instead of taking as pay still saves 17 cents — less than the 32 cents it saved below the threshold, but not nothing. The calculator shows the saving for your figures. </p>
-<p> Where it changes behaviour is the negatively geared investor. The rental loss lowers your taxable income, but Division 293 adds it straight back, so gearing does not lift you out of the tax. </p>
-<h2>Paying it</h2>
-<p> The ATO issues a separate Division 293 notice after your return is assessed. You can pay it yourself within 21 days, or ask your fund to release the money using the release authority that comes with the notice. Paying from your own pocket leaves more compounding in super; releasing it is easier on cash flow. Either is fine — just do not ignore the notice, because interest runs from the due date. </p>
-</p></div>
-</p></div>
-<section class="shell mt-20" aria-labelledby="faq-div293-heading">
-<h2 id="faq-div293-heading" class="text-2xl">Questions people actually ask</h2>
-<dl class="mt-6 border-t border-rule">
-<div class="border-b border-rule py-5">
-<dt class="font-display text-base font-semibold text-ink">Is Division 293 tax charged on all my super contributions?</dt>
-<dd class="m-0 mt-2 max-w-3xl text-[0.9375rem] text-ink-soft">Only on concessional contributions — employer super, salary sacrifice and personal contributions you claim a deduction for — and only on the lesser of those contributions or the amount by which your combined income and contributions exceed <span class="font-mono tabular-nums">$250,000</span>. After-tax contributions are never touched.</dd>
-</p></div>
-<div class="border-b border-rule py-5">
-<dt class="font-display text-base font-semibold text-ink">My income is under $250,000. Why did I get a Division 293 notice?</dt>
-<dd class="m-0 mt-2 max-w-3xl text-[0.9375rem] text-ink-soft">Because the test adds your super contributions to your income. On <span class="font-mono tabular-nums">$225,000</span> with <span class="font-mono tabular-nums">$27,000</span> of employer super you are at <span class="font-mono tabular-nums">$252,000</span> and owe <span class="font-mono tabular-nums">$300</span>. Reportable fringe benefits and investment losses are added too, so a company car or a negatively geared property can tip you over.</dd>
-</p></div>
-<div class="border-b border-rule py-5">
-<dt class="font-display text-base font-semibold text-ink">Should I stop salary sacrificing if I have to pay it?</dt>
-<dd class="m-0 mt-2 max-w-3xl text-[0.9375rem] text-ink-soft">Usually not. Contributions caught by Division 293 are taxed at 30% in total, which is still well below the 47% you would pay taking the same money as salary. The concession is smaller, not gone. The exceptions are people who need the cash now, or who are already at their concessional cap.</dd>
-</p></div>
-<div class="border-b border-rule py-5">
-<dt class="font-display text-base font-semibold text-ink">Do excess concessional contributions attract Division 293 tax?</dt>
-<dd class="m-0 mt-2 max-w-3xl text-[0.9375rem] text-ink-soft">No. Contributions above your cap are excess contributions — they are added to your taxable income and taxed at your marginal rate, with a 15% offset for the tax the fund already paid. Division 293 applies only to contributions within the cap, including any carry-forward cap you are using.</dd>
-</p></div>
-<div class="border-b border-rule py-5">
-<dt class="font-display text-base font-semibold text-ink">Can I pay it from my super?</dt>
-<dd class="m-0 mt-2 max-w-3xl text-[0.9375rem] text-ink-soft">Yes. The notice comes with a release authority you can send to your fund, which pays the ATO from your balance. You have 60 days to do that, or 21 days to pay it yourself. Members of defined benefit funds can defer the debt until a benefit is paid, with interest.</dd>
-</p></div>
-</dl>
-</section>
-<section class="shell mt-20">
-<h2 class="text-xl">Read up first</h2>
-<ul class="mt-5 grid list-none gap-4 p-0 sm:grid-cols-2">
-<li class="card p-5">
-<h3 class="text-base"><a href="/tax-tips/tax-rates/" class="text-ink no-underline hover:underline">Tax rates and thresholds</a></h3>
-<p class="mt-2 mb-0 text-[0.8125rem] text-ink-soft">The full bracket tables for the last three financial years, the Medicare levy, and the super caps that sit behind this calculator.</p>
-</li>
-<li class="card p-5">
-<h3 class="text-base"><a href="/tax-tips/tax-deductions-for-property-investors/" class="text-ink no-underline hover:underline">Tax deductions for property investors</a></h3>
-<p class="mt-2 mb-0 text-[0.8125rem] text-ink-soft">What you can claim on a rental — and why a negatively geared loss does not reduce your Division 293 income.</p>
-</li>
-</ul>
-</section>
-<section class="cta-dark">
-<div class="cta-grid">
-<div>
-<p class="band-eyebrow">Ready to lodge it?</p>
-<h2>A registered agent prepares it, checks it, and lodges it.</h2>
-<p>Most refunds land within two weeks of assessment. The fee is fixed and quoted before we start — nothing is charged until you approve the finished return.</p>
-<div class="cta-actions"> <a href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener noreferrer" class="btn">Start your return</a> <a href="/services/pricing/" class="btn btn-secondary">See pricing</a> </div>
-</p></div>
-<div class="cta-spec">
-<div class="cta-spec-row"><span>Individual returns from</span><b>$99</b></div>
-<div class="cta-spec-row"><span>Registered tax agent</span><b>26233684</b></div>
-<div class="cta-spec-row"><span>Fixed fee, quoted up front</span><i>included</i></div>
-<div class="cta-spec-row"><span>Fee taken from your refund</span><b>$44</b></div>
-</p></div>
-</p></div>
-</section>
-<section class="shell mt-20">
-<div class="flex items-baseline justify-between gap-4">
-<h2 class="text-xl">Other calculators</h2>
-<p> <a href="/calculators/" class="text-sm whitespace-nowrap">All calculators →</a> </div>
-<ul class="mt-5 grid list-none gap-4 p-0 sm:grid-cols-3">
-<li class="card p-5"> <a href="/calculators/salary-sacrifice-calculator/" class="font-display text-base font-semibold text-ink no-underline hover:underline"> Salary sacrifice </a>
-<p class="mt-2 mb-0 text-[0.8125rem] text-ink-soft">What sacrificing into super costs you in take-home pay, and what it saves you in tax.</p>
-</li>
-<li class="card p-5"> <a href="/tax-calculator/" class="font-display text-base font-semibold text-ink no-underline hover:underline"> Income tax </a>
-<p class="mt-2 mb-0 text-[0.8125rem] text-ink-soft">Your tax, Medicare levy, study loan repayment and take-home pay for any income, in any of the last three financial years.</p>
-</li>
-<li class="card p-5"> <a href="/calculators/medicare-levy-calculator/" class="font-display text-base font-semibold text-ink no-underline hover:underline"> Medicare levy </a>
-<p class="mt-2 mb-0 text-[0.8125rem] text-ink-soft">The 2% levy, the low-income reduction that shades it in, and whether the surcharge applies to you.</p>
-</li>
-</ul>
-</section>
-<p><script>(function(){var $=function(id){return document.getElementById(id);};
+
+<div class="xyz-content"><nav aria-label="Breadcrumb" class="shell pt-6"> <ol class="m-0 flex list-none flex-wrap items-center gap-2 p-0 text-[0.8125rem] text-ink-soft"> <li class="flex items-center gap-2"> <a href="/" class="no-underline hover:underline"> Home </a> </li><li class="flex items-center gap-2"> <span aria-hidden="true" class="text-rule"> / </span> <a href="/calculators/" class="no-underline hover:underline"> Calculators </a> </li><li class="flex items-center gap-2"> <span aria-hidden="true" class="text-rule"> / </span> <span aria-current="page">Division 293</span> </li> </ol> </nav> <div class="shell pt-6"> <p class="band-eyebrow">Free calculator</p> <h1 class="max-w-3xl text-3xl sm:text-4xl">Division 293 tax calculator</h1> <p class="mt-3 max-w-2xl text-[1.0625rem]">The extra 15% on concessional super contributions once your income and contributions together pass $250,000 — how much of it applies to you, and whether super is still worth it at 30%.</p> <p class="m-0 font-mono text-[0.75rem] tabular-nums text-ink-soft mt-4"> Updated for 2024–25, 2025–26, 2026–27 · checked against <a href="https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/growing-and-keeping-track-of-your-super/caps-limits-and-tax-on-super-contributions/division-293-tax-on-concessional-contributions-by-high-income-earners" rel="noopener noreferrer" target="_blank">ato.gov.au</a> on 2026-09-21 · the $250,000 threshold is not indexed </p> </div> <div class="shell mt-8"> <div id="d293-app"><div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_23rem] lg:gap-12"><div class="min-w-0"><div class="rounded-[4px] border border-[var(--color-rule)] bg-white px-4 sm:px-6">
+
+<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0"><div class="flex items-baseline justify-between gap-3"><label for="d293-fy" class="text-sm font-medium text-[var(--color-ink)]">Financial year</label></div><div class="mt-2"><select id="d293-fy" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)]"><option value="2024-25">2024–25</option><option value="2025-26" selected>2025–26</option><option value="2026-27">2026–27</option></select></div></div>
+
+<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0"><div class="flex items-baseline justify-between gap-3"><label for="d293-income" class="text-sm font-medium text-[var(--color-ink)]">Your taxable income</label></div><div class="mt-2"><div class="relative"><span aria-hidden="true" class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 font-mono text-sm text-[var(--color-ink-soft)]">$</span><input id="d293-income" type="text" inputmode="decimal" autocomplete="off" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)] pl-7 text-right" placeholder="0" value="240,000"></div></div><p class="mt-1.5 mb-0 text-[0.75rem] text-[var(--color-ink-soft)]">Assessable income less deductions — the figure on your notice of assessment. Do not include your super contributions here.</p></div>
+
+<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0"><div class="flex items-baseline justify-between gap-3"><label for="d293-sg" class="text-sm font-medium text-[var(--color-ink)]">Employer super contributions</label><button type="button" id="d293-sg-fill" class="text-[0.75rem] text-[var(--color-signal)] hover:underline">Use <span id="d293-sg-rate">12%</span> SG</button></div><div class="mt-2"><div class="relative"><span aria-hidden="true" class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 font-mono text-sm text-[var(--color-ink-soft)]">$</span><input id="d293-sg" type="text" inputmode="decimal" autocomplete="off" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)] pl-7 text-right" placeholder="0" value="28,800"></div></div><p class="mt-1.5 mb-0 text-[0.75rem] text-[var(--color-ink-soft)]">Super guarantee and any other employer contributions. Your payslip or fund statement has the year&#8217;s total.</p></div>
+
+<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0"><div class="flex items-baseline justify-between gap-3"><label for="d293-sacrifice" class="text-sm font-medium text-[var(--color-ink)]">Salary sacrifice and personal deductible contributions</label></div><div class="mt-2"><div class="relative"><span aria-hidden="true" class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 font-mono text-sm text-[var(--color-ink-soft)]">$</span><input id="d293-sacrifice" type="text" inputmode="decimal" autocomplete="off" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)] pl-7 text-right" placeholder="0" value="0"></div></div><p class="mt-1.5 mb-0 text-[0.75rem] text-[var(--color-ink-soft)]">Before-tax contributions you chose to make. Together with employer contributions these are your concessional contributions.</p></div>
+
+<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0"><div class="flex items-baseline justify-between gap-3"><label for="d293-rfb" class="text-sm font-medium text-[var(--color-ink)]">Reportable fringe benefits</label></div><div class="mt-2"><div class="relative"><span aria-hidden="true" class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 font-mono text-sm text-[var(--color-ink-soft)]">$</span><input id="d293-rfb" type="text" inputmode="decimal" autocomplete="off" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)] pl-7 text-right" placeholder="0" value="0"></div></div><p class="mt-1.5 mb-0 text-[0.75rem] text-[var(--color-ink-soft)]">The grossed-up amount from your income statement, if any. Counts as income for Division 293 even though it is not taxed.</p></div>
+
+<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0"><div class="flex items-baseline justify-between gap-3"><label for="d293-loss" class="text-sm font-medium text-[var(--color-ink)]">Net investment and rental losses</label></div><div class="mt-2"><div class="relative"><span aria-hidden="true" class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 font-mono text-sm text-[var(--color-ink-soft)]">$</span><input id="d293-loss" type="text" inputmode="decimal" autocomplete="off" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)] pl-7 text-right" placeholder="0" value="0"></div></div><p class="mt-1.5 mb-0 text-[0.75rem] text-[var(--color-ink-soft)]">A negatively geared property reduces your taxable income but the loss is added back here. Enter the loss as a positive number.</p></div>
+
+<div class="py-4 border-b border-[var(--color-rule)] last:border-b-0"><div class="flex items-baseline justify-between gap-3"><label for="d293-carry" class="text-sm font-medium text-[var(--color-ink)]">Unused cap carried forward</label></div><div class="mt-2"><div class="relative"><span aria-hidden="true" class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 font-mono text-sm text-[var(--color-ink-soft)]">$</span><input id="d293-carry" type="text" inputmode="decimal" autocomplete="off" class="w-full rounded-[4px] border border-[var(--color-rule)] bg-white px-3 py-2.5 text-[var(--color-ink)] focus:border-[var(--color-signal)] pl-7 text-right" placeholder="0" value="0"></div></div><p class="mt-1.5 mb-0 text-[0.75rem] text-[var(--color-ink-soft)]">Only if your total super balance was under $500,000 last 30 June. Contributions above your cap are excess contributions and do not attract Division 293 tax — they are taxed at your marginal rate instead.</p></div>
+
+</div></div><div class="min-w-0 lg:sticky lg:top-6 lg:self-start"><div class="overflow-hidden rounded-[4px] border border-[var(--color-rule)] bg-white"><div class="flex items-center justify-between gap-3 border-b border-[var(--color-rule)] bg-[var(--color-ink)] px-4 py-3"><span class="font-mono text-[0.6875rem] uppercase tracking-[0.14em] text-[var(--color-paper)]">Division 293</span><span class="font-mono text-[0.6875rem] tabular-nums text-[var(--color-paper)]/70" id="d293-fy-label">2025–26</span></div><div class="tally-print">
+<div class="border-b border-[var(--color-rule)]"><div class="flex items-baseline justify-between gap-4 px-4 py-2.5"><span class="text-[0.8125rem] text-[var(--color-ink-soft)]">Income for Division 293</span><span class="shrink-0 text-[0.9375rem] text-[var(--color-ink-soft)]"><span class="font-mono tabular-nums" id="r-income">$0</span></span></div></div>
+<div class="border-b border-[var(--color-rule)]"><div class="flex items-baseline justify-between gap-4 px-4 py-2.5"><span class="text-[0.8125rem] text-[var(--color-ink-soft)]">Concessional contributions counted</span><span class="shrink-0 text-[0.9375rem] text-[var(--color-ink-soft)]"><span class="font-mono tabular-nums" id="r-cc">$0</span></span></div><p class="m-0 px-4 pb-2.5 text-[0.6875rem] text-[#b7791f] hidden" id="r-excess"></p></div>
+<div class="border-b border-[var(--color-rule)]"><div class="flex items-baseline justify-between gap-4 px-4 py-2.5"><span class="text-[0.8125rem] text-[var(--color-ink-soft)]">Combined total</span><span class="shrink-0 text-[0.9375rem] text-[var(--color-ink-soft)]"><span class="font-mono tabular-nums" id="r-combined">$0</span></span></div></div>
+<div class="border-b border-[var(--color-rule)]"><div class="flex items-baseline justify-between gap-4 px-4 py-2.5"><span class="text-[0.8125rem] text-[var(--color-ink-soft)]">Amount over $250,000</span><span class="shrink-0 text-[0.9375rem] text-[var(--color-ink-soft)]"><span class="font-mono tabular-nums" id="r-over">$0</span></span></div></div>
+<div class="border-b border-[var(--color-rule)]"><div class="flex items-baseline justify-between gap-4 px-4 py-2.5"><span class="text-[0.8125rem] text-[var(--color-ink-soft)]">Contributions taxed at the extra 15%</span><span class="shrink-0 text-[0.9375rem] text-[var(--color-ink-soft)]"><span class="font-mono tabular-nums" id="r-taxable">$0</span></span></div></div>
+</div><div class="px-4 py-5"><div class="flex items-end justify-between gap-4"><div><p class="m-0 text-[0.8125rem] font-medium text-[var(--color-ink)]">Division 293 tax</p><p class="m-0 mt-0.5 max-w-[22rem] text-[0.6875rem] text-[var(--color-ink-soft)]" id="r-sub">Assessed separately after your return is lodged.</p></div><div class="flex h-11 shrink-0 items-center"><span class="font-mono tabular-nums text-[1.75rem] font-bold text-[var(--color-owing)]" id="r-total">$0</span></div></div><p class="sr-only" aria-live="polite" id="r-live">Division 293 tax: $0</p><div class="mt-4"><div class="space-y-3"><p class="m-0 text-[0.75rem] leading-relaxed text-[var(--color-ink)]" id="r-verdict"></p><p class="m-0 text-[0.6875rem] leading-relaxed text-[var(--color-ink-soft)]">An estimate, not tax advice. Defined benefit and constitutionally protected funds, and super lump sums with a zero-rate taxed element, are not modelled.</p></div></div></div></div></div></div>
+<div class="fixed inset-x-0 bottom-0 z-40 border-t border-[var(--color-rule)] bg-white/95 backdrop-blur lg:hidden"><div class="mx-auto flex max-w-[68rem] items-center justify-between gap-3 px-5 py-3"><div class="min-w-0"><p class="m-0 truncate text-[0.6875rem] uppercase tracking-[0.1em] text-[var(--color-ink-soft)]">Division 293 tax</p><p class="m-0 font-mono text-lg font-bold tabular-nums text-[var(--color-owing)]" id="r-sticky">$0</p></div><a href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener noreferrer" class="shrink-0 rounded-[4px] bg-[var(--color-ink)] px-4 py-2 text-sm font-semibold text-[var(--color-paper)] no-underline">Lodge</a></div></div><div class="h-20 lg:hidden" aria-hidden="true"></div></div> </div>
+
+<div class="shell mt-8"> <p class="m-0 max-w-2xl text-[0.8125rem] leading-relaxed text-ink-soft"> This is an estimate, not tax advice. It works from the figures you enter and the thresholds for the year you selected; the ATO calculates Division 293 tax from your lodged return and the contributions your fund reports, and issues a separate assessment. We never ask for your tax file number on this site. </p> </div>
+
+<div class="shell mt-16"> <div class="prose-statement"> <h2>What the $250,000 actually tests</h2> <p> It is not your salary. The test adds your taxable income, reportable fringe benefits and any net investment or rental losses, then adds your concessional super contributions on top. Someone on <span class="font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium">$235,000</span> with <span class="font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium">$28,200</span> of employer super sits at <span class="font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium">$263,200</span> and pays Division 293 on the <span class="font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium">$13,200</span> over the line — <span class="font-mono tabular-nums tracking-tight text-owing text-[0.8125rem] font-medium">$1,980</span>. </p> <p> The threshold has been <span class="font-mono tabular-nums tracking-tight text-ink text-[0.8125rem] font-medium">$250,000</span> since 1 July 2017 and is not indexed, while the super guarantee has climbed to 12%. Each year a few more people cross it on employer contributions alone, without a pay rise. </p> <h2>Why super still wins at 30%</h2> <p> Division 293 takes the tax on your contributions from 15% to 30%. Your top marginal rate at that income is 47% including the Medicare levy. Every dollar you put into super instead of taking as pay still saves 17 cents — less than the 32 cents it saved below the threshold, but not nothing. The calculator shows the saving for your figures. </p> <p> Where it changes behaviour is the negatively geared investor. The rental loss lowers your taxable income, but Division 293 adds it straight back, so gearing does not lift you out of the tax. </p> <h2>Paying it</h2> <p> The ATO issues a separate Division 293 notice after your return is assessed. You can pay it yourself within 21 days, or ask your fund to release the money using the release authority that comes with the notice. Paying from your own pocket leaves more compounding in super; releasing it is easier on cash flow. Either is fine — just do not ignore the notice, because interest runs from the due date. </p> </div> </div>
+
+<section class="shell mt-20" aria-labelledby="faq-div293-heading"> <h2 id="faq-div293-heading" class="text-2xl">Questions people actually ask</h2> <dl class="mt-6 border-t border-rule"> <div class="border-b border-rule py-5"> <dt class="font-display text-base font-semibold text-ink">Is Division 293 tax charged on all my super contributions?</dt> <dd class="m-0 mt-2 max-w-3xl text-[0.9375rem] text-ink-soft">Only on concessional contributions — employer super, salary sacrifice and personal contributions you claim a deduction for — and only on the lesser of those contributions or the amount by which your combined income and contributions exceed <span class="font-mono tabular-nums">$250,000</span>. After-tax contributions are never touched.</dd> </div><div class="border-b border-rule py-5"> <dt class="font-display text-base font-semibold text-ink">My income is under $250,000. Why did I get a Division 293 notice?</dt> <dd class="m-0 mt-2 max-w-3xl text-[0.9375rem] text-ink-soft">Because the test adds your super contributions to your income. On <span class="font-mono tabular-nums">$225,000</span> with <span class="font-mono tabular-nums">$27,000</span> of employer super you are at <span class="font-mono tabular-nums">$252,000</span> and owe <span class="font-mono tabular-nums">$300</span>. Reportable fringe benefits and investment losses are added too, so a company car or a negatively geared property can tip you over.</dd> </div><div class="border-b border-rule py-5"> <dt class="font-display text-base font-semibold text-ink">Should I stop salary sacrificing if I have to pay it?</dt> <dd class="m-0 mt-2 max-w-3xl text-[0.9375rem] text-ink-soft">Usually not. Contributions caught by Division 293 are taxed at 30% in total, which is still well below the 47% you would pay taking the same money as salary. The concession is smaller, not gone. The exceptions are people who need the cash now, or who are already at their concessional cap.</dd> </div><div class="border-b border-rule py-5"> <dt class="font-display text-base font-semibold text-ink">Do excess concessional contributions attract Division 293 tax?</dt> <dd class="m-0 mt-2 max-w-3xl text-[0.9375rem] text-ink-soft">No. Contributions above your cap are excess contributions — they are added to your taxable income and taxed at your marginal rate, with a 15% offset for the tax the fund already paid. Division 293 applies only to contributions within the cap, including any carry-forward cap you are using.</dd> </div><div class="border-b border-rule py-5"> <dt class="font-display text-base font-semibold text-ink">Can I pay it from my super?</dt> <dd class="m-0 mt-2 max-w-3xl text-[0.9375rem] text-ink-soft">Yes. The notice comes with a release authority you can send to your fund, which pays the ATO from your balance. You have 60 days to do that, or 21 days to pay it yourself. Members of defined benefit funds can defer the debt until a benefit is paid, with interest.</dd> </div> </dl> </section>
+
+<section class="shell mt-20"><h2 class="text-xl">Read up first</h2><ul class="mt-5 grid list-none gap-4 p-0 sm:grid-cols-2"><li class="card p-5"><h3 class="text-base"><a href="/tax-tips/tax-rates/" class="text-ink no-underline hover:underline">Tax rates and thresholds</a></h3><p class="mt-2 mb-0 text-[0.8125rem] text-ink-soft">The full bracket tables for the last three financial years, the Medicare levy, and the super caps that sit behind this calculator.</p></li><li class="card p-5"><h3 class="text-base"><a href="/tax-tips/tax-deductions-for-property-investors/" class="text-ink no-underline hover:underline">Tax deductions for property investors</a></h3><p class="mt-2 mb-0 text-[0.8125rem] text-ink-soft">What you can claim on a rental — and why a negatively geared loss does not reduce your Division 293 income.</p></li></ul></section>
+
+<section class="cta-dark"> <div class="cta-grid"> <div> <p class="band-eyebrow">Ready to lodge it?</p> <h2>A registered agent prepares it, checks it, and lodges it.</h2> <p>Most refunds land within two weeks of assessment. The fee is fixed and quoted before we start — nothing is charged until you approve the finished return.</p> <div class="cta-actions"> <a href="https://brsadvisory.myassembly.com/login?step=signUp" target="_blank" rel="noopener noreferrer" class="btn">Start your return</a> <a href="/services/pricing/" class="btn btn-secondary">See pricing</a> </div> </div> <div class="cta-spec"> <div class="cta-spec-row"><span>Individual returns from</span><b>$99</b></div> <div class="cta-spec-row"><span>Registered tax agent</span><b>26233684</b></div> <div class="cta-spec-row"><span>Fixed fee, quoted up front</span><i>included</i></div> <div class="cta-spec-row"><span>Fee taken from your refund</span><b>$44</b></div> </div> </div> </section>
+
+<section class="shell mt-20"> <div class="flex items-baseline justify-between gap-4"> <h2 class="text-xl">Other calculators</h2> <a href="/calculators/" class="text-sm whitespace-nowrap">All calculators →</a> </div> <ul class="mt-5 grid list-none gap-4 p-0 sm:grid-cols-3"> <li class="card p-5"> <a href="/calculators/salary-sacrifice-calculator/" class="font-display text-base font-semibold text-ink no-underline hover:underline"> Salary sacrifice </a> <p class="mt-2 mb-0 text-[0.8125rem] text-ink-soft">What sacrificing into super costs you in take-home pay, and what it saves you in tax.</p> </li><li class="card p-5"> <a href="/tax-calculator/" class="font-display text-base font-semibold text-ink no-underline hover:underline"> Income tax </a> <p class="mt-2 mb-0 text-[0.8125rem] text-ink-soft">Your tax, Medicare levy, study loan repayment and take-home pay for any income, in any of the last three financial years.</p> </li><li class="card p-5"> <a href="/calculators/medicare-levy-calculator/" class="font-display text-base font-semibold text-ink no-underline hover:underline"> Medicare levy </a> <p class="mt-2 mb-0 text-[0.8125rem] text-ink-soft">The 2% levy, the low-income reduction that shades it in, and whether the surcharge applies to you.</p> </li> </ul> </section>
+
+<script>(function(){var $=function(id){return document.getElementById(id);};
 var R={'2024-25':{cap:30000,sg:0.115,b:[[18200,0],[45000,0.16],[135000,0.30],[190000,0.37],[Infinity,0.45]]},
 '2025-26':{cap:30000,sg:0.12,b:[[18200,0],[45000,0.16],[135000,0.30],[190000,0.37],[Infinity,0.45]]},
 '2026-27':{cap:32500,sg:0.12,b:[[18200,0],[45000,0.15],[135000,0.30],[190000,0.37],[Infinity,0.45]]}};
